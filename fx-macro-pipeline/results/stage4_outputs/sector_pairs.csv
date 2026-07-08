@@ -1,0 +1,46 @@
+major_sector,major_description,wb_commodity_code,countries,inverse_sector,mechanism,elasticity,lag_months,ticker_proxy
+oil,Crude oil and petroleum products,CRUDE_OIL,"SAU, RUS, NGA, NOR, ARE, KWT, IRN, IRQ, VEN, KAZ, AZE",biofuels,direct energy substitute,0.85,6,BIOFUEL_INDEX
+oil,Crude oil and petroleum products,CRUDE_OIL,"SAU, RUS, NGA, NOR, ARE, KWT, IRN, IRQ, VEN, KAZ, AZE",solar_energy,long-run energy substitute,0.7,12,SOLAR_INDEX
+oil,Crude oil and petroleum products,CRUDE_OIL,"SAU, RUS, NGA, NOR, ARE, KWT, IRN, IRQ, VEN, KAZ, AZE",wind_energy,long-run energy substitute,0.65,12,WIND_INDEX
+oil,Crude oil and petroleum products,CRUDE_OIL,"SAU, RUS, NGA, NOR, ARE, KWT, IRN, IRQ, VEN, KAZ, AZE",electric_vehicles,transport demand destruction,0.6,9,EV_INDEX
+oil,Crude oil and petroleum products,CRUDE_OIL,"SAU, RUS, NGA, NOR, ARE, KWT, IRN, IRQ, VEN, KAZ, AZE",natural_gas,direct energy substitute short-run,0.75,3,NATGAS
+coal,Thermal and coking coal,COAL_AUS,"AUS, ZAF, MOZ",natural_gas,direct power generation substitute,0.8,3,NATGAS
+coal,Thermal and coking coal,COAL_AUS,"AUS, ZAF, MOZ",nuclear_energy,baseload power substitute,0.55,24,URANIUM
+coal,Thermal and coking coal,COAL_AUS,"AUS, ZAF, MOZ",solar_energy,long-run power substitute,0.6,12,SOLAR_INDEX
+coal,Thermal and coking coal,COAL_AUS,"AUS, ZAF, MOZ",lng,clean energy policy substitute,0.7,6,LNG_INDEX
+natural_gas,Natural gas and LNG,NATGAS_EUR,,solar_energy,residential energy substitute,0.65,12,SOLAR_INDEX
+natural_gas,Natural gas and LNG,NATGAS_EUR,,heat_pumps,heating substitute technology,0.7,9,HEATPUMP_INDEX
+natural_gas,Natural gas and LNG,NATGAS_EUR,,biomass,industrial heat substitute,0.55,6,BIOMASS_INDEX
+wheat,Wheat and grain exports,WHEAT_US,UKR,alternative_grains,"direct food substitute (rice, millet)",0.75,3,RICE_INDEX
+wheat,Wheat and grain exports,WHEAT_US,UKR,vertical_farming,supply-side substitute technology,0.45,18,AGTECH_INDEX
+wheat,Wheat and grain exports,WHEAT_US,UKR,insect_protein,alternative protein source,0.35,12,ALTPRO_INDEX
+wheat,Wheat and grain exports,WHEAT_US,UKR,cassava,staple food substitute in EM,0.6,6,CASSAVA_PROXY
+corn,Corn / maize exports,MAIZE_US,USA,sorghum,direct feed and food substitute,0.7,4,SORGHUM_PROXY
+corn,Corn / maize exports,MAIZE_US,USA,alternative_grains,animal feed substitute,0.65,3,RICE_INDEX
+corn,Corn / maize exports,MAIZE_US,USA,lab_grown_meat,reduces feed demand long-run,0.3,24,ALTPRO_INDEX
+soybeans,Soybean and soy products,SOYBEAN_US,"BRA, ARG",canola_rapeseed,direct oilseed substitute,0.75,4,CANOLA_PROXY
+soybeans,Soybean and soy products,SOYBEAN_US,"BRA, ARG",sunflower_oil,cooking oil substitute,0.7,3,SUNFLOWER_PROXY
+soybeans,Soybean and soy products,SOYBEAN_US,"BRA, ARG",pea_protein,plant protein substitute,0.55,12,ALTPRO_INDEX
+copper,Copper mining and exports,COPPER_LME,"CHL, PER, ZMB, COD",aluminium,construction and wiring substitute,0.65,6,ALUMINIUM_LME
+copper,Copper mining and exports,COPPER_LME,"CHL, PER, ZMB, COD",fibre_optic,telecoms cable substitute,0.8,9,FIBEROPTIC_PROXY
+copper,Copper mining and exports,COPPER_LME,"CHL, PER, ZMB, COD",wireless_tech,eliminates copper wiring demand,0.55,18,WIRELESS_INDEX
+gold,Gold mining and exports,GOLD_LME,GHA,risk_assets,gold/risk asset inverse correlation,0.85,1,EQUITY_INDEX
+gold,Gold mining and exports,GOLD_LME,GHA,cryptocurrencies,digital store of value substitute,0.6,3,CRYPTO_INDEX
+gold,Gold mining and exports,GOLD_LME,GHA,real_estate,alternative inflation hedge,0.5,6,REALESTATE_INDEX
+coffee,Coffee bean exports,COFFEE_OTHER,"ETH, VNM, COL",tea,direct beverage substitute,0.75,3,TEA_PROXY
+coffee,Coffee bean exports,COFFEE_OTHER,"ETH, VNM, COL",energy_drinks,caffeine delivery substitute,0.6,6,BEVERAGE_INDEX
+coffee,Coffee bean exports,COFFEE_OTHER,"ETH, VNM, COL",chicory,coffee extender / substitute,0.55,4,CHICORY_PROXY
+tourism,International tourism revenue,,"THA, GRC, ESP, MAR",domestic_leisure,staycation substitution,0.7,2,DOMESTIC_LEISURE
+tourism,International tourism revenue,,"THA, GRC, ESP, MAR",virtual_reality,digital travel substitute long-run,0.35,24,VR_INDEX
+tourism,International tourism revenue,,"THA, GRC, ESP, MAR",short_haul_rail,replaces short-haul flights,0.65,6,RAIL_INDEX
+manufacturing,Heavy manufacturing exports,,"CHN, DEU, JPN, TUR",3d_printing,distributed manufacturing substitute,0.45,18,ADDMFG_INDEX
+manufacturing,Heavy manufacturing exports,,"CHN, DEU, JPN, TUR",automation,labour cost arbitrage eroded,0.55,12,ROBOT_INDEX
+manufacturing,Heavy manufacturing exports,,"CHN, DEU, JPN, TUR",nearshoring,supply chain relocation,0.6,12,LOGISTICS_INDEX
+palm_oil,Palm oil production and export,PALM_OIL,"IDN, MYS",sunflower_oil,cooking oil substitute,0.8,3,SUNFLOWER_PROXY
+palm_oil,Palm oil production and export,PALM_OIL,"IDN, MYS",canola_rapeseed,edible oil substitute,0.75,4,CANOLA_PROXY
+palm_oil,Palm oil production and export,PALM_OIL,"IDN, MYS",algae_oil,sustainable oil substitute,0.4,18,ALGAE_PROXY
+rubber,Natural rubber exports,RUBBER_SGP,,synthetic_rubber,petroleum-derived substitute,0.85,3,SYNTHRUBBER_PROXY
+rubber,Natural rubber exports,RUBBER_SGP,,recycled_rubber,circular economy substitute,0.55,9,RECYCLING_INDEX
+cotton,Cotton fibre exports,COTTON_A_IDX,"UZB, PAK, IND",polyester,synthetic fibre substitute,0.8,3,POLYESTER_PROXY
+cotton,Cotton fibre exports,COTTON_A_IDX,"UZB, PAK, IND",hemp_linen,sustainable fibre substitute,0.55,6,HEMP_PROXY
+cotton,Cotton fibre exports,COTTON_A_IDX,"UZB, PAK, IND",recycled_textiles,circular fashion substitute,0.45,12,RECYCLTEX_PROXY

@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FX Pipeline — Currency Metrics Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root{--bg:#0a0a0f;--surface:#12121a;--surface2:#1a1a26;--border:#2a2a3a;--accent:#6ee7b7;--accent2:#818cf8;--danger:#f87171;--warn:#fbbf24;--text:#e2e8f0;--muted:#64748b;--mono:'DM Mono',monospace;--sans:'Syne',sans-serif;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);min-height:100vh;overflow-x:hidden;}
+header{padding:2.5rem 3rem 1.5rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;flex-wrap:wrap;}
+.logo{font-size:1.1rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);}
+.logo span{color:var(--muted);font-weight:400;}
+h1{font-size:2.4rem;font-weight:800;line-height:1.1;margin-top:.4rem;}
+h1 em{font-style:normal;color:var(--accent);}
+.subtitle{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-top:.5rem;letter-spacing:.05em;}
+.upload-section{margin:2rem 3rem;padding:2rem;border:1.5px dashed var(--border);border-radius:12px;background:var(--surface);display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;}
+.upload-group{display:flex;flex-direction:column;gap:.4rem;flex:1;min-width:160px;}
+.upload-group label{font-family:var(--mono);font-size:.65rem;color:var(--accent);letter-spacing:.08em;text-transform:uppercase;}
+.upload-group input[type="file"]{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:.4rem .65rem;color:var(--text);font-family:var(--mono);font-size:.7rem;cursor:pointer;width:100%;}
+.load-btn{background:var(--accent);color:#0a0a0f;border:none;padding:.75rem 1.8rem;border-radius:8px;font-family:var(--sans);font-weight:700;font-size:.85rem;cursor:pointer;letter-spacing:.05em;text-transform:uppercase;transition:opacity .15s;align-self:flex-end;white-space:nowrap;}
+.load-btn:hover{opacity:.85;}
+.load-hint{font-family:var(--mono);font-size:.65rem;color:var(--muted);width:100%;margin-top:-.3rem;}
+.rec-banner{margin:0 3rem 2rem;padding:1.2rem 1.8rem;border-radius:10px;border:1px solid rgba(110,231,183,.3);background:rgba(110,231,183,.05);font-family:var(--mono);font-size:.8rem;color:var(--accent);display:none;align-items:center;gap:1rem;flex-wrap:wrap;}
+.rec-item{display:flex;flex-direction:column;gap:.2rem;padding-right:2rem;border-right:1px solid var(--border);}
+.rec-item:last-child{border-right:none;}
+.rec-label{font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
+.rec-value{font-size:1rem;font-weight:500;}
+.summary-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;margin:2rem 3rem;}
+.stat-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.1rem 1.3rem;}
+.stat-card .label{font-family:var(--mono);font-size:.63rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem;}
+.stat-card .value{font-size:1.7rem;font-weight:800;line-height:1;}
+.green{color:var(--accent);}.purple{color:var(--accent2);}.yellow{color:var(--warn);}.red{color:var(--danger);}
+.tabs{margin:0 3rem;display:flex;border-bottom:1px solid var(--border);gap:0;overflow-x:auto;}
+.tab{padding:.8rem 1.5rem;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;margin-bottom:-1px;white-space:nowrap;flex-shrink:0;}
+.tab:hover{color:var(--text);}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent);}
+.panel{display:none;}
+.panel.active{display:block;}
+.controls{margin:1.5rem 3rem;display:flex;gap:.8rem;flex-wrap:wrap;align-items:center;}
+.search-box{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.55rem .9rem;color:var(--text);font-family:var(--mono);font-size:.78rem;width:200px;outline:none;transition:border-color .15s;}
+.search-box:focus{border-color:var(--accent);}
+.filter-btn{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.55rem 1rem;color:var(--muted);font-family:var(--mono);font-size:.7rem;cursor:pointer;transition:all .15s;text-transform:uppercase;letter-spacing:.05em;}
+.filter-btn:hover,.filter-btn.active{border-color:var(--accent);color:var(--accent);background:rgba(110,231,183,.06);}
+.sort-select{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.55rem .9rem;color:var(--text);font-family:var(--mono);font-size:.7rem;outline:none;cursor:pointer;margin-left:auto;}
+.table-wrap{margin:0 3rem 3rem;border:1px solid var(--border);border-radius:12px;overflow:hidden;overflow-x:auto;}
+table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:.74rem;}
+thead{background:var(--surface2);position:sticky;top:0;z-index:2;}
+thead th{padding:.85rem .95rem;text-align:left;font-size:.63rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);white-space:nowrap;border-bottom:1px solid var(--border);cursor:pointer;}
+thead th:hover{color:var(--accent);}
+tbody tr{border-bottom:1px solid rgba(42,42,58,.6);transition:background .1s;}
+tbody tr:hover{background:rgba(110,231,183,.04);}
+tbody tr:last-child{border-bottom:none;}
+td{padding:.75rem .95rem;white-space:nowrap;}
+td.ccy{font-weight:500;font-size:.86rem;color:var(--text);letter-spacing:.05em;}
+td.num{text-align:right;}
+.pos{color:var(--accent);}.neg{color:var(--danger);}.neu{color:var(--muted);}
+.badge{display:inline-block;padding:.18rem .52rem;border-radius:4px;font-size:.6rem;font-weight:500;letter-spacing:.06em;text-transform:uppercase;}
+.badge.inverse{background:rgba(110,231,183,.12);color:var(--accent);border:1px solid rgba(110,231,183,.25);}
+.badge.aligned{background:rgba(129,140,248,.12);color:var(--accent2);border:1px solid rgba(129,140,248,.25);}
+.badge.sig{background:rgba(251,191,36,.12);color:var(--warn);border:1px solid rgba(251,191,36,.25);}
+.badge.insig{background:rgba(100,116,139,.1);color:var(--muted);border:1px solid var(--border);}
+.badge.gs{background:rgba(110,231,183,.15);color:var(--accent);border:1px solid rgba(110,231,183,.3);}
+.badge.ga{background:rgba(251,191,36,.15);color:var(--warn);border:1px solid rgba(251,191,36,.3);}
+.badge.gb{background:rgba(129,140,248,.15);color:var(--accent2);border:1px solid rgba(129,140,248,.3);}
+.badge.gc{background:rgba(248,113,113,.12);color:var(--danger);border:1px solid rgba(248,113,113,.25);}
+.badge.gd{background:rgba(100,116,139,.1);color:var(--muted);border:1px solid var(--border);}
+.badge.strong{background:rgba(110,231,183,.12);color:var(--accent);border:1px solid rgba(110,231,183,.25);}
+.badge.good{background:rgba(129,140,248,.12);color:var(--accent2);border:1px solid rgba(129,140,248,.25);}
+.badge.moderate{background:rgba(251,191,36,.12);color:var(--warn);border:1px solid rgba(251,191,36,.25);}
+.badge.weak,.badge.poor,.badge.unknown,.badge.balanced,.badge.deficit,.badge.stagnant{background:rgba(100,116,139,.1);color:var(--muted);border:1px solid var(--border);}
+.badge.surplus_strong,.badge.stable_reformer{background:rgba(110,231,183,.12);color:var(--accent);border:1px solid rgba(110,231,183,.25);}
+.badge.surplus_moderate,.badge.volatile_improving{background:rgba(129,140,248,.12);color:var(--accent2);border:1px solid rgba(129,140,248,.25);}
+.badge.volatile_deteriorating{background:rgba(248,113,113,.12);color:var(--danger);border:1px solid rgba(248,113,113,.25);}
+.bar-cell{display:flex;align-items:center;gap:.55rem;justify-content:flex-end;}
+.bar-bg{width:52px;height:4px;background:var(--surface2);border-radius:2px;overflow:hidden;}
+.bar-fill{height:100%;border-radius:2px;}
+.rankings-grid{margin:2rem 3rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:1.5rem;}
+.rank-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;}
+.rank-card-header{padding:1rem 1.3rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;justify-content:space-between;}
+.rank-card-header h3{font-size:.82rem;font-weight:700;letter-spacing:.05em;}
+.rank-card-header .desc{font-family:var(--mono);font-size:.64rem;color:var(--muted);margin-top:.2rem;}
+.rank-card-header .icon{font-size:1.2rem;opacity:.4;margin-left:.5rem;flex-shrink:0;}
+.rank-list{padding:.35rem 0;}
+.rank-row{display:flex;align-items:center;gap:.65rem;padding:.52rem 1.3rem;border-bottom:1px solid rgba(42,42,58,.3);transition:background .1s;}
+.rank-row:last-child{border-bottom:none;}
+.rank-row:hover{background:rgba(110,231,183,.04);}
+.rank-pos{font-family:var(--mono);font-size:.66rem;color:var(--muted);width:18px;text-align:right;flex-shrink:0;}
+.rank-pos.gold{color:#f59e0b;}.rank-pos.silver{color:#94a3b8;}.rank-pos.bronze{color:#b45309;}
+.rank-ccy{font-weight:700;font-size:.82rem;min-width:36px;letter-spacing:.04em;flex-shrink:0;}
+.rank-tags{display:flex;gap:.22rem;flex-shrink:0;}
+.rank-bar-wrap{flex:1;}
+.rank-bar-bg{height:3px;background:var(--surface2);border-radius:2px;overflow:hidden;}
+.rank-bar-fill{height:100%;border-radius:2px;}
+.rank-val{font-family:var(--mono);font-size:.76rem;min-width:48px;text-align:right;flex-shrink:0;}
+.composite-section{margin:2rem 3rem 3rem;}
+.composite-section h2{font-size:1.1rem;font-weight:700;margin-bottom:.5rem;}
+.composite-section .desc{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-bottom:1.5rem;line-height:1.8;}
+.score-formula{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1rem 1.3rem;font-family:var(--mono);font-size:.74rem;color:var(--accent);margin-bottom:1.5rem;line-height:1.9;}
+.score-formula .dim{color:var(--muted);}
+/* CHARTS PANEL */
+.charts-section{margin:2rem 3rem;}
+.chart-controls{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin-bottom:1.5rem;}
+.chart-controls label{font-family:var(--mono);font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;}
+.currency-select{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.55rem 1rem;color:var(--text);font-family:var(--mono);font-size:.78rem;outline:none;cursor:pointer;min-width:120px;}
+.chart-type-btn{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.55rem 1rem;color:var(--muted);font-family:var(--mono);font-size:.7rem;cursor:pointer;transition:all .15s;text-transform:uppercase;}
+.chart-type-btn.active{border-color:var(--accent);color:var(--accent);background:rgba(110,231,183,.06);}
+.chart-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;}
+.chart-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.4rem;}
+.chart-card h4{font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:1rem;}
+.chart-card.full-width{grid-column:1/-1;}
+.chart-container{position:relative;width:100%;height:220px;}
+.chart-container.tall{height:300px;}
+.break-legend{display:flex;gap:1.2rem;margin-top:.8rem;flex-wrap:wrap;}
+.break-item{display:flex;align-items:center;gap:.4rem;font-family:var(--mono);font-size:.65rem;color:var(--muted);}
+.break-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+.sensitivity-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin-top:1.5rem;}
+.sensitivity-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.2rem;}
+.sensitivity-card h4{font-size:.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:1rem;}
+.sens-row{display:flex;justify-content:space-between;align-items:center;padding:.4rem 0;border-bottom:1px solid rgba(42,42,58,.4);}
+.sens-row:last-child{border-bottom:none;}
+.sens-ccy{font-family:var(--mono);font-size:.78rem;font-weight:500;}
+.sens-bar-wrap{flex:1;margin:0 .8rem;}
+.sens-val{font-family:var(--mono);font-size:.75rem;min-width:40px;text-align:right;}
+.empty-state{text-align:center;padding:4rem 2rem;color:var(--muted);}
+.empty-state .icon{font-size:2.5rem;margin-bottom:1rem;opacity:.4;}
+.empty-state p{font-family:var(--mono);font-size:.82rem;line-height:1.8;}
+@media(max-width:900px){.chart-grid{grid-template-columns:1fr;}}
+@media(max-width:768px){
+  header,.upload-section,.summary-bar,.controls,.table-wrap,.rec-banner,.tabs,.rankings-grid,.composite-section,.charts-section{margin-left:1rem;margin-right:1rem;}
+  header{padding:1.5rem 1rem;}h1{font-size:1.6rem;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo">FX Pipeline <span>/ Stage 2 + 4 Output</span></div>
+    <h1>Currency <em>Metrics</em><br>Dashboard</h1>
+    <p class="subtitle">spectral · granger · efw structural · break sensitivity · 2010–2026</p>
+  </div>
+</header>
+
+<div class="upload-section">
+  <div class="upload-group"><label>comparison_report.csv</label><input type="file" id="file-comparison" accept=".csv"></div>
+  <div class="upload-group"><label>spectral_results.csv</label><input type="file" id="file-spectral" accept=".csv"></div>
+  <div class="upload-group"><label>granger_results.csv</label><input type="file" id="file-granger" accept=".csv"></div>
+  <div class="upload-group"><label>enhanced_composite.csv</label><input type="file" id="file-enhanced" accept=".csv"></div>
+  <div class="upload-group"><label>break_sensitivity.csv</label><input type="file" id="file-breaks" accept=".csv"></div>
+  <button class="load-btn" onclick="loadFiles()">Load Data</button>
+  <p class="load-hint">All files in: FXInvestmentPipeline/data/outputs/</p>
+</div>
+
+<div class="rec-banner" id="rec-banner"></div>
+<div class="summary-bar" id="summary-bar" style="display:none"></div>
+
+<div class="tabs" id="tabs" style="display:none">
+  <div class="tab active" onclick="switchTab('metrics',this)">Metrics Table</div>
+  <div class="tab" onclick="switchTab('charts',this)">Charts</div>
+  <div class="tab" onclick="switchTab('rankings',this)">Rankings</div>
+  <div class="tab" onclick="switchTab('composite',this)">Composite Scores</div>
+  <div class="tab" onclick="switchTab('breaks',this)">Break Sensitivity</div>
+</div>
+
+<!-- METRICS TABLE -->
+<div class="panel active" id="panel-metrics">
+  <div class="controls">
+    <input class="search-box" type="text" id="search" placeholder="Search currency..." oninput="renderTable()">
+    <button class="filter-btn active" onclick="setFilter('all',this)">All</button>
+    <button class="filter-btn" onclick="setFilter('inverse',this)">USD-Inverse</button>
+    <button class="filter-btn" onclick="setFilter('aligned',this)">USD-Aligned</button>
+    <button class="filter-btn" onclick="setFilter('significant',this)">Granger Sig.</button>
+    <button class="filter-btn" onclick="setFilter('watchlist',this)">Watchlist</button>
+    <button class="filter-btn" onclick="setFilter('top',this)">Top Sharpe</button>
+    <select class="sort-select" id="sort-select" onchange="renderTable()">
+      <option value="full_composite_desc">Sort: Full composite</option>
+      <option value="enhanced_composite_desc">Sort: Enhanced composite</option>
+      <option value="spectral_sharpe_desc">Sort: Spectral Sharpe</option>
+      <option value="composite_delta_desc">Sort: Biggest upgrades</option>
+      <option value="composite_delta_asc">Sort: Biggest downgrades</option>
+      <option value="efw_score_desc">Sort: EFW score</option>
+      <option value="spectral_dir_accuracy_desc">Sort: Accuracy</option>
+      <option value="spectral_mcc_desc">Sort: MCC</option>
+      <option value="dominant_period_days_asc">Sort: Cycle length</option>
+      <option value="currency_asc">Sort: A→Z</option>
+    </select>
+  </div>
+  <div class="table-wrap" id="table-wrap">
+    <div class="empty-state"><div class="icon">◈</div><p>Load your CSV files above to populate the dashboard.</p></div>
+  </div>
+</div>
+
+<!-- CHARTS -->
+<div class="panel" id="panel-charts">
+  <div class="charts-section">
+    <div class="chart-controls">
+      <label>Currency</label>
+      <select class="currency-select" id="chart-currency" onchange="renderCharts()"></select>
+      <label>Compare with</label>
+      <select class="currency-select" id="chart-currency2" onchange="renderCharts()">
+        <option value="">None</option>
+      </select>
+      <button class="chart-type-btn active" onclick="setChartView('overview',this)">Overview</button>
+      <button class="chart-type-btn" onclick="setChartView('spectral',this)">Spectral</button>
+      <button class="chart-type-btn" onclick="setChartView('structural',this)">Structural</button>
+    </div>
+    <div id="charts-content">
+      <div class="empty-state"><div class="icon">◈</div><p>Load data and select a currency to view charts.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- RANKINGS -->
+<div class="panel" id="panel-rankings">
+  <div class="rankings-grid" id="rankings-grid">
+    <div class="empty-state"><div class="icon">◈</div><p>Load data to see rankings.</p></div>
+  </div>
+</div>
+
+<!-- COMPOSITE SCORES -->
+<div class="panel" id="panel-composite">
+  <div class="composite-section" id="composite-section">
+    <div class="empty-state"><div class="icon">◈</div><p>Load data to see composite scores.</p></div>
+  </div>
+</div>
+
+<!-- BREAK SENSITIVITY -->
+<div class="panel" id="panel-breaks">
+  <div class="charts-section" id="break-content">
+    <div class="empty-state"><div class="icon">◈</div><p>Load break_sensitivity.csv to see structural break analysis.</p></div>
+  </div>
+</div>
+
+<script>
+let state={rows:[],filter:'all',chartView:'overview',breakData:[]};
+let chartInstances={};
+
+function switchTab(name,el){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('panel-'+name).classList.add('active');
+  if(name==='charts') setTimeout(renderCharts,50);
+  if(name==='breaks') renderBreaks();
+}
+
+function setChartView(view,btn){
+  state.chartView=view;
+  document.querySelectorAll('.chart-type-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCharts();
+}
+
+function parseCSV(text){
+  const lines=text.trim().split('\n');
+  const headers=lines[0].split(',').map(h=>h.trim().replace(/^"|"$/g,''));
+  return lines.slice(1).map(line=>{
+    const vals=[];let cur='',inQ=false;
+    for(const ch of line+','){if(ch==='"'){inQ=!inQ;}else if(ch===','&&!inQ){vals.push(cur.trim());cur='';}else cur+=ch;}
+    const obj={};
+    headers.forEach((h,i)=>{let v=(vals[i]||'').replace(/^"|"$/g,'').trim();obj[h]=(v===''||isNaN(v))?v:parseFloat(v);});
+    return obj;
+  });
+}
+
+function readFile(id){
+  return new Promise(res=>{
+    const f=document.getElementById(id).files[0];
+    if(!f){res(null);return;}
+    const r=new FileReader();r.onload=e=>res(e.target.result);r.readAsText(f);
+  });
+}
+
+function computeComposite(row){
+  const sh=isNaN(row.spectral_sharpe)?0:row.spectral_sharpe;
+  const ac=isNaN(row.spectral_dir_accuracy)?0.5:row.spectral_dir_accuracy;
+  const mc=isNaN(row.spectral_mcc)?0:row.spectral_mcc;
+  const sig=row.significant?1:0;
+  return 0.40*Math.max(0,Math.min(1,(sh+2)/7))+0.25*ac+0.25*((mc+1)/2)+0.10*sig;
+}
+
+function gradeOf(score){
+  if(score>=0.72)return{grade:'S',cls:'gs'};
+  if(score>=0.62)return{grade:'A',cls:'ga'};
+  if(score>=0.52)return{grade:'B',cls:'gb'};
+  if(score>=0.42)return{grade:'C',cls:'gc'};
+  return{grade:'D',cls:'gd'};
+}
+
+async function loadFiles(){
+  const[ct,st,gt,et,bt]=await Promise.all([
+    readFile('file-comparison'),readFile('file-spectral'),
+    readFile('file-granger'),readFile('file-enhanced'),readFile('file-breaks'),
+  ]);
+  if(!ct){alert('Please select comparison_report.csv at minimum');return;}
+  const comp=parseCSV(ct),spec=st?parseCSV(st):[],gran=gt?parseCSV(gt):[],enh=et?parseCSV(et):[],brks=bt?parseCSV(bt):[];
+  const sm={},gm={},em={},bm={};
+  spec.forEach(r=>{const k=r.currency||r[''];if(k)sm[k]=r;});
+  gran.forEach(r=>{const k=r.currency||r[''];if(k)gm[k]=r;});
+  enh.forEach(r=>{const k=r.currency||r[''];if(k)em[k]=r;});
+  brks.forEach(r=>{const k=r.currency||r[''];if(k)bm[k]=r;});
+  state.breakData=brks;
+
+  state.rows=comp.map(row=>{
+    const ccy=row.currency||row[''];
+    const s=sm[ccy]||{},g=gm[ccy]||{},e=em[ccy]||{},b=bm[ccy]||{};
+    const m={
+      currency:ccy,
+      spectral_dir_accuracy:row.spectral_dir_accuracy,spectral_mcc:row.spectral_mcc,spectral_sharpe:row.spectral_sharpe,
+      granger_dir_accuracy:row.granger_dir_accuracy,granger_mcc:row.granger_mcc,granger_sharpe:row.granger_sharpe,
+      dir_winner:row.dir_winner,mcc_winner:row.mcc_winner,sharpe_winner:row.sharpe_winner,
+      dominant_period_days:s.dominant_period_days,peak_coherence:s.peak_coherence,
+      phase_lag_days:s.phase_lag_days,usd_correlation:s.usd_correlation,direction:s.direction,
+      best_pval:g.best_pval,pval_corrected:g.pval_corrected,
+      significant:g.significant==='True'||g.significant===true||g.significant===1,
+      best_lag:g.best_lag,irf_direction:g.irf_direction,
+      efw_score:e.efw_score,efw_tier:e.efw_tier,watchlist_flag:e.watchlist_flag,
+      recent_events:e.recent_events,stage3_composite:e.stage3_composite,
+      enhanced_composite:e.enhanced_composite,composite_delta:e.composite_delta,
+      enhanced_grade:e.enhanced_grade,
+      trade_strength_score:e.trade_strength_score,trade_grade:e.trade_grade,
+      mean_current_account:e.mean_current_account,
+      stability_score:e.stability_score,classification:e.classification,
+      policy_volatility:e.policy_volatility,post_crisis_deviation:e.post_crisis_deviation,
+      full_composite:e.full_composite,full_grade:e.full_grade,
+      // Break sensitivity
+      impact_EUR_crisis:b.impact_EUR_crisis,
+      impact_COVID:b.impact_COVID,
+      impact_Ukraine_war:b.impact_Ukraine_war,
+      clean_model_r2:b.clean_model_r2,
+    };
+    m.composite_score=(e.full_composite&&!isNaN(e.full_composite))?parseFloat(e.full_composite):
+      (e.enhanced_composite&&!isNaN(e.enhanced_composite))?parseFloat(e.enhanced_composite):
+      computeComposite(m);
+    return m;
+  }).filter(r=>r.currency);
+
+  // Populate chart currency selectors
+  const sel=document.getElementById('chart-currency');
+  const sel2=document.getElementById('chart-currency2');
+  sel.innerHTML='';sel2.innerHTML='<option value="">None</option>';
+  const sorted=[...state.rows].sort((a,b)=>(b.composite_score||0)-(a.composite_score||0));
+  sorted.forEach(r=>{
+    sel.innerHTML+=`<option value="${r.currency}">${r.currency}</option>`;
+    sel2.innerHTML+=`<option value="${r.currency}">${r.currency}</option>`;
+  });
+
+  buildSummary();buildRankings();buildComposite();
+  document.getElementById('tabs').style.display='flex';
+  renderTable();
+}
+
+function buildSummary(){
+  const rows=state.rows;
+  const sh=rows.map(r=>r.spectral_sharpe).filter(v=>!isNaN(v));
+  const avgSh=sh.reduce((a,b)=>a+b,0)/sh.length;
+  const maxSh=Math.max(...sh);
+  const avgAc=rows.filter(r=>!isNaN(r.spectral_dir_accuracy)).reduce((a,r)=>a+r.spectral_dir_accuracy,0)/rows.length;
+  const nInv=rows.filter(r=>r.direction==='inverse').length;
+  const nS=rows.filter(r=>gradeOf(r.composite_score).grade==='S').length;
+  const nWl=rows.filter(r=>r.watchlist_flag==='improvement').length;
+  document.getElementById('summary-bar').style.display='grid';
+  document.getElementById('summary-bar').innerHTML=`
+    <div class="stat-card"><div class="label">Currencies</div><div class="value purple">${rows.length}</div></div>
+    <div class="stat-card"><div class="label">Mean Sharpe</div><div class="value green">${avgSh.toFixed(2)}</div></div>
+    <div class="stat-card"><div class="label">Best Sharpe</div><div class="value green">${maxSh.toFixed(2)}</div></div>
+    <div class="stat-card"><div class="label">Mean accuracy</div><div class="value yellow">${(avgAc*100).toFixed(1)}%</div></div>
+    <div class="stat-card"><div class="label">USD-inverse</div><div class="value green">${nInv}</div></div>
+    <div class="stat-card"><div class="label">Grade S</div><div class="value green">${nS}</div></div>
+    <div class="stat-card"><div class="label">EFW watchlist</div><div class="value yellow">${nWl}</div></div>`;
+  const b=document.getElementById('rec-banner');
+  b.style.display='flex';
+  b.innerHTML=`
+    <div class="rec-item"><span class="rec-label">Recommended model</span><span class="rec-value" style="color:var(--accent)">SPECTRAL</span></div>
+    <div class="rec-item"><span class="rec-label">Spectral Sharpe</span><span class="rec-value">1.89</span></div>
+    <div class="rec-item"><span class="rec-label">Granger Sharpe</span><span class="rec-value" style="color:var(--danger)">−0.11</span></div>
+    <div class="rec-item"><span class="rec-label">Clean period</span><span class="rec-value" style="color:var(--accent2)">2013–2019</span></div>
+    <div class="rec-item"><span class="rec-label">EFW watchlist</span><span class="rec-value" style="color:var(--warn)">${nWl} countries</span></div>`;
+}
+
+// ── CHARTS ────────────────────────────────────────────────────────────
+function destroyChart(id){
+  if(chartInstances[id]){chartInstances[id].destroy();delete chartInstances[id];}
+}
+
+function makeChart(id,config){
+  destroyChart(id);
+  const ctx=document.getElementById(id);
+  if(!ctx)return;
+  chartInstances[id]=new Chart(ctx,config);
+}
+
+function getRow(ccy){return state.rows.find(r=>r.currency===ccy);}
+
+function renderCharts(){
+  const ccy=document.getElementById('chart-currency').value;
+  const ccy2=document.getElementById('chart-currency2').value;
+  if(!ccy||!state.rows.length){return;}
+  const row=getRow(ccy);
+  const row2=ccy2?getRow(ccy2):null;
+  if(!row)return;
+
+  const view=state.chartView;
+  const content=document.getElementById('charts-content');
+
+  const BREAKS=[
+    {name:'EUR crisis',color:'rgba(251,191,36,0.15)',border:'rgba(251,191,36,0.6)'},
+    {name:'COVID',color:'rgba(248,113,113,0.15)',border:'rgba(248,113,113,0.6)'},
+    {name:'Ukraine war',color:'rgba(129,140,248,0.15)',border:'rgba(129,140,248,0.6)'},
+  ];
+
+  if(view==='overview'){
+    content.innerHTML=`
+      <div class="chart-grid">
+        <div class="chart-card">
+          <h4>Signal quality — ${ccy}${row2?' vs '+ccy2:''}</h4>
+          <div class="chart-container"><canvas id="c-radar"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h4>Sharpe distribution — all currencies</h4>
+          <div class="chart-container"><canvas id="c-hist"></canvas></div>
+        </div>
+        <div class="chart-card full-width">
+          <h4>Composite score breakdown — top 20 currencies</h4>
+          <div class="chart-container tall"><canvas id="c-bar"></canvas></div>
+        </div>
+      </div>`;
+
+    // Radar chart
+    const metrics=['Accuracy','MCC','Sharpe','EFW score','Trade score','Stability'];
+    function getRadarData(r){
+      if(!r)return[0,0,0,0,0,0];
+      const sh=Math.max(0,Math.min(1,(r.spectral_sharpe+2)/7));
+      const ac=isNaN(r.spectral_dir_accuracy)?0.5:r.spectral_dir_accuracy;
+      const mc=isNaN(r.spectral_mcc)?0.5:((r.spectral_mcc+1)/2);
+      const efw=r.efw_score?r.efw_score/10:0.5;
+      const tr=isNaN(r.trade_strength_score)?0.5:r.trade_strength_score;
+      const st=isNaN(r.stability_score)?0.5:r.stability_score;
+      return[ac,mc,sh,efw,tr,st].map(v=>Math.round(v*100));
+    }
+    const datasets=[{
+      label:ccy,data:getRadarData(row),
+      backgroundColor:'rgba(110,231,183,0.15)',borderColor:'#6ee7b7',
+      pointBackgroundColor:'#6ee7b7',borderWidth:1.5,pointRadius:3,
+    }];
+    if(row2)datasets.push({
+      label:ccy2,data:getRadarData(row2),
+      backgroundColor:'rgba(129,140,248,0.15)',borderColor:'#818cf8',
+      pointBackgroundColor:'#818cf8',borderWidth:1.5,pointRadius:3,
+    });
+    makeChart('c-radar',{type:'radar',data:{labels:metrics,datasets},options:{responsive:true,maintainAspectRatio:false,scales:{r:{min:0,max:100,ticks:{display:false},grid:{color:'rgba(255,255,255,0.06)'},pointLabels:{color:'#64748b',font:{size:11}}}},plugins:{legend:{display:!!row2,labels:{color:'#94a3b8',font:{size:11}}}}}});
+
+    // Histogram of Sharpe
+    const sharpes=state.rows.map(r=>r.spectral_sharpe).filter(v=>!isNaN(v));
+    const bins=[-2,-1,0,0.5,1,1.5,2,3,5,15];
+    const counts=new Array(bins.length-1).fill(0);
+    sharpes.forEach(v=>{for(let i=0;i<bins.length-1;i++){if(v>=bins[i]&&v<bins[i+1]){counts[i]++;break;}}});
+    const labels=bins.slice(0,-1).map((b,i)=>`${b} to ${bins[i+1]}`);
+    const barColors=bins.slice(0,-1).map(b=>b<0?'rgba(248,113,113,0.7)':b<1?'rgba(251,191,36,0.7)':'rgba(110,231,183,0.7)');
+    makeChart('c-hist',{type:'bar',data:{labels,datasets:[{data:counts,backgroundColor:barColors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'}},y:{ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'},title:{display:true,text:'# currencies',color:'#64748b',font:{size:10}}}}}});
+
+    // Stacked bar top 20
+    const top20=[...state.rows].sort((a,b)=>(b.composite_score||0)-(a.composite_score||0)).slice(0,20);
+    const ccys=top20.map(r=>r.currency);
+    const shComp=top20.map(r=>Math.max(0,Math.min(1,(r.spectral_sharpe+2)/7))*0.40*100);
+    const acComp=top20.map(r=>(isNaN(r.spectral_dir_accuracy)?0.5:r.spectral_dir_accuracy)*0.25*100);
+    const mcComp=top20.map(r=>((isNaN(r.spectral_mcc)?0:r.spectral_mcc)+1)/2*0.25*100);
+    const stComp=top20.map(r=>(r.significant?1:0)*0.10*100);
+    makeChart('c-bar',{type:'bar',data:{labels:ccys,datasets:[
+      {label:'Sharpe (40%)',data:shComp,backgroundColor:'rgba(110,231,183,0.8)',stack:'s'},
+      {label:'Accuracy (25%)',data:acComp,backgroundColor:'rgba(251,191,36,0.7)',stack:'s'},
+      {label:'MCC (25%)',data:mcComp,backgroundColor:'rgba(129,140,248,0.7)',stack:'s'},
+      {label:'Granger sig (10%)',data:stComp,backgroundColor:'rgba(248,113,113,0.6)',stack:'s'},
+    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#94a3b8',font:{size:10}}}},scales:{x:{stacked:true,ticks:{color:'#64748b',font:{size:10}},grid:{display:false}},y:{stacked:true,max:100,ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'},title:{display:true,text:'Score (0–100)',color:'#64748b',font:{size:10}}}}}});
+  }
+
+  else if(view==='spectral'){
+    content.innerHTML=`
+      <div class="chart-grid">
+        <div class="chart-card full-width">
+          <h4>Spectral metrics comparison — ${ccy}${row2?' vs '+ccy2:''}</h4>
+          <div class="chart-container"><canvas id="c-spec-bar"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h4>Cycle period vs Sharpe — all currencies</h4>
+          <div class="chart-container"><canvas id="c-scatter"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h4>Directional accuracy distribution</h4>
+          <div class="chart-container"><canvas id="c-acc-dist"></canvas></div>
+        </div>
+      </div>`;
+
+    // Spectral metrics bar
+    const specLabels=['Dir. accuracy','MCC','Sharpe (norm)','Coherence (norm)','Granger p-val inv'];
+    function specData(r){
+      if(!r)return[0,0,0,0,0];
+      const ac=(r.spectral_dir_accuracy||0.5);
+      const mc=((r.spectral_mcc||0)+1)/2;
+      const sh=Math.max(0,Math.min(1,((r.spectral_sharpe||0)+2)/7));
+      const coh=Math.min(1,(r.peak_coherence||0)/20);
+      const pv=r.pval_corrected?Math.max(0,1-r.pval_corrected):0;
+      return[ac,mc,sh,coh,pv].map(v=>+(v*100).toFixed(1));
+    }
+    const specDs=[{label:ccy,data:specData(row),backgroundColor:'rgba(110,231,183,0.7)',borderColor:'#6ee7b7',borderWidth:1}];
+    if(row2)specDs.push({label:ccy2,data:specData(row2),backgroundColor:'rgba(129,140,248,0.7)',borderColor:'#818cf8',borderWidth:1});
+    makeChart('c-spec-bar',{type:'bar',data:{labels:specLabels,datasets:specDs},options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',scales:{x:{max:100,ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'}},y:{ticks:{color:'#94a3b8',font:{size:11}},grid:{display:false}}},plugins:{legend:{display:!!row2,labels:{color:'#94a3b8',font:{size:11}}}}}});
+
+    // Scatter: cycle period vs sharpe
+    const scatterData=state.rows.filter(r=>!isNaN(r.dominant_period_days)&&!isNaN(r.spectral_sharpe)).map(r=>({x:Math.min(r.dominant_period_days,1000),y:r.spectral_sharpe,label:r.currency}));
+    const highlightCcy=row?{x:Math.min(row.dominant_period_days,1000),y:row.spectral_sharpe}:null;
+    makeChart('c-scatter',{type:'scatter',data:{datasets:[
+      {label:'All currencies',data:scatterData,backgroundColor:scatterData.map(d=>d.label===ccy?'#6ee7b7':row2&&d.label===ccy2?'#818cf8':'rgba(100,116,139,0.4)'),pointRadius:scatterData.map(d=>(d.label===ccy||d.label===ccy2)?6:3)},
+    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:d=>`${scatterData[d.dataIndex]?.label}: cycle=${d.raw.x.toFixed(0)}d, Sharpe=${d.raw.y.toFixed(2)}`}}},scales:{x:{title:{display:true,text:'Dominant cycle (days)',color:'#64748b',font:{size:10}},ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'}},y:{title:{display:true,text:'Spectral Sharpe',color:'#64748b',font:{size:10}},ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'}}}}}); 
+
+    // Accuracy distribution
+    const accs=state.rows.map(r=>r.spectral_dir_accuracy).filter(v=>!isNaN(v));
+    const accBins=[0.45,0.48,0.50,0.52,0.54,0.56,0.58,0.60,0.65,0.70,1.0];
+    const accCounts=new Array(accBins.length-1).fill(0);
+    accs.forEach(v=>{for(let i=0;i<accBins.length-1;i++){if(v>=accBins[i]&&v<accBins[i+1]){accCounts[i]++;break;}}});
+    const accLabels=accBins.slice(0,-1).map((b,i)=>`${(b*100).toFixed(0)}–${(accBins[i+1]*100).toFixed(0)}%`);
+    const rowAcc=row?.spectral_dir_accuracy;
+    const accBgColors=accBins.slice(0,-1).map((b,i)=>{
+      if(rowAcc&&rowAcc>=b&&rowAcc<accBins[i+1])return'rgba(110,231,183,0.9)';
+      return b<0.50?'rgba(248,113,113,0.6)':'rgba(129,140,248,0.6)';
+    });
+    makeChart('c-acc-dist',{type:'bar',data:{labels:accLabels,datasets:[{data:accCounts,backgroundColor:accBgColors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#64748b',font:{size:10}},grid:{display:false}},y:{ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'},title:{display:true,text:'# currencies',color:'#64748b',font:{size:10}}}}}});
+  }
+
+  else if(view==='structural'){
+    content.innerHTML=`
+      <div class="chart-grid">
+        <div class="chart-card">
+          <h4>Structural layer breakdown — ${ccy}${row2?' vs '+ccy2:''}</h4>
+          <div class="chart-container"><canvas id="c-struct-radar"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h4>EFW score distribution — all currencies</h4>
+          <div class="chart-container"><canvas id="c-efw-dist"></canvas></div>
+        </div>
+        <div class="chart-card full-width">
+          <h4>Trade strength vs stability — all currencies</h4>
+          <div class="chart-container tall"><canvas id="c-trade-stab"></canvas></div>
+        </div>
+      </div>`;
+
+    // Structural radar
+    const sLabels=['EFW score','Trade strength','Policy stability','Post-crisis','Watchlist'];
+    function structData(r){
+      if(!r)return[0,0,0,0,0];
+      const efw=r.efw_score?r.efw_score/10:0.5;
+      const tr=isNaN(r.trade_strength_score)?0.5:r.trade_strength_score;
+      const st=isNaN(r.stability_score)?0.5:r.stability_score;
+      const pc=r.post_crisis_deviation?Math.max(0,Math.min(1,(r.post_crisis_deviation+1)/2)):0.5;
+      const wl=r.watchlist_flag==='improvement'?1:0;
+      return[efw,tr,st,pc,wl].map(v=>Math.round(v*100));
+    }
+    const sDs=[{label:ccy,data:structData(row),backgroundColor:'rgba(110,231,183,0.15)',borderColor:'#6ee7b7',pointBackgroundColor:'#6ee7b7',borderWidth:1.5,pointRadius:3}];
+    if(row2)sDs.push({label:ccy2,data:structData(row2),backgroundColor:'rgba(129,140,248,0.15)',borderColor:'#818cf8',pointBackgroundColor:'#818cf8',borderWidth:1.5,pointRadius:3});
+    makeChart('c-struct-radar',{type:'radar',data:{labels:sLabels,datasets:sDs},options:{responsive:true,maintainAspectRatio:false,scales:{r:{min:0,max:100,ticks:{display:false},grid:{color:'rgba(255,255,255,0.06)'},pointLabels:{color:'#64748b',font:{size:11}}}},plugins:{legend:{display:!!row2,labels:{color:'#94a3b8',font:{size:11}}}}}});
+
+    // EFW distribution
+    const efws=state.rows.map(r=>r.efw_score).filter(v=>v&&!isNaN(v));
+    const efwBins=[4,5,5.5,6,6.5,7,7.5,8,8.5,10];
+    const efwCounts=new Array(efwBins.length-1).fill(0);
+    efws.forEach(v=>{for(let i=0;i<efwBins.length-1;i++){if(v>=efwBins[i]&&v<efwBins[i+1]){efwCounts[i]++;break;}}});
+    const efwLabels=efwBins.slice(0,-1).map((b,i)=>`${b}–${efwBins[i+1]}`);
+    const rowEfw=row?.efw_score;
+    const efwColors=efwBins.slice(0,-1).map((b,i)=>{
+      if(rowEfw&&rowEfw>=b&&rowEfw<efwBins[i+1])return'rgba(110,231,183,0.9)';
+      return b>=7?'rgba(110,231,183,0.6)':b>=6?'rgba(129,140,248,0.6)':b>=5?'rgba(251,191,36,0.6)':'rgba(248,113,113,0.6)';
+    });
+    makeChart('c-efw-dist',{type:'bar',data:{labels:efwLabels,datasets:[{data:efwCounts,backgroundColor:efwColors,borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#64748b',font:{size:10}},grid:{display:false}},y:{ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'},title:{display:true,text:'# currencies',color:'#64748b',font:{size:10}}}}}});
+
+    // Trade vs Stability scatter
+    const tsData=state.rows.filter(r=>!isNaN(r.trade_strength_score)&&!isNaN(r.stability_score)).map(r=>({x:r.trade_strength_score,y:r.stability_score,label:r.currency}));
+    makeChart('c-trade-stab',{type:'scatter',data:{datasets:[{label:'Currencies',data:tsData,backgroundColor:tsData.map(d=>d.label===ccy?'#6ee7b7':row2&&d.label===ccy2?'#818cf8':'rgba(100,116,139,0.35)'),pointRadius:tsData.map(d=>(d.label===ccy||d.label===ccy2)?7:3)}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:d=>`${tsData[d.dataIndex]?.label}: trade=${d.raw.x.toFixed(2)}, stability=${d.raw.y.toFixed(2)}`}}},scales:{x:{min:0,max:1,title:{display:true,text:'Trade strength score',color:'#64748b',font:{size:10}},ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'}},y:{min:0,max:1,title:{display:true,text:'Policy stability score',color:'#64748b',font:{size:10}},ticks:{color:'#64748b',font:{size:10}},grid:{color:'rgba(255,255,255,0.04)'}}}}});
+  }
+}
+
+// ── BREAK SENSITIVITY ────────────────────────────────────────────────
+function renderBreaks(){
+  const content=document.getElementById('break-content');
+  if(!state.rows.length){content.innerHTML='<div class="empty-state"><div class="icon">◈</div><p>No rows loaded.</p></div>';return;}
+
+  const breaks=[
+    {key:'impact_COVID',label:'COVID-19 (Feb 2020 – Jun 2021)',color:'#f87171'},
+    {key:'impact_EUR_crisis',label:'EUR sovereign crisis (Jun 2011 – Dec 2012)',color:'#fbbf24'},
+    {key:'impact_Ukraine_war',label:'Ukraine war (Feb 2022 – Dec 2022)',color:'#818cf8'},
+  ];
+
+  const sorted=[...state.rows].filter(r=>!isNaN(r.impact_COVID)).sort((a,b)=>(b.impact_COVID||0)-(a.impact_COVID||0));
+
+  content.innerHTML=`
+    <h2 style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem">Structural Break Sensitivity</h2>
+    <p style="font-family:var(--mono);font-size:.73rem;color:var(--muted);margin-bottom:1.5rem;line-height:1.8">
+      Impact ratio = mean absolute residual during break period ÷ mean absolute residual during clean period (2013–2019).<br>
+      Values &gt; 1 indicate the currency behaved more erratically than usual during that period. Values &gt; 3 suggest the signal is meaningfully contaminated.
+    </p>
+    <div class="sensitivity-grid">
+      ${breaks.map(brk=>{
+        const bRows=[...state.rows].filter(r=>!isNaN(r[brk.key])).sort((a,b)=>(b[brk.key]||0)-(a[brk.key]||0)).slice(0,12);
+        const maxVal=bRows.length?Math.max(...bRows.map(r=>r[brk.key]||0)):1;
+        return`<div class="sensitivity-card">
+          <h4 style="color:${brk.color}">${brk.label}</h4>
+          ${bRows.map((r,i)=>{
+            const v=r[brk.key]||0;
+            const pct=Math.min(100,v/maxVal*100);
+            const{grade,cls}=gradeOf(r.composite_score);
+            return`<div class="sens-row">
+              <div class="sens-ccy">${r.currency} <span class="badge ${cls}" style="font-size:.54rem">${grade}</span></div>
+              <div class="sens-bar-wrap"><div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${pct}%;background:${brk.color};opacity:.7"></div></div></div>
+              <div class="sens-val" style="color:${v>3?brk.color:v>1.5?'var(--warn)':'var(--muted)'}">${v.toFixed(2)}×</div>
+            </div>`;
+          }).join('')}
+        </div>`;
+      }).join('')}
+    </div>
+    <div style="margin-top:2rem">
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Currency</th><th>Grade</th><th>COVID impact</th>
+            <th>EUR crisis impact</th><th>Ukraine impact</th>
+            <th>Clean R²</th><th>Direction</th><th>EFW tier</th>
+          </tr></thead>
+          <tbody>
+            ${sorted.slice(0,40).map(r=>{
+              const{grade,cls}=gradeOf(r.composite_score||0);
+              const ci=parseFloat(r.impact_COVID)||0,ei=parseFloat(r.impact_EUR_crisis)||0,ui=parseFloat(r.impact_Ukraine_war)||0;
+              return`<tr>
+                <td class="ccy">${r.currency}</td>
+                <td><span class="badge ${cls}">${grade}</span></td>
+                <td class="num"><span style="color:${ci>3?'var(--danger)':ci>1.5?'var(--warn)':'var(--muted)'}">${ci===0?'—':ci.toFixed(2)+'×'}</span></td>
+                <td class="num"><span style="color:${ei>3?'var(--danger)':ei>1.5?'var(--warn)':'var(--muted)'}">${ei===0?'—':ei.toFixed(2)+'×'}</span></td>
+                <td class="num"><span style="color:${ui>3?'var(--danger)':ui>1.5?'var(--warn)':'var(--muted)'}">${ui===0?'—':ui.toFixed(2)+'×'}</span></td>
+                <td class="num"><span class="neu">${!r.clean_model_r2?'—':parseFloat(r.clean_model_r2).toFixed(4)}</span></td>
+                <td>${r.direction?`<span class="badge ${r.direction}">${r.direction}</span>`:'<span class="neu">—</span>'}</td>
+                <td>${r.efw_tier?`<span class="badge ${r.efw_tier}">${r.efw_tier}</span>`:'<span class="neu">—</span>'}</td>
+              </tr>`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>`;
+}
+
+// ── RANKINGS ──────────────────────────────────────────────────────────
+function buildRankings(){
+  const rows=state.rows;
+  const defs=[
+    {title:'Full composite score',desc:'All modules: signal + structural + trade + stability',icon:'★',color:'#f59e0b',get:r=>r.composite_score,fmt:v=>(v*100).toFixed(1),max:1,asc:false},
+    {title:'Spectral Sharpe',desc:'Risk-adjusted return of spectral signal',icon:'◆',color:'var(--accent)',get:r=>r.spectral_sharpe,fmt:v=>v.toFixed(2),max:5,asc:false},
+    {title:'Directional accuracy',desc:'Fraction of correct directional predictions',icon:'◎',color:'var(--warn)',get:r=>r.spectral_dir_accuracy,fmt:v=>(v*100).toFixed(1)+'%',max:1,asc:false},
+    {title:'EFW structural score',desc:'Fraser Institute economic freedom',icon:'⬛',color:'var(--accent)',get:r=>r.efw_score,fmt:v=>v.toFixed(2),max:10,asc:false},
+    {title:'Trade strength',desc:'Current account surplus consistency',icon:'↔',color:'var(--accent2)',get:r=>r.trade_strength_score,fmt:v=>v.toFixed(3),max:1,asc:false},
+    {title:'Policy stability',desc:'Reform consistency vs volatility',icon:'∼',color:'var(--muted)',get:r=>r.stability_score,fmt:v=>v.toFixed(3),max:1,asc:false},
+    {title:'Composite delta',desc:'Score gain from structural adjustment',icon:'↑',color:'var(--accent)',get:r=>r.composite_delta,fmt:v=>(v>=0?'+':'')+v.toFixed(3),max:null,asc:false},
+    {title:'Lowest COVID sensitivity',desc:'Least disrupted by COVID shock',icon:'⊕',color:'var(--accent)',get:r=>isNaN(r.impact_COVID)?null:(r.impact_COVID===0?null:1/r.impact_COVID),fmt:v=>(1/v).toFixed(2)+'×',max:null,asc:false},
+  ];
+  const grid=document.getElementById('rankings-grid');
+  grid.innerHTML='';
+  defs.forEach(d=>{
+    const sorted=[...rows].filter(r=>{const v=d.get(r);return v!==null&&v!==undefined&&!isNaN(v);}).sort((a,b)=>d.asc?d.get(a)-d.get(b):d.get(b)-d.get(a)).slice(0,10);
+    if(!sorted.length)return;
+    const maxV=d.max!==null?d.max:Math.max(...sorted.map(r=>Math.abs(d.get(r))));
+    const card=document.createElement('div');
+    card.className='rank-card';
+    card.innerHTML=`
+      <div class="rank-card-header">
+        <div><h3 style="color:${d.color}">${d.title}</h3><div class="desc">${d.desc}</div></div>
+        <div class="icon">${d.icon}</div>
+      </div>
+      <div class="rank-list">
+        ${sorted.map((r,i)=>{
+          const v=d.get(r);
+          const pct=Math.min(100,Math.abs(v)/maxV*100);
+          const posC=i===0?'gold':i===1?'silver':i===2?'bronze':'';
+          const valC=d.title.includes('Sharpe')?(v>=2?'var(--accent)':v>=0?'var(--warn)':'var(--danger)'):d.color;
+          const{grade,cls}=gradeOf(r.composite_score);
+          const dirTag=r.direction?`<span class="badge ${r.direction==='inverse'?'inverse':'aligned'}" style="font-size:.5rem;padding:.1rem .28rem">${r.direction==='inverse'?'INV':'ALN'}</span>`:'';
+          const grTag=`<span class="badge ${cls}" style="font-size:.5rem;padding:.1rem .28rem">${grade}</span>`;
+          const wlTag=r.watchlist_flag&&r.watchlist_flag!=='none'?`<span class="badge inverse" style="font-size:.5rem;padding:.1rem .28rem">WL</span>`:'';
+          return`<div class="rank-row">
+            <div class="rank-pos ${posC}">${i+1}</div>
+            <div class="rank-ccy">${r.currency}</div>
+            <div class="rank-tags">${dirTag}${grTag}${wlTag}</div>
+            <div class="rank-bar-wrap"><div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${pct}%;background:${d.color};opacity:.65"></div></div></div>
+            <div class="rank-val" style="color:${valC}">${d.fmt(v)}</div>
+          </div>`;
+        }).join('')}
+      </div>`;
+    grid.appendChild(card);
+  });
+}
+
+// ── COMPOSITE TABLE ───────────────────────────────────────────────────
+function buildComposite(){
+  const rows=[...state.rows].filter(r=>!isNaN(r.composite_score)).sort((a,b)=>b.composite_score-a.composite_score);
+  const sec=document.getElementById('composite-section');
+  sec.innerHTML=`
+    <h2>Composite Performance Scores</h2>
+    <p class="desc">Full composite = spectral signal quality + EFW structural layer + trade balance + policy stability.<br>
+    S ≥ 72 · A 62–72 · B 52–62 · C 42–52 · D &lt; 42</p>
+    <div class="score-formula">
+      full = enhanced_composite <span class="dim">+</span> (trade_score − 0.5) <span class="dim">× 0.10</span> <span class="dim">+</span> (stability_score − 0.5) <span class="dim">× 0.10</span> <span class="dim">+</span> (sector_health − 0.5) <span class="dim">× 0.06</span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th>Rank</th><th>Currency</th><th>Grade</th><th>Full score</th>
+          <th>Sharpe</th><th>Accuracy</th><th>EFW score</th><th>EFW tier</th>
+          <th>Trade grade</th><th>Stability</th><th>Watchlist</th>
+          <th>COVID sens.</th><th>Direction</th>
+        </tr></thead>
+        <tbody>
+          ${rows.map((r,i)=>{
+            const{grade,cls}=gradeOf(r.composite_score);
+            const sc=(r.composite_score*100).toFixed(1);
+            const barC=cls==='gs'?'var(--accent)':cls==='ga'?'var(--warn)':cls==='gb'?'var(--accent2)':'var(--muted)';
+            return`<tr>
+              <td class="num" style="color:var(--muted);font-size:.7rem">${i+1}</td>
+              <td class="ccy">${r.currency}</td>
+              <td><span class="badge ${cls}">${grade}</span></td>
+              <td class="num"><div class="bar-cell"><span style="color:${barC}">${sc}</span><div class="bar-bg"><div class="bar-fill" style="width:${r.composite_score*100}%;background:${barC}"></div></div></div></td>
+              <td class="num">${fmtSharpe(r.spectral_sharpe)}</td>
+              <td class="num">${fmtPct(r.spectral_dir_accuracy)}</td>
+              <td class="num">${r.efw_score&&!isNaN(r.efw_score)?`<span class="neu">${parseFloat(r.efw_score).toFixed(2)}</span>`:'<span class="neu">—</span>'}</td>
+              <td>${r.efw_tier?`<span class="badge ${r.efw_tier}">${r.efw_tier}</span>`:'<span class="neu">—</span>'}</td>
+              <td>${r.trade_grade?`<span class="badge ${r.trade_grade.replace(/ /g,'_').toLowerCase()}">${r.trade_grade}</span>`:'<span class="neu">—</span>'}</td>
+              <td class="num">${isNaN(r.stability_score)?'<span class="neu">—</span>':`<span class="neu">${parseFloat(r.stability_score).toFixed(3)}</span>`}</td>
+              <td>${r.watchlist_flag&&r.watchlist_flag!=='none'?`<span class="badge ${r.watchlist_flag==='improvement'?'inverse':'insig'}">${r.watchlist_flag}</span>`:'<span class="neu">—</span>'}</td>
+              <td class="num"><span style="color:${r.impact_COVID>3?'var(--danger)':r.impact_COVID>1.5?'var(--warn)':'var(--muted)'}">${isNaN(r.impact_COVID)?'—':parseFloat(r.impact_COVID).toFixed(2)+'×'}</span></td>
+              <td>${r.direction?`<span class="badge ${r.direction}">${r.direction}</span>`:'<span class="neu">—</span>'}</td>
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>`;
+}
+
+// ── FILTER & SORT ─────────────────────────────────────────────────────
+function setFilter(f,btn){
+  state.filter=f;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderTable();
+}
+
+function getFiltered(){
+  const q=document.getElementById('search').value.toLowerCase();
+  let rows=state.rows.filter(r=>r.currency.toLowerCase().includes(q));
+  if(state.filter==='inverse')    rows=rows.filter(r=>r.direction==='inverse');
+  if(state.filter==='aligned')    rows=rows.filter(r=>r.direction==='aligned');
+  if(state.filter==='significant')rows=rows.filter(r=>r.significant);
+  if(state.filter==='watchlist')  rows=rows.filter(r=>r.watchlist_flag==='improvement');
+  if(state.filter==='top')        rows=rows.filter(r=>!isNaN(r.spectral_sharpe)&&r.spectral_sharpe>2.0);
+  const sv=document.getElementById('sort-select').value;
+  const asc=sv.endsWith('_asc');
+  const key=sv.replace(/_asc$|_desc$/,'');
+  rows.sort((a,b)=>{
+    const av=a[key],bv=b[key];
+    if(av===undefined||av===null||av==='')return 1;
+    if(bv===undefined||bv===null||bv==='')return -1;
+    if(typeof av==='string')return asc?av.localeCompare(bv):bv.localeCompare(av);
+    return asc?av-bv:bv-av;
+  });
+  return rows;
+}
+
+function fmtPct(v){if(v===undefined||v===null||isNaN(v))return'<span class="neu">—</span>';return`<span class="${v>=.55?'pos':v>=.50?'neu':'neg'}">${(v*100).toFixed(1)}%</span>`;}
+function fmtSharpe(v){if(v===undefined||v===null||isNaN(v))return'<span class="neu">—</span>';const cls=v>=1?'pos':v>=0?'neu':'neg';const bp=Math.min(Math.abs(v)/4*100,100);return`<div class="bar-cell"><span class="${cls}">${v.toFixed(2)}</span><div class="bar-bg"><div class="bar-fill" style="width:${bp}%;background:${v>=0?'var(--accent)':'var(--danger)'}"></div></div></div>`;}
+function fmtMCC(v){if(v===undefined||v===null||isNaN(v))return'<span class="neu">—</span>';return`<span class="${v>.1?'pos':v>0?'neu':'neg'}">${v.toFixed(3)}</span>`;}
+function fmtPval(v){if(v===undefined||v===null||isNaN(v))return'<span class="neu">—</span>';if(v<.001)return`<span class="pos">&lt;0.001</span>`;return`<span class="${v<.05?'pos':'neg'}">${v.toFixed(3)}</span>`;}
+function fmtPeriod(v){if(!v||isNaN(v))return'<span class="neu">—</span>';if(v>365)return`<span class="neu">${(v/365).toFixed(1)}y</span>`;if(v>30)return`<span class="neu">${(v/30).toFixed(1)}mo</span>`;return`<span class="neu">${Math.round(v)}d</span>`;}
+
+function renderTable(){
+  const rows=getFiltered();
+  const wrap=document.getElementById('table-wrap');
+  if(!rows.length){wrap.innerHTML='<div class="empty-state"><div class="icon">◈</div><p>No currencies match this filter.</p></div>';return;}
+  wrap.innerHTML=`<table>
+    <thead><tr>
+      <th>Currency</th><th>Grade</th><th>Direction</th><th>Gran. sig.</th>
+      <th>Spec. accuracy</th><th>Spec. MCC</th><th>Spec. Sharpe</th>
+      <th>Gran. accuracy</th><th>Gran. Sharpe</th>
+      <th>Cycle</th><th>EFW score</th><th>EFW tier</th>
+      <th>Trade grade</th><th>Stability</th><th>Watchlist</th>
+      <th>COVID sens.</th><th>Delta</th><th>Best model</th>
+    </tr></thead>
+    <tbody>${rows.map(r=>{
+      const{grade,cls}=gradeOf(r.composite_score);
+      const delta=r.composite_delta;
+      const ci=r.impact_COVID;
+      return`<tr>
+        <td class="ccy">${r.currency}</td>
+        <td><span class="badge ${cls}">${grade}</span></td>
+        <td>${r.direction?`<span class="badge ${r.direction}">${r.direction}</span>`:'<span class="neu">—</span>'}</td>
+        <td>${r.significant!==undefined?`<span class="badge ${r.significant?'sig':'insig'}">${r.significant?'yes':'no'}</span>`:'<span class="neu">—</span>'}</td>
+        <td class="num">${fmtPct(r.spectral_dir_accuracy)}</td>
+        <td class="num">${fmtMCC(r.spectral_mcc)}</td>
+        <td class="num">${fmtSharpe(r.spectral_sharpe)}</td>
+        <td class="num">${fmtPct(r.granger_dir_accuracy)}</td>
+        <td class="num">${fmtSharpe(r.granger_sharpe)}</td>
+        <td class="num">${fmtPeriod(r.dominant_period_days)}</td>
+        <td class="num">${r.efw_score&&!isNaN(r.efw_score)?`<span class="neu">${parseFloat(r.efw_score).toFixed(2)}</span>`:'<span class="neu">—</span>'}</td>
+        <td>${r.efw_tier?`<span class="badge ${r.efw_tier}">${r.efw_tier}</span>`:'<span class="neu">—</span>'}</td>
+        <td>${r.trade_grade?`<span class="badge ${r.trade_grade.replace(/ /g,'_').toLowerCase()}">${r.trade_grade}</span>`:'<span class="neu">—</span>'}</td>
+        <td class="num">${isNaN(r.stability_score)?'<span class="neu">—</span>':`<span class="neu">${parseFloat(r.stability_score).toFixed(3)}</span>`}</td>
+        <td>${r.watchlist_flag&&r.watchlist_flag!=='none'?`<span class="badge ${r.watchlist_flag==='improvement'?'inverse':'insig'}">${r.watchlist_flag}</span>`:'<span class="neu">—</span>'}</td>
+        <td class="num"><span style="color:${ci>3?'var(--danger)':ci>1.5?'var(--warn)':'var(--muted)'}">${isNaN(ci)?'—':ci.toFixed(2)+'×'}</span></td>
+        <td class="num">${delta!==undefined&&!isNaN(delta)?`<span class="${parseFloat(delta)>=0?'pos':'neg'}">${parseFloat(delta)>=0?'+':''}${parseFloat(delta).toFixed(3)}</span>`:'<span class="neu">—</span>'}</td>
+        <td>${r.sharpe_winner?`<span class="badge ${r.sharpe_winner==='spectral'?'inverse':'aligned'}">${r.sharpe_winner}</span>`:'<span class="neu">—</span>'}</td>
+      </tr>`;
+    }).join('')}</tbody></table>`;
+}
+</script>
+</body>
+</html>

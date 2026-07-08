@@ -1,0 +1,1047 @@
+country,iso3,event_year,direction,overall_score,overall_change,primary_drivers,pattern_tags,max_sub_change,pre_window_avg,post_window_avg,pre_window_trend,post_window_trend
+Albania,ALB,1990,deterioration,4.95,-0.51,regulation(-2.53); size_of_government(+0.86); legal_system_property_rights(-0.40),deregulation; fiscal_consolidation; property_rights_reform,2.5262,5.46,5.47,,
+Albania,ALB,1995,improvement,5.47,0.52,size_of_government(+2.31); sound_money(-2.20); regulation(+2.02),monetary_stabilisation; deregulation; fiscal_consolidation,2.3078,4.95,6.43,,
+Albania,ALB,2000,improvement,6.43,0.96,sound_money(+2.56); regulation(+1.83); legal_system_property_rights(-1.13),deregulation; monetary_stabilisation; property_rights_reform,2.5632,5.47,6.93,,0.129
+Albania,ALB,2003,improvement,7.34,0.61,sound_money(+2.99); regulation(-0.24); legal_system_property_rights(+0.17),monetary_stabilisation,2.9913,6.56,7.13,0.15,0.042
+Algeria,DZA,1975,deterioration,4.04,-0.49,sound_money(-1.69); legal_system_property_rights(-0.15); size_of_government(-0.12),monetary_stabilisation,1.6942,4.53,3.49,,
+Algeria,DZA,1980,deterioration,3.49,-0.55,size_of_government(-1.22); sound_money(+0.44); legal_system_property_rights(-0.44),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.2202,4.04,3.51,,
+Algeria,DZA,1985,improvement,3.51,0.02,size_of_government(-1.51); sound_money(+1.13); regulation(+1.06),monetary_stabilisation; deregulation; fiscal_consolidation,1.5108,3.49,3.57,,
+Algeria,DZA,1990,improvement,3.57,0.06,sound_money(-1.96); size_of_government(+1.89); legal_system_property_rights(+0.21),monetary_stabilisation; fiscal_consolidation,1.9561,3.51,3.89,,
+Algeria,DZA,1995,improvement,3.89,0.32,size_of_government(+1.34); sound_money(+0.90); regulation(-0.46),monetary_stabilisation; deregulation; fiscal_consolidation,1.3374,3.57,4.7,,
+Algeria,DZA,2000,improvement,4.7,0.81,freedom_to_trade(+3.71); sound_money(+1.69); legal_system_property_rights(-1.14),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.7061,3.89,4.8,,0.139
+Algeria,DZA,2017,deterioration,4.62,-0.25,freedom_to_trade(-1.37); sound_money(+0.16); regulation(-0.06),trade_liberalisation,1.3728,4.74,4.63,0.027,-0.072
+Algeria,DZA,2020,improvement,4.82,0.17,freedom_to_trade(+1.09); sound_money(-0.14); regulation(-0.06),trade_liberalisation,1.0901,4.69,4.41,-0.005,-0.205
+Angola,AGO,2003,deterioration,3.68,-0.17,regulation(-1.05); size_of_government(+0.22); legal_system_property_rights(+0.13),deregulation,1.0469,3.78,3.97,0.055,0.139
+Angola,AGO,2004,deterioration,3.63,-0.05,sound_money(-2.44); size_of_government(+1.14); regulation(+1.05),deregulation; monetary_stabilisation; fiscal_consolidation,2.4412,3.76,4.19,-0.009,0.183
+Angola,AGO,2006,improvement,4.17,0.37,sound_money(+2.56); size_of_government(-1.52); regulation(+0.85),deregulation; monetary_stabilisation; fiscal_consolidation,2.5582,3.74,4.51,-0.014,0.198
+Angola,AGO,2009,improvement,4.71,0.53,size_of_government(+3.02); regulation(-0.26); freedom_to_trade(-0.07),fiscal_consolidation,3.0181,3.97,4.88,0.139,0.023
+Angola,AGO,2013,deterioration,4.92,-0.11,size_of_government(-1.27); sound_money(+0.94); freedom_to_trade(-0.13),monetary_stabilisation; fiscal_consolidation,1.2744,4.7,4.77,0.174,-0.197
+Angola,AGO,2015,improvement,5.25,0.38,size_of_government(+2.02); sound_money(-0.33); regulation(+0.18),monetary_stabilisation; fiscal_consolidation,2.0208,4.88,4.75,0.023,0.057
+Angola,AGO,2016,deterioration,5.04,-0.21,sound_money(-1.49); size_of_government(+0.31); freedom_to_trade(+0.14),monetary_stabilisation; fiscal_consolidation,1.4907,4.96,4.72,0.084,0.17
+Angola,AGO,2017,deterioration,4.38,-0.66,freedom_to_trade(-2.20); size_of_government(-0.62); sound_money(-0.34),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.1953,5.02,4.74,0.035,0.025
+Angola,AGO,2018,deterioration,4.32,-0.06,sound_money(-1.06); regulation(+0.36); legal_system_property_rights(+0.22),deregulation; monetary_stabilisation,1.0635,4.89,4.91,-0.091,-0.018
+Angola,AGO,2019,improvement,4.99,0.67,freedom_to_trade(+2.45); size_of_government(+0.39); sound_money(+0.39),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.4504,4.77,4.89,-0.197,0.004
+Angola,AGO,2022,deterioration,4.5,-0.38,freedom_to_trade(-2.53); regulation(+0.49); sound_money(+0.30),trade_liberalisation; deregulation,2.5295,4.72,5.16,0.17,
+Angola,AGO,2023,improvement,5.16,0.66,freedom_to_trade(+2.00); sound_money(+0.63); size_of_government(+0.57),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.0022,4.74,,0.025,
+Argentina,ARG,1975,deterioration,3.5,-2.43,sound_money(-5.25); size_of_government(-0.85); legal_system_property_rights(-0.53),property_rights_reform; monetary_stabilisation; fiscal_consolidation,5.2537,5.93,4.23,,
+Argentina,ARG,1980,improvement,4.23,0.73,freedom_to_trade(+4.75); regulation(-1.27); size_of_government(+0.49),trade_liberalisation; deregulation; fiscal_consolidation,4.7452,3.5,3.86,,
+Argentina,ARG,1985,deterioration,3.86,-0.37,freedom_to_trade(-3.35); regulation(+2.41); size_of_government(-0.90),trade_liberalisation; deregulation; fiscal_consolidation,3.3467,4.23,4.73,,
+Argentina,ARG,1990,improvement,4.73,0.87,freedom_to_trade(+2.71); size_of_government(+1.43); regulation(-0.65),trade_liberalisation; deregulation; fiscal_consolidation,2.7089,3.86,6.87,,
+Argentina,ARG,1995,improvement,6.87,2.14,sound_money(+3.81); freedom_to_trade(+2.81); regulation(+1.78),trade_liberalisation; deregulation; monetary_stabilisation,3.8082,4.73,7.35,,
+Argentina,ARG,2000,improvement,7.35,0.48,sound_money(+3.25); regulation(-0.47); size_of_government(-0.31),deregulation; monetary_stabilisation; fiscal_consolidation,3.2462,6.87,6.42,,-0.144
+Argentina,ARG,2002,deterioration,6.2,-0.85,sound_money(-3.56); size_of_government(-0.33); legal_system_property_rights(-0.19),monetary_stabilisation; fiscal_consolidation,3.5649,7.2,6.24,-0.3,-0.025
+Argentina,ARG,2012,deterioration,5.12,-0.57,freedom_to_trade(-2.13); regulation(-0.26); size_of_government(-0.17),trade_liberalisation,2.1331,5.93,5.19,-0.147,0.266
+Argentina,ARG,2014,deterioration,4.57,-0.4,sound_money(-1.07); freedom_to_trade(-0.41); size_of_government(-0.28),trade_liberalisation; monetary_stabilisation,1.0719,5.49,5.48,-0.253,0.059
+Argentina,ARG,2015,improvement,5.05,0.48,sound_money(+1.21); regulation(+0.41); size_of_government(+0.33),deregulation; monetary_stabilisation; fiscal_consolidation,1.213,5.21,5.39,-0.3,-0.245
+Argentina,ARG,2016,improvement,5.59,0.54,freedom_to_trade(+3.01); sound_money(-0.38); legal_system_property_rights(+0.16),trade_liberalisation; monetary_stabilisation,3.0126,5.08,5.21,-0.183,-0.333
+Argentina,ARG,2018,deterioration,5.68,-0.11,sound_money(-1.40); freedom_to_trade(+0.60); size_of_government(+0.20),trade_liberalisation; monetary_stabilisation,1.396,5.19,4.74,0.266,-0.158
+Argentina,ARG,2019,deterioration,5.3,-0.38,freedom_to_trade(-1.47); sound_money(-0.23); regulation(-0.20),trade_liberalisation,1.4729,5.34,4.61,0.296,-0.038
+Argentina,ARG,2020,deterioration,4.61,-0.69,freedom_to_trade(-2.75); size_of_government(-0.31); regulation(-0.24),trade_liberalisation; fiscal_consolidation,2.7534,5.48,4.6,0.059,-0.09
+Argentina,ARG,2023,deterioration,4.48,-0.19,sound_money(-1.30); regulation(+0.80); freedom_to_trade(-0.58),trade_liberalisation; deregulation; monetary_stabilisation,1.2952,4.98,,-0.266,
+Armenia,ARM,2001,improvement,6.37,1.06,regulation(+2.10); sound_money(+1.69); size_of_government(+0.48),deregulation; monetary_stabilisation; fiscal_consolidation,2.0981,5.31,6.94,,0.198
+Armenia,ARM,2004,improvement,7.14,0.53,size_of_government(+0.79); regulation(+0.36); sound_money(+0.32),monetary_stabilisation; deregulation; fiscal_consolidation,0.7935,6.2,7.2,0.405,-0.014
+Australia,AUS,1975,deterioration,7.47,-0.63,size_of_government(-1.60); sound_money(-1.24); freedom_to_trade(-0.30),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.5982,8.1,7.92,,
+Australia,AUS,1980,improvement,7.92,0.45,regulation(+1.08); sound_money(+0.74); freedom_to_trade(+0.17),deregulation; monetary_stabilisation,1.0805,7.47,8.25,,
+Australia,AUS,1985,improvement,8.25,0.33,freedom_to_trade(+1.32); regulation(-0.10); size_of_government(-0.08),trade_liberalisation,1.3231,7.92,8.42,,
+Austria,AUT,1990,improvement,7.67,0.35,sound_money(+1.32); size_of_government(+0.39); freedom_to_trade(+0.21),monetary_stabilisation; fiscal_consolidation,1.3182,7.32,7.58,,
+Azerbaijan,AZE,2004,deterioration,5.78,-0.15,sound_money(-1.10); regulation(+0.75); size_of_government(-0.45),deregulation; monetary_stabilisation; fiscal_consolidation,1.1045,5.86,5.31,0.074,-0.086
+Azerbaijan,AZE,2007,deterioration,5.12,-0.31,sound_money(-1.32); size_of_government(-1.29); regulation(+0.60),deregulation; monetary_stabilisation; fiscal_consolidation,1.317,5.73,5.28,-0.131,0.088
+Azerbaijan,AZE,2009,improvement,5.35,0.28,sound_money(+1.65); regulation(+0.22); legal_system_property_rights(-0.22),monetary_stabilisation,1.6533,5.4,5.47,-0.19,0.15
+Azerbaijan,AZE,2012,improvement,5.55,0.28,sound_money(+1.05); freedom_to_trade(+0.25); legal_system_property_rights(+0.08),monetary_stabilisation,1.05,5.19,5.89,0.039,0.138
+Azerbaijan,AZE,2016,improvement,6.23,0.44,sound_money(+1.73); legal_system_property_rights(+0.20); size_of_government(+0.19),monetary_stabilisation,1.728,5.59,6.07,0.122,-0.057
+Azerbaijan,AZE,2017,deterioration,6.07,-0.16,sound_money(-1.09); regulation(+0.20); freedom_to_trade(+0.12),monetary_stabilisation,1.0933,5.79,5.98,0.152,-0.152
+Azerbaijan,AZE,2018,improvement,6.23,0.16,sound_money(+1.12); size_of_government(-0.38); legal_system_property_rights(-0.16),monetary_stabilisation; fiscal_consolidation,1.1222,5.89,5.89,0.138,-0.112
+Azerbaijan,AZE,2022,deterioration,5.6,-0.32,sound_money(-1.43); regulation(-0.28); size_of_government(+0.10),monetary_stabilisation,1.4342,6.07,5.8,-0.057,
+"Bahamas, The",BHS,1990,deterioration,6.54,-0.14,legal_system_property_rights(-1.09); sound_money(+0.42); size_of_government(+0.22),property_rights_reform; monetary_stabilisation,1.0909,6.68,6.63,,
+"Bahamas, The",BHS,2018,improvement,7.19,0.23,sound_money(+1.09); regulation(-0.39); size_of_government(+0.20),deregulation; monetary_stabilisation,1.0866,7.02,6.83,-0.004,-0.037
+"Bahamas, The",BHS,2020,deterioration,6.67,-0.48,sound_money(-1.41); freedom_to_trade(-0.64); size_of_government(-0.46),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.4113,7.08,6.78,0.035,0.125
+Bahrain,BHR,1980,improvement,6.74,1.51,legal_system_property_rights(+2.78); regulation(+1.99); sound_money(+0.70),property_rights_reform; deregulation; monetary_stabilisation,2.7805,5.23,6.57,,
+Bahrain,BHR,1990,deterioration,6.39,-0.18,size_of_government(-1.20); sound_money(+0.18); regulation(+0.07),fiscal_consolidation,1.2002,6.57,6.62,,
+Bahrain,BHR,1995,improvement,6.62,0.23,size_of_government(+1.94); freedom_to_trade(-1.40); sound_money(+0.75),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.9366,6.39,7.25,,
+Bahrain,BHR,2000,improvement,7.25,0.63,freedom_to_trade(+1.84); regulation(+1.71); sound_money(-0.59),trade_liberalisation; deregulation; monetary_stabilisation,1.8414,6.62,7.08,,-0.012
+Bangladesh,BGD,1980,improvement,3.35,0.12,sound_money(+4.57); size_of_government(-2.61); freedom_to_trade(-1.40),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,4.5742,3.23,3.74,,
+Bangladesh,BGD,1985,improvement,3.74,0.39,sound_money(+1.30); size_of_government(+0.63); freedom_to_trade(-0.18),monetary_stabilisation; fiscal_consolidation,1.303,3.35,4.28,,
+Bangladesh,BGD,1990,improvement,4.28,0.54,size_of_government(+0.95); regulation(+0.79); sound_money(+0.75),monetary_stabilisation; deregulation; fiscal_consolidation,0.9471,3.74,4.91,,
+Bangladesh,BGD,1995,improvement,4.91,0.63,freedom_to_trade(+1.73); size_of_government(+0.73); legal_system_property_rights(+0.64),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.7259,4.28,5.91,,
+Bangladesh,BGD,2000,improvement,5.91,1.0,freedom_to_trade(+4.07); size_of_government(+0.79); legal_system_property_rights(-0.70),trade_liberalisation; property_rights_reform; fiscal_consolidation,4.074,4.91,5.69,,-0.003
+Barbados,BRB,1975,deterioration,6.37,-1.68,sound_money(-2.97); size_of_government(-1.67); regulation(-0.39),deregulation; monetary_stabilisation; fiscal_consolidation,2.9653,8.05,6.31,,
+Barbados,BRB,1985,improvement,6.62,0.31,sound_money(+1.51); regulation(+0.58); size_of_government(-0.39),deregulation; monetary_stabilisation; fiscal_consolidation,1.5067,6.31,6.25,,
+Barbados,BRB,1990,deterioration,6.25,-0.37,legal_system_property_rights(-1.71); size_of_government(+0.54); regulation(-0.32),property_rights_reform; deregulation; fiscal_consolidation,1.7146,6.62,6.79,,
+Barbados,BRB,1995,improvement,6.79,0.54,freedom_to_trade(+1.03); sound_money(+0.65); size_of_government(+0.55),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0271,6.25,6.48,,
+Barbados,BRB,2000,deterioration,6.48,-0.31,regulation(-1.00); legal_system_property_rights(-0.65); sound_money(-0.27),deregulation; property_rights_reform,1.0014,6.79,6.32,,-0.023
+Barbados,BRB,2019,improvement,6.84,0.28,sound_money(+1.22); freedom_to_trade(+0.15); size_of_government(+0.03),monetary_stabilisation,1.2206,6.68,6.8,-0.058,-0.006
+Belarus,BLR,2004,improvement,4.28,0.51,sound_money(+1.95); regulation(+0.06); size_of_government(+0.02),monetary_stabilisation,1.9479,3.79,5.01,-0.003,0.196
+Belarus,BLR,2005,improvement,4.53,0.25,sound_money(+1.34); legal_system_property_rights(-0.25); size_of_government(-0.07),monetary_stabilisation,1.3422,3.89,5.2,0.096,0.156
+Belarus,BLR,2006,improvement,4.86,0.33,sound_money(+1.43); legal_system_property_rights(-0.14); size_of_government(+0.02),monetary_stabilisation,1.4297,4.04,5.02,0.197,-0.204
+Belarus,BLR,2011,deterioration,3.92,-1.6,sound_money(-5.72); regulation(-0.84); legal_system_property_rights(+0.10),deregulation; monetary_stabilisation,5.722,5.2,4.36,0.156,0.267
+Belarus,BLR,2016,improvement,5.13,0.84,sound_money(+1.85); regulation(+0.23); size_of_government(+0.12),monetary_stabilisation,1.8495,4.12,5.95,0.125,0.066
+Belarus,BLR,2017,improvement,5.8,0.67,sound_money(+2.71); regulation(+0.39); freedom_to_trade(+0.11),deregulation; monetary_stabilisation,2.7053,4.36,5.94,0.267,-0.018
+Belarus,BLR,2019,improvement,6.07,0.3,sound_money(+1.41); size_of_government(-0.12); regulation(+0.08),monetary_stabilisation,1.4142,5.07,5.94,0.429,-0.093
+Belgium,BEL,1975,deterioration,7.43,-0.57,size_of_government(-1.74); sound_money(-0.63); regulation(-0.41),monetary_stabilisation; deregulation; fiscal_consolidation,1.7379,8.0,7.84,,
+Belize,BLZ,2000,deterioration,5.66,-0.44,size_of_government(-1.72); legal_system_property_rights(-0.88); freedom_to_trade(-0.59),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.7165,6.1,6.06,,0.254
+Belize,BLZ,2002,improvement,5.89,0.31,sound_money(+1.34); regulation(+0.12); legal_system_property_rights(+0.11),monetary_stabilisation,1.3417,5.62,6.43,-0.08,0.185
+Belize,BLZ,2005,improvement,6.68,0.45,size_of_government(+1.71); freedom_to_trade(+0.55); regulation(+0.33),trade_liberalisation; deregulation; fiscal_consolidation,1.7053,5.86,6.48,0.15,-0.157
+Belize,BLZ,2010,deterioration,5.98,-0.46,size_of_government(-1.73); regulation(-0.79); freedom_to_trade(+0.18),deregulation; fiscal_consolidation,1.7308,6.62,6.16,-0.048,0.036
+Benin,BEN,1975,deterioration,4.75,-0.64,sound_money(-1.47); regulation(-0.52); legal_system_property_rights(-0.40),deregulation; monetary_stabilisation; property_rights_reform,1.4654,5.39,4.59,,
+Benin,BEN,1980,deterioration,4.59,-0.16,size_of_government(-2.21); sound_money(+0.81); freedom_to_trade(+0.38),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.2072,4.75,4.57,,
+Benin,BEN,1990,improvement,5.64,1.07,size_of_government(+2.98); legal_system_property_rights(+0.78); regulation(+0.76),property_rights_reform; deregulation; fiscal_consolidation,2.9779,4.57,5.19,,
+Benin,BEN,1995,deterioration,5.19,-0.45,sound_money(-1.60); size_of_government(-0.41); regulation(+0.37),deregulation; monetary_stabilisation; fiscal_consolidation,1.601,5.64,5.65,,
+Benin,BEN,2000,improvement,5.65,0.46,sound_money(+1.49); size_of_government(+1.01); legal_system_property_rights(-0.84),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.4894,5.19,5.7,,0.009
+Bhutan,BTN,2004,deterioration,6.36,-0.29,sound_money(-1.97); regulation(+0.51); size_of_government(+0.25),deregulation; monetary_stabilisation,1.9733,6.39,6.67,0.131,0.059
+Bhutan,BTN,2005,improvement,6.57,0.21,sound_money(+1.66); size_of_government(-0.78); regulation(-0.05),monetary_stabilisation; fiscal_consolidation,1.6608,6.39,6.7,0.059,0.033
+Bhutan,BTN,2007,improvement,7.01,0.59,size_of_government(+1.45); regulation(+0.46); sound_money(+0.42),monetary_stabilisation; deregulation; fiscal_consolidation,1.447,6.47,6.58,0.002,-0.079
+Bhutan,BTN,2013,improvement,6.64,0.31,size_of_government(+2.19); sound_money(-1.36); regulation(+0.38),monetary_stabilisation; deregulation; fiscal_consolidation,2.1894,6.58,6.76,-0.079,-0.021
+Bolivia,BOL,1975,deterioration,5.03,-0.06,sound_money(-3.07); freedom_to_trade(+2.76); regulation(-0.37),trade_liberalisation; deregulation; monetary_stabilisation,3.0718,5.09,4.48,,
+Bolivia,BOL,1980,deterioration,4.48,-0.55,size_of_government(-1.35); sound_money(-0.92); freedom_to_trade(-0.89),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.353,5.03,4.09,,
+Bolivia,BOL,1985,deterioration,4.09,-0.39,sound_money(-5.35); size_of_government(+1.53); regulation(+1.36),deregulation; monetary_stabilisation; fiscal_consolidation,5.3466,4.48,5.71,,
+Bolivia,BOL,1990,improvement,5.71,1.62,sound_money(+4.90); freedom_to_trade(+1.94); regulation(+1.34),trade_liberalisation; deregulation; monetary_stabilisation,4.8986,4.09,6.58,,
+Bolivia,BOL,1995,improvement,6.58,0.87,sound_money(+3.35); freedom_to_trade(+1.30); regulation(-0.28),trade_liberalisation; monetary_stabilisation,3.347,5.71,6.63,,
+Bolivia,BOL,2000,improvement,6.63,0.05,size_of_government(+1.18); sound_money(+0.76); regulation(-0.73),monetary_stabilisation; deregulation; fiscal_consolidation,1.1758,6.58,6.47,,-0.032
+Bosnia and Herzegovina,BIH,2001,improvement,5.97,0.5,size_of_government(+1.03); sound_money(+0.68); legal_system_property_rights(+0.15),monetary_stabilisation; fiscal_consolidation,1.033,5.47,6.14,,0.114
+Bosnia and Herzegovina,BIH,2005,improvement,6.33,0.2,size_of_government(+1.71); regulation(-0.78); sound_money(-0.60),monetary_stabilisation; deregulation; fiscal_consolidation,1.7144,5.89,6.38,0.124,-0.019
+Bosnia and Herzegovina,BIH,2011,improvement,6.6,0.29,size_of_government(+1.15); legal_system_property_rights(+0.19); regulation(+0.14),fiscal_consolidation,1.1505,6.38,6.69,-0.019,0.055
+Bosnia and Herzegovina,BIH,2020,deterioration,6.42,-0.44,sound_money(-1.35); freedom_to_trade(-0.44); regulation(-0.25),trade_liberalisation; monetary_stabilisation,1.3498,6.82,6.33,0.023,0.01
+Bosnia and Herzegovina,BIH,2022,deterioration,6.2,-0.18,sound_money(-1.41); freedom_to_trade(+0.62); regulation(-0.18),trade_liberalisation; monetary_stabilisation,1.4078,6.66,6.4,-0.128,
+Botswana,BWA,1975,deterioration,5.36,-2.14,sound_money(-5.24); size_of_government(-1.06); regulation(+0.09),monetary_stabilisation; fiscal_consolidation,5.2413,7.5,5.88,,
+Botswana,BWA,1980,improvement,5.88,0.52,freedom_to_trade(+2.56); sound_money(+0.76); regulation(-0.71),trade_liberalisation; deregulation; monetary_stabilisation,2.5636,5.36,5.51,,
+Botswana,BWA,1985,deterioration,5.51,-0.37,size_of_government(-1.67); sound_money(-0.16); legal_system_property_rights(+0.12),fiscal_consolidation,1.666,5.88,5.93,,
+Botswana,BWA,1990,improvement,5.93,0.42,freedom_to_trade(+1.22); size_of_government(+0.94); regulation(-0.89),trade_liberalisation; deregulation; fiscal_consolidation,1.2249,5.51,6.22,,
+Botswana,BWA,1995,improvement,6.22,0.29,sound_money(+1.98); freedom_to_trade(-0.60); size_of_government(-0.42),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.9802,5.93,6.35,,
+Botswana,BWA,2000,improvement,6.35,0.13,regulation(-1.10); legal_system_property_rights(-1.05); freedom_to_trade(+1.04),trade_liberalisation; deregulation; property_rights_reform,1.0987,6.22,6.4,,0.119
+Brazil,BRA,1975,deterioration,4.08,-0.78,freedom_to_trade(-2.13); sound_money(-1.73); legal_system_property_rights(+1.01),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.1333,4.86,4.02,,
+Brazil,BRA,1980,deterioration,4.02,-0.06,sound_money(-2.58); size_of_government(+1.17); freedom_to_trade(+1.11),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.5752,4.08,3.12,,
+Brazil,BRA,1985,deterioration,3.12,-0.9,freedom_to_trade(-2.30); sound_money(-1.58); size_of_government(-0.55),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.3037,4.02,4.16,,
+Brazil,BRA,1990,improvement,4.16,1.04,freedom_to_trade(+3.34); legal_system_property_rights(+0.94); regulation(+0.36),trade_liberalisation; property_rights_reform; deregulation,3.3407,3.12,4.34,,
+Brazil,BRA,1995,improvement,4.34,0.18,freedom_to_trade(+1.40); legal_system_property_rights(-0.50); size_of_government(-0.40),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.4037,4.16,5.63,,
+Brazil,BRA,2000,improvement,5.63,1.29,sound_money(+5.74); freedom_to_trade(+1.01); regulation(+0.61),trade_liberalisation; deregulation; monetary_stabilisation,5.7354,4.34,6.07,,0.166
+Brazil,BRA,2002,improvement,6.14,0.57,sound_money(+1.07); size_of_government(+0.60); freedom_to_trade(+0.47),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0672,5.6,6.24,-0.06,0.053
+Brazil,BRA,2016,improvement,6.41,0.31,sound_money(+1.27); size_of_government(+0.20); freedom_to_trade(+0.14),monetary_stabilisation,1.2734,6.31,6.5,-0.088,-0.071
+Bulgaria,BGR,1990,deterioration,4.68,-0.38,sound_money(-3.00); freedom_to_trade(+0.68); size_of_government(+0.23),trade_liberalisation; monetary_stabilisation,2.9987,5.06,4.84,,
+Bulgaria,BGR,1995,improvement,4.84,0.16,freedom_to_trade(+3.98); sound_money(-1.88); size_of_government(-1.13),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.9807,4.68,5.3,,
+Bulgaria,BGR,2000,improvement,5.3,0.46,size_of_government(+1.29); sound_money(+1.13); legal_system_property_rights(-1.12),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.2943,4.84,6.46,,0.207
+Bulgaria,BGR,2001,improvement,5.93,0.63,sound_money(+3.27); size_of_government(+0.61); regulation(-0.39),deregulation; monetary_stabilisation; fiscal_consolidation,3.267,5.3,6.65,,0.136
+Bulgaria,BGR,2002,improvement,6.32,0.39,sound_money(+1.85); size_of_government(+0.16); freedom_to_trade(-0.08),monetary_stabilisation,1.8503,5.62,6.78,0.63,0.095
+Bulgaria,BGR,2009,improvement,7.11,0.16,sound_money(+1.09); regulation(-0.16); size_of_government(-0.08),monetary_stabilisation,1.0903,6.85,7.27,0.081,0.047
+Bulgaria,BGR,2022,deterioration,6.97,-0.34,sound_money(-1.61); regulation(-0.19); legal_system_property_rights(+0.13),monetary_stabilisation,1.6051,7.45,7.13,-0.075,
+Burkina Faso,BFA,2001,improvement,5.36,0.1,size_of_government(+1.07); sound_money(-0.67); legal_system_property_rights(-0.00),monetary_stabilisation; fiscal_consolidation,1.0704,5.26,5.75,,0.131
+Burkina Faso,BFA,2003,improvement,5.8,0.59,size_of_government(+1.31); regulation(+0.97); sound_money(+0.08),deregulation; fiscal_consolidation,1.3105,5.28,5.89,-0.025,-0.041
+Burkina Faso,BFA,2004,improvement,6.09,0.29,sound_money(+2.30); regulation(-0.91); size_of_government(-0.21),deregulation; monetary_stabilisation,2.3018,5.41,5.87,0.147,0.037
+Burkina Faso,BFA,2005,deterioration,5.79,-0.3,sound_money(-2.84); regulation(+0.90); size_of_government(+0.15),deregulation; monetary_stabilisation,2.8369,5.54,5.9,0.21,0.023
+Burkina Faso,BFA,2019,improvement,6.34,0.26,size_of_government(+1.28); sound_money(-0.11); regulation(+0.06),fiscal_consolidation,1.279,6.07,6.17,0.014,-0.01
+Burkina Faso,BFA,2023,improvement,6.27,0.28,sound_money(+1.48); legal_system_property_rights(-0.07); regulation(+0.02),monetary_stabilisation,1.4764,6.17,,-0.034,
+Burundi,BDI,1975,deterioration,3.98,-1.58,sound_money(-3.21); size_of_government(-0.15); regulation(-0.13),monetary_stabilisation,3.2107,5.56,4.27,,
+Burundi,BDI,1980,improvement,4.27,0.29,regulation(+1.13); size_of_government(+0.67); freedom_to_trade(-0.56),trade_liberalisation; deregulation; fiscal_consolidation,1.13,3.98,4.97,,
+Burundi,BDI,1985,improvement,4.97,0.7,freedom_to_trade(+1.74); sound_money(+0.71); regulation(+0.67),trade_liberalisation; deregulation; monetary_stabilisation,1.7367,4.27,5.02,,
+Burundi,BDI,1990,improvement,5.02,0.05,freedom_to_trade(+1.30); size_of_government(-0.62); regulation(-0.33),trade_liberalisation; deregulation; fiscal_consolidation,1.2967,4.97,4.26,,
+Burundi,BDI,1995,deterioration,4.26,-0.76,freedom_to_trade(-2.26); regulation(-0.94); legal_system_property_rights(-0.60),trade_liberalisation; deregulation; property_rights_reform,2.2633,5.02,4.85,,
+Burundi,BDI,2000,improvement,4.85,0.59,freedom_to_trade(+3.21); regulation(+1.26); sound_money(-1.14),trade_liberalisation; deregulation; monetary_stabilisation,3.2088,4.26,5.12,,-0.041
+Burundi,BDI,2001,improvement,5.26,0.41,sound_money(+1.42); regulation(+0.50); size_of_government(+0.15),deregulation; monetary_stabilisation,1.4191,4.85,5.14,,0.053
+Burundi,BDI,2003,deterioration,4.95,-0.36,size_of_government(-1.54); sound_money(-0.45); regulation(+0.20),monetary_stabilisation; fiscal_consolidation,1.541,5.14,5.09,0.23,-0.017
+Burundi,BDI,2005,improvement,5.34,0.6,size_of_government(+1.93); regulation(+0.92); legal_system_property_rights(+0.54),deregulation; fiscal_consolidation; property_rights_reform,1.9278,5.02,5.1,-0.053,-0.098
+Burundi,BDI,2008,deterioration,4.67,-0.64,sound_money(-1.99); regulation(-0.61); size_of_government(-0.43),deregulation; monetary_stabilisation; fiscal_consolidation,1.9924,5.14,5.13,0.136,0.09
+Burundi,BDI,2009,improvement,5.15,0.48,sound_money(+1.29); regulation(+0.87); size_of_government(+0.25),deregulation; monetary_stabilisation,1.2927,5.09,5.24,-0.017,0.206
+Burundi,BDI,2013,improvement,5.6,0.63,sound_money(+1.61); size_of_government(+1.15); regulation(+0.38),deregulation; monetary_stabilisation; fiscal_consolidation,1.6066,4.94,5.59,0.041,-0.076
+Burundi,BDI,2016,improvement,5.75,0.11,sound_money(+1.14); regulation(-0.59); size_of_government(-0.06),deregulation; monetary_stabilisation,1.1429,5.37,5.43,0.207,-0.011
+Burundi,BDI,2017,deterioration,5.5,-0.25,sound_money(-1.06); regulation(+0.90); freedom_to_trade(-0.75),trade_liberalisation; deregulation; monetary_stabilisation,1.0582,5.53,5.37,0.16,-0.03
+Burundi,BDI,2018,deterioration,5.37,-0.13,freedom_to_trade(-2.22); sound_money(+1.09); legal_system_property_rights(+0.32),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.2169,5.63,5.3,-0.013,-0.102
+Burundi,BDI,2020,improvement,5.42,0.0,sound_money(-1.05); freedom_to_trade(+0.69); regulation(+0.27),trade_liberalisation; monetary_stabilisation,1.0481,5.54,5.22,-0.082,-0.205
+Burundi,BDI,2022,deterioration,5.22,-0.2,sound_money(-1.33); freedom_to_trade(+0.76); regulation(-0.22),trade_liberalisation; monetary_stabilisation,1.3309,5.43,5.01,-0.011,
+Cabo Verde,CPV,2001,improvement,6.53,0.33,size_of_government(+1.54); sound_money(-0.15); legal_system_property_rights(-0.03),fiscal_consolidation,1.5367,6.2,6.83,,0.109
+Cabo Verde,CPV,2002,deterioration,6.26,-0.27,size_of_government(-1.51); sound_money(+0.38); regulation(+0.03),monetary_stabilisation; fiscal_consolidation,1.5097,6.36,7.02,0.33,0.021
+Cabo Verde,CPV,2003,improvement,7.0,0.74,sound_money(+2.52); size_of_government(+0.45); legal_system_property_rights(-0.00),monetary_stabilisation; fiscal_consolidation,2.5157,6.33,7.01,0.03,-0.005
+Cabo Verde,CPV,2007,improvement,7.24,0.44,size_of_government(+1.31); regulation(+0.24); sound_money(+0.21),fiscal_consolidation,1.3118,6.83,6.74,0.109,-0.093
+Cabo Verde,CPV,2010,deterioration,6.44,-0.62,sound_money(-2.29); size_of_government(-0.18); regulation(-0.10),monetary_stabilisation,2.293,7.01,6.79,0.023,0.127
+Cabo Verde,CPV,2012,improvement,6.7,0.11,sound_money(+1.46); size_of_government(-0.72); regulation(-0.16),monetary_stabilisation; fiscal_consolidation,1.4634,6.85,7.01,-0.179,0.148
+Cabo Verde,CPV,2014,improvement,6.97,0.38,size_of_government(+1.59); freedom_to_trade(+0.25); regulation(+0.04),fiscal_consolidation,1.5925,6.68,7.3,-0.068,0.112
+Cabo Verde,CPV,2018,improvement,7.57,0.33,sound_money(+1.27); freedom_to_trade(+0.52); size_of_government(-0.07),trade_liberalisation; monetary_stabilisation,1.268,7.01,7.35,0.148,-0.012
+Cambodia,KHM,2006,improvement,6.08,0.42,sound_money(+1.99); regulation(-0.21); size_of_government(-0.07),monetary_stabilisation,1.9934,5.44,5.84,0.094,0.196
+Cambodia,KHM,2008,deterioration,5.2,-0.67,sound_money(-2.30); size_of_government(-0.52); legal_system_property_rights(+0.06),monetary_stabilisation; fiscal_consolidation,2.2962,5.72,6.18,0.137,0.172
+Cambodia,KHM,2009,improvement,5.5,0.3,sound_money(+3.00); size_of_government(-1.34); regulation(-0.49),deregulation; monetary_stabilisation; fiscal_consolidation,3.0018,5.66,6.38,-0.041,0.04
+Cambodia,KHM,2010,improvement,6.38,0.88,size_of_government(+2.24); regulation(+0.41); sound_money(+0.04),deregulation; fiscal_consolidation,2.2372,5.66,6.45,-0.12,0.111
+Cameroon,CMR,1975,improvement,5.08,0.47,size_of_government(+1.83); legal_system_property_rights(+0.68); sound_money(+0.53),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.8306,4.61,4.83,,
+Cameroon,CMR,1980,deterioration,4.83,-0.25,size_of_government(-1.47); sound_money(-0.81); regulation(+0.62),monetary_stabilisation; deregulation; fiscal_consolidation,1.4664,5.08,5.31,,
+Cameroon,CMR,1985,improvement,5.31,0.48,freedom_to_trade(+1.16); sound_money(+0.82); regulation(+0.59),trade_liberalisation; deregulation; monetary_stabilisation,1.1556,4.83,5.37,,
+Cameroon,CMR,1995,deterioration,5.23,-0.14,sound_money(-1.06); legal_system_property_rights(+0.67); freedom_to_trade(+0.42),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.062,5.37,5.41,,
+Cameroon,CMR,2000,improvement,5.41,0.18,size_of_government(+1.18); sound_money(+0.76); freedom_to_trade(-0.46),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.1815,5.23,5.58,,0.045
+Canada,CAN,1995,deterioration,7.96,-0.37,legal_system_property_rights(-1.13); freedom_to_trade(-0.66); sound_money(+0.26),trade_liberalisation; property_rights_reform,1.127,8.33,8.24,,
+Canada,CAN,2000,improvement,8.24,0.28,freedom_to_trade(+1.00); size_of_government(+0.34); sound_money(-0.19),trade_liberalisation; fiscal_consolidation,1.0043,7.96,8.12,,0.037
+Canada,CAN,2005,improvement,8.21,0.04,freedom_to_trade(-1.00); sound_money(+0.80); size_of_government(+0.22),trade_liberalisation; monetary_stabilisation,1.0015,8.13,8.07,-0.012,-0.059
+Central African Republic,CAF,1985,improvement,4.75,0.34,regulation(+2.48); sound_money(-0.83); freedom_to_trade(+0.29),deregulation; monetary_stabilisation,2.4795,4.41,4.83,,
+Central African Republic,CAF,1990,improvement,4.83,0.08,sound_money(+2.59); size_of_government(-2.23); freedom_to_trade(-0.41),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.5925,4.75,4.52,,
+Central African Republic,CAF,1995,deterioration,4.52,-0.31,sound_money(-2.01); freedom_to_trade(+1.36); regulation(-0.62),trade_liberalisation; deregulation; monetary_stabilisation,2.0131,4.83,4.78,,
+Central African Republic,CAF,2000,improvement,4.78,0.26,sound_money(+1.80); legal_system_property_rights(-0.96); size_of_government(+0.36),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.7989,4.52,4.94,,-0.053
+Central African Republic,CAF,2003,improvement,5.14,0.25,size_of_government(+1.60); sound_money(-0.28); legal_system_property_rights(-0.08),fiscal_consolidation,1.6002,4.89,4.89,0.055,0.033
+Central African Republic,CAF,2007,improvement,5.06,0.23,size_of_government(+1.44); freedom_to_trade(-0.20); regulation(-0.05),fiscal_consolidation,1.4425,4.9,4.98,-0.055,-0.017
+Central African Republic,CAF,2013,improvement,5.05,0.23,size_of_government(+1.52); sound_money(-0.17); regulation(-0.13),fiscal_consolidation,1.5227,4.98,4.69,-0.017,0.204
+Central African Republic,CAF,2014,deterioration,4.31,-0.74,size_of_government(-2.71); sound_money(-2.05); freedom_to_trade(+0.60),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.7118,5.0,4.85,-0.016,0.184
+Central African Republic,CAF,2016,improvement,4.84,0.52,sound_money(+2.16); size_of_government(+0.44); freedom_to_trade(-0.08),monetary_stabilisation; fiscal_consolidation,2.1621,4.72,4.98,-0.205,-0.02
+Central African Republic,CAF,2020,deterioration,4.9,-0.25,size_of_government(-1.03); legal_system_property_rights(-0.25); regulation(+0.05),fiscal_consolidation,1.0281,4.85,4.94,0.184,0.03
+Chad,TCD,1985,improvement,5.53,0.71,size_of_government(+2.24); regulation(+1.71); sound_money(-1.05),monetary_stabilisation; deregulation; fiscal_consolidation,2.2423,4.82,5.45,,
+Chad,TCD,1990,deterioration,5.45,-0.08,regulation(-1.57); size_of_government(+0.71); sound_money(+0.14),deregulation; fiscal_consolidation,1.5658,5.53,5.35,,
+Chad,TCD,1995,deterioration,5.35,-0.1,freedom_to_trade(+1.17); regulation(-0.77); legal_system_property_rights(-0.76),trade_liberalisation; deregulation; property_rights_reform,1.1721,5.45,5.55,,
+Chad,TCD,2000,improvement,5.55,0.2,regulation(+1.56); freedom_to_trade(-1.43); sound_money(+1.35),trade_liberalisation; deregulation; monetary_stabilisation,1.5588,5.35,5.36,,-0.038
+Chad,TCD,2001,deterioration,5.31,-0.24,sound_money(-1.07); size_of_government(-0.40); regulation(+0.19),monetary_stabilisation; fiscal_consolidation,1.0736,5.55,5.34,,-0.079
+Chad,TCD,2010,improvement,5.18,0.27,sound_money(+1.23); size_of_government(+0.32); regulation(-0.24),monetary_stabilisation; fiscal_consolidation,1.2338,5.1,4.89,-0.072,0.112
+Chad,TCD,2011,deterioration,4.82,-0.36,size_of_government(-1.60); regulation(-0.13); legal_system_property_rights(-0.08),fiscal_consolidation,1.6008,5.1,4.99,-0.031,0.171
+Chad,TCD,2013,improvement,4.95,0.41,sound_money(+1.57); regulation(+0.41); size_of_government(+0.06),deregulation; monetary_stabilisation,1.5681,4.9,5.27,-0.113,0.122
+Chad,TCD,2018,improvement,5.52,0.16,size_of_government(+1.19); sound_money(-0.45); legal_system_property_rights(+0.08),monetary_stabilisation; fiscal_consolidation,1.1935,5.15,5.17,0.11,-0.164
+Chad,TCD,2022,deterioration,5.01,-0.17,sound_money(-1.27); size_of_government(+0.30); freedom_to_trade(+0.09),monetary_stabilisation; fiscal_consolidation,1.2688,5.37,4.84,-0.059,
+Chile,CHL,1975,deterioration,3.82,-0.87,sound_money(-5.94); freedom_to_trade(+2.44); legal_system_property_rights(-0.79),trade_liberalisation; property_rights_reform; monetary_stabilisation,5.9406,4.69,4.91,,
+Chile,CHL,1980,improvement,4.91,1.09,freedom_to_trade(+2.49); sound_money(+2.31); regulation(+0.58),trade_liberalisation; deregulation; monetary_stabilisation,2.4867,3.82,5.37,,
+Chile,CHL,1985,improvement,5.37,0.46,sound_money(+4.20); freedom_to_trade(-2.42); size_of_government(+0.59),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,4.2028,4.91,6.89,,
+Chile,CHL,1990,improvement,6.89,1.52,freedom_to_trade(+1.95); regulation(+1.69); legal_system_property_rights(+1.39),trade_liberalisation; deregulation; property_rights_reform,1.9481,5.37,7.39,,
+Chile,CHL,1995,improvement,7.39,0.5,sound_money(+1.09); size_of_government(+0.58); freedom_to_trade(+0.47),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0935,6.89,7.68,,
+Chile,CHL,2000,improvement,7.68,0.29,freedom_to_trade(+1.14); size_of_government(-0.60); regulation(+0.44),trade_liberalisation; deregulation; fiscal_consolidation,1.1422,7.39,7.86,,0.057
+Chile,CHL,2001,improvement,7.75,0.07,freedom_to_trade(+1.04); sound_money(-0.43); regulation(-0.38),trade_liberalisation; deregulation; monetary_stabilisation,1.0381,7.68,7.91,,0.049
+China,CHN,1985,improvement,4.55,0.41,freedom_to_trade(+1.40); regulation(+1.27); size_of_government(-0.32),trade_liberalisation; deregulation; fiscal_consolidation,1.3984,4.14,4.11,,
+China,CHN,1990,deterioration,4.11,-0.44,freedom_to_trade(-2.23); legal_system_property_rights(-1.23); regulation(+1.04),trade_liberalisation; property_rights_reform; deregulation,2.2292,4.55,5.01,,
+China,CHN,1995,improvement,5.01,0.9,freedom_to_trade(+3.95); legal_system_property_rights(+1.15); sound_money(-0.97),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.9474,4.11,5.61,,
+China,CHN,2000,improvement,5.61,0.6,sound_money(+2.75); freedom_to_trade(+0.74); legal_system_property_rights(-0.53),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.748,5.01,5.73,,-0.008
+Colombia,COL,1975,deterioration,5.23,-0.28,sound_money(-1.55); freedom_to_trade(-1.04); regulation(+1.01),trade_liberalisation; deregulation; monetary_stabilisation,1.552,5.51,5.13,,
+Colombia,COL,1980,deterioration,5.13,-0.1,size_of_government(-1.34); freedom_to_trade(+0.53); regulation(+0.22),trade_liberalisation; fiscal_consolidation,1.3391,5.23,5.59,,
+Colombia,COL,1985,improvement,5.59,0.46,sound_money(+1.86); freedom_to_trade(+0.50); legal_system_property_rights(-0.06),trade_liberalisation; monetary_stabilisation,1.8612,5.13,5.29,,
+Colombia,COL,1990,deterioration,5.29,-0.3,sound_money(-2.05); size_of_government(+1.61); legal_system_property_rights(-1.04),property_rights_reform; monetary_stabilisation; fiscal_consolidation,2.051,5.59,5.93,,
+Colombia,COL,1995,improvement,5.93,0.64,freedom_to_trade(+1.98); sound_money(+0.57); regulation(+0.34),trade_liberalisation; deregulation; monetary_stabilisation,1.9823,5.29,5.83,,
+Colombia,COL,2000,deterioration,5.83,-0.1,size_of_government(-1.71); sound_money(+0.88); legal_system_property_rights(-0.52),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.7102,5.93,6.21,,0.109
+Colombia,COL,2001,improvement,6.0,0.17,sound_money(+1.28); regulation(-0.58); size_of_government(+0.13),deregulation; monetary_stabilisation,1.2814,5.83,6.3,,0.096
+Comoros,COM,2018,deterioration,5.65,-0.72,sound_money(-2.48); size_of_government(-0.42); legal_system_property_rights(-0.12),monetary_stabilisation; fiscal_consolidation,2.4811,6.37,5.6,,-0.059
+Comoros,COM,2019,improvement,5.75,0.1,freedom_to_trade(+2.75); size_of_government(+0.56); legal_system_property_rights(-0.34),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.7477,6.01,5.56,-0.72,-0.041
+"Congo, Dem. Rep.",COD,1975,deterioration,3.45,-0.5,freedom_to_trade(-2.07); sound_money(-0.90); size_of_government(+0.50),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.0667,3.95,2.7,,
+"Congo, Dem. Rep.",COD,1980,deterioration,2.7,-0.75,sound_money(-4.79); freedom_to_trade(+1.40); regulation(-0.31),trade_liberalisation; deregulation; monetary_stabilisation,4.7907,3.45,3.32,,
+"Congo, Dem. Rep.",COD,1985,improvement,3.32,0.62,freedom_to_trade(+3.18); size_of_government(-1.25); sound_money(+0.98),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.1844,2.7,2.92,,
+"Congo, Dem. Rep.",COD,1990,deterioration,2.92,-0.4,sound_money(-1.81); size_of_government(+0.98); freedom_to_trade(-0.95),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.8144,3.32,3.15,,
+"Congo, Dem. Rep.",COD,1995,improvement,3.15,0.23,freedom_to_trade(+2.03); size_of_government(-0.60); legal_system_property_rights(-0.45),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.0256,2.92,3.41,,
+"Congo, Dem. Rep.",COD,2000,improvement,3.41,0.26,freedom_to_trade(-2.55); size_of_government(+1.74); sound_money(+1.43),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.5539,3.15,4.03,,0.185
+"Congo, Dem. Rep.",COD,2001,improvement,3.42,0.01,sound_money(+1.25); regulation(-0.73); size_of_government(-0.28),deregulation; monetary_stabilisation,1.25,3.41,4.25,,0.104
+"Congo, Dem. Rep.",COD,2002,improvement,3.91,0.49,freedom_to_trade(+1.91); regulation(+0.34); size_of_government(+0.15),trade_liberalisation; deregulation,1.9129,3.42,4.39,0.01,0.073
+"Congo, Dem. Rep.",COD,2003,improvement,4.31,0.4,sound_money(+1.21); size_of_government(+0.64); freedom_to_trade(+0.12),monetary_stabilisation; fiscal_consolidation,1.2126,3.58,4.43,0.25,0.077
+"Congo, Dem. Rep.",COD,2004,improvement,4.38,0.07,sound_money(+1.37); regulation(-0.47); size_of_government(-0.33),deregulation; monetary_stabilisation; fiscal_consolidation,1.374,3.76,4.53,0.319,0.151
+"Congo, Dem. Rep.",COD,2005,deterioration,4.11,-0.27,sound_money(-1.51); regulation(+0.48); freedom_to_trade(-0.26),deregulation; monetary_stabilisation,1.5133,3.89,4.69,0.283,0.109
+"Congo, Dem. Rep.",COD,2006,improvement,4.53,0.42,sound_money(+1.73); size_of_government(+0.36); regulation(+0.09),monetary_stabilisation; fiscal_consolidation,1.7338,4.03,4.77,0.185,0.108
+"Congo, Dem. Rep.",COD,2009,improvement,4.87,0.35,sound_money(+1.68); size_of_government(-0.30); freedom_to_trade(+0.21),monetary_stabilisation; fiscal_consolidation,1.6846,4.43,5.04,0.077,0.056
+"Congo, Dem. Rep.",COD,2017,deterioration,4.66,-0.77,sound_money(-3.99); regulation(-0.67); size_of_government(+0.23),deregulation; monetary_stabilisation,3.9879,5.2,4.96,0.079,0.05
+"Congo, Dem. Rep.",COD,2019,improvement,5.13,0.42,sound_money(+2.04); regulation(+0.14); size_of_government(-0.13),monetary_stabilisation,2.0376,5.03,5.0,-0.138,0.031
+"Congo, Rep.",COG,1975,deterioration,3.96,-0.27,size_of_government(-2.17); freedom_to_trade(+0.82); legal_system_property_rights(-0.10),trade_liberalisation; fiscal_consolidation,2.1722,4.23,3.83,,
+"Congo, Rep.",COG,1980,deterioration,3.83,-0.13,regulation(+1.30); sound_money(-1.27); size_of_government(-1.04),deregulation; monetary_stabilisation; fiscal_consolidation,1.3013,3.96,3.85,,
+"Congo, Rep.",COG,1985,improvement,3.85,0.02,freedom_to_trade(-1.22); sound_money(+0.95); regulation(+0.89),trade_liberalisation; deregulation; monetary_stabilisation,1.2222,3.83,4.61,,
+"Congo, Rep.",COG,1990,improvement,4.61,0.76,size_of_government(+3.35); regulation(+0.63); sound_money(-0.39),monetary_stabilisation; deregulation; fiscal_consolidation,3.3506,3.85,5.3,,
+"Congo, Rep.",COG,1995,improvement,5.3,0.69,freedom_to_trade(+2.04); legal_system_property_rights(+1.40); size_of_government(+1.15),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.0393,4.61,4.4,,
+"Congo, Rep.",COG,2000,deterioration,4.4,-0.9,size_of_government(-2.28); sound_money(-1.45); legal_system_property_rights(-1.28),monetary_stabilisation; property_rights_reform; fiscal_consolidation,2.2824,5.3,4.55,,0.013
+"Congo, Rep.",COG,2004,deterioration,4.6,-0.01,freedom_to_trade(-1.05); regulation(+0.46); size_of_government(+0.33),trade_liberalisation; deregulation; fiscal_consolidation,1.0466,4.5,4.44,0.043,-0.058
+"Congo, Rep.",COG,2012,improvement,4.59,0.21,size_of_government(+1.12); sound_money(-0.19); freedom_to_trade(+0.06),fiscal_consolidation,1.118,4.38,4.96,-0.007,0.114
+"Congo, Rep.",COG,2015,improvement,4.94,0.18,size_of_government(+1.26); sound_money(-0.36); regulation(-0.07),monetary_stabilisation; fiscal_consolidation,1.2569,4.58,5.05,0.117,-0.048
+Costa Rica,CRI,1975,deterioration,6.92,-1.06,sound_money(-2.16); freedom_to_trade(-1.63); size_of_government(-1.10),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.1598,7.98,6.09,,
+Costa Rica,CRI,1980,deterioration,6.09,-0.83,freedom_to_trade(-4.22); regulation(-0.89); sound_money(+0.71),trade_liberalisation; deregulation; monetary_stabilisation,4.2211,6.92,6.0,,
+Costa Rica,CRI,1985,deterioration,6.0,-0.09,sound_money(-2.09); freedom_to_trade(+1.34); regulation(+0.50),trade_liberalisation; deregulation; monetary_stabilisation,2.0862,6.09,7.47,,
+Costa Rica,CRI,1990,improvement,7.47,1.47,freedom_to_trade(+2.78); sound_money(+2.21); size_of_government(+1.83),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.7768,6.0,7.58,,
+Costa Rica,CRI,1995,improvement,7.58,0.11,freedom_to_trade(+2.04); legal_system_property_rights(-1.58); regulation(-0.07),trade_liberalisation; property_rights_reform,2.0413,7.47,7.44,,
+Costa Rica,CRI,2000,deterioration,7.44,-0.14,regulation(-1.40); sound_money(+0.43); freedom_to_trade(+0.37),trade_liberalisation; deregulation; monetary_stabilisation,1.3951,7.58,7.02,,0.066
+Costa Rica,CRI,2001,deterioration,6.95,-0.49,sound_money(-1.51); regulation(-0.76); size_of_government(-0.09),deregulation; monetary_stabilisation,1.5054,7.44,7.13,,0.134
+Costa Rica,CRI,2007,deterioration,7.33,-0.14,sound_money(-1.04); regulation(+0.19); freedom_to_trade(+0.11),monetary_stabilisation,1.0383,7.13,7.34,0.134,0.136
+Costa Rica,CRI,2011,improvement,7.57,0.31,sound_money(+1.39); freedom_to_trade(+0.11); regulation(+0.09),monetary_stabilisation,1.3883,7.27,7.64,-0.056,0.032
+Croatia,HRV,2000,improvement,6.0,1.3,sound_money(+2.92); regulation(+1.62); freedom_to_trade(+1.52),trade_liberalisation; deregulation; monetary_stabilisation,2.924,4.7,6.25,,0.062
+Croatia,HRV,2011,improvement,6.96,0.27,sound_money(+1.26); size_of_government(+0.09); regulation(+0.04),monetary_stabilisation,1.2604,6.49,7.07,0.049,0.053
+Croatia,HRV,2022,deterioration,6.96,-0.14,sound_money(-1.11); size_of_government(+0.46); regulation(-0.23),monetary_stabilisation; fiscal_consolidation,1.1119,7.13,6.94,-0.055,
+Cyprus,CYP,1975,improvement,5.89,0.06,size_of_government(-1.56); legal_system_property_rights(+0.71); regulation(+0.55),property_rights_reform; deregulation; fiscal_consolidation,1.5582,5.83,5.57,,
+Cyprus,CYP,1980,deterioration,5.57,-0.32,legal_system_property_rights(-1.10); regulation(-0.47); sound_money(+0.21),property_rights_reform; deregulation,1.1043,5.89,5.95,,
+Cyprus,CYP,1985,improvement,5.95,0.38,sound_money(+1.39); regulation(+0.55); size_of_government(-0.18),deregulation; monetary_stabilisation,1.388,5.57,6.08,,
+Cyprus,CYP,1990,improvement,6.08,0.13,legal_system_property_rights(+1.23); freedom_to_trade(-0.70); size_of_government(-0.30),trade_liberalisation; property_rights_reform,1.2298,5.95,6.75,,
+Cyprus,CYP,1995,improvement,6.75,0.67,size_of_government(+1.69); freedom_to_trade(+0.73); legal_system_property_rights(+0.66),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.6871,6.08,6.92,,
+Cyprus,CYP,2000,improvement,6.92,0.17,freedom_to_trade(+1.58); sound_money(-0.58); legal_system_property_rights(-0.38),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.5836,6.75,7.45,,0.221
+Cyprus,CYP,2002,improvement,7.32,0.33,sound_money(+1.17); size_of_government(+0.69); legal_system_property_rights(-0.14),monetary_stabilisation; fiscal_consolidation,1.1679,6.96,7.69,0.07,0.099
+Cyprus,CYP,2004,improvement,7.91,0.7,freedom_to_trade(+1.55); sound_money(+1.41); regulation(+0.22),trade_liberalisation; monetary_stabilisation,1.5532,7.11,7.77,0.12,-0.012
+Cyprus,CYP,2013,deterioration,7.12,-0.44,sound_money(-2.13); size_of_government(+0.23); legal_system_property_rights(-0.15),monetary_stabilisation,2.1284,7.7,7.7,-0.052,0.106
+Cyprus,CYP,2015,improvement,7.85,0.63,sound_money(+2.41); regulation(+0.72); size_of_government(+0.09),deregulation; monetary_stabilisation,2.4133,7.47,7.73,-0.164,-0.088
+Czechia,CZE,2000,improvement,7.14,0.65,sound_money(+1.87); freedom_to_trade(+0.53); regulation(+0.46),trade_liberalisation; deregulation; monetary_stabilisation,1.8717,6.49,7.44,,0.045
+Czechia,CZE,2001,improvement,7.33,0.19,sound_money(+1.11); regulation(-0.27); freedom_to_trade(+0.16),monetary_stabilisation,1.1119,7.14,7.49,,0.03
+Czechia,CZE,2022,deterioration,7.59,-0.15,sound_money(-1.18); size_of_government(+0.24); regulation(+0.21),monetary_stabilisation,1.1844,7.85,7.61,-0.071,
+Côte d'Ivoire,CIV,1985,improvement,5.65,0.44,sound_money(+1.51); freedom_to_trade(+0.32); size_of_government(+0.18),trade_liberalisation; monetary_stabilisation,1.5074,5.21,5.43,,
+Côte d'Ivoire,CIV,1995,deterioration,5.18,-0.25,sound_money(-1.99); freedom_to_trade(+1.72); legal_system_property_rights(-1.15),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.9913,5.43,5.79,,
+Côte d'Ivoire,CIV,2000,improvement,5.79,0.61,size_of_government(+2.87); sound_money(+1.63); legal_system_property_rights(-0.81),monetary_stabilisation; property_rights_reform; fiscal_consolidation,2.87,5.18,5.81,,0.002
+Côte d'Ivoire,CIV,2006,deterioration,5.65,-0.17,size_of_government(-1.28); legal_system_property_rights(+0.42); sound_money(+0.07),property_rights_reform; fiscal_consolidation,1.2823,5.81,5.52,0.002,-0.065
+Denmark,DNK,1990,improvement,7.98,0.73,sound_money(+3.26); freedom_to_trade(+0.56); legal_system_property_rights(-0.27),trade_liberalisation; monetary_stabilisation,3.2609,7.25,7.81,,
+Denmark,DNK,2000,improvement,8.24,0.43,freedom_to_trade(+1.23); size_of_government(+0.56); legal_system_property_rights(+0.53),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.2257,7.81,8.11,,0.011
+Djibouti,DJI,2019,deterioration,6.24,-0.2,freedom_to_trade(+2.02); sound_money(-0.45); size_of_government(+0.18),trade_liberalisation; monetary_stabilisation,2.0177,6.48,6.32,-0.07,-0.105
+Djibouti,DJI,2023,deterioration,6.1,-0.23,size_of_government(-1.27); sound_money(+0.11); legal_system_property_rights(-0.00),fiscal_consolidation,1.267,6.37,,-0.004,
+Dominican Republic,DOM,1975,deterioration,4.46,-0.9,size_of_government(-2.76); sound_money(-1.67); freedom_to_trade(-0.40),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.759,5.36,5.43,,
+Dominican Republic,DOM,1980,improvement,5.43,0.97,sound_money(+2.21); size_of_government(+1.40); freedom_to_trade(+0.28),monetary_stabilisation; fiscal_consolidation,2.2138,4.46,5.17,,
+Dominican Republic,DOM,1985,deterioration,5.17,-0.26,sound_money(-3.51); freedom_to_trade(+2.27); regulation(+0.27),trade_liberalisation; monetary_stabilisation,3.5128,5.43,4.19,,
+Dominican Republic,DOM,1990,deterioration,4.19,-0.98,freedom_to_trade(-2.58); sound_money(-1.68); regulation(-0.78),trade_liberalisation; deregulation; monetary_stabilisation,2.5844,5.17,5.81,,
+Dominican Republic,DOM,1995,improvement,5.81,1.62,freedom_to_trade(+3.44); sound_money(+2.06); size_of_government(+1.50),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.4395,4.19,6.6,,
+Dominican Republic,DOM,2000,improvement,6.6,0.79,sound_money(+1.78); freedom_to_trade(+0.96); regulation(+0.84),trade_liberalisation; deregulation; monetary_stabilisation,1.7836,5.81,6.43,,-0.103
+Dominican Republic,DOM,2003,deterioration,6.09,-0.7,sound_money(-3.28); size_of_government(-0.29); freedom_to_trade(+0.26),monetary_stabilisation,3.281,6.7,6.51,0.095,0.151
+Dominican Republic,DOM,2004,deterioration,5.94,-0.15,sound_money(-1.04); size_of_government(+0.38); freedom_to_trade(-0.09),monetary_stabilisation; fiscal_consolidation,1.0417,6.55,6.76,-0.145,0.126
+Dominican Republic,DOM,2005,improvement,6.62,0.68,sound_money(+2.33); legal_system_property_rights(+0.48); size_of_government(+0.34),property_rights_reform; monetary_stabilisation; fiscal_consolidation,2.3325,6.43,6.91,-0.194,0.202
+Dominican Republic,DOM,2009,improvement,7.23,0.57,sound_money(+2.65); size_of_government(+0.46); regulation(-0.14),monetary_stabilisation; fiscal_consolidation,2.6547,6.51,7.34,0.151,0.02
+Ecuador,ECU,1975,improvement,5.61,0.55,freedom_to_trade(+2.18); size_of_government(-1.78); legal_system_property_rights(+1.05),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.1795,5.06,6.12,,
+Ecuador,ECU,1980,improvement,6.12,0.51,legal_system_property_rights(+0.87); sound_money(+0.81); regulation(+0.61),property_rights_reform; deregulation; monetary_stabilisation,0.8676,5.61,4.98,,
+Ecuador,ECU,1985,deterioration,4.98,-1.14,freedom_to_trade(-3.10); sound_money(-1.22); legal_system_property_rights(-0.56),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.0967,6.12,5.74,,
+Ecuador,ECU,1990,improvement,5.74,0.76,freedom_to_trade(+2.71); size_of_government(+1.87); sound_money(-1.23),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.7133,4.98,6.47,,
+Ecuador,ECU,1995,improvement,6.47,0.73,freedom_to_trade(+1.77); sound_money(+1.23); regulation(+0.97),trade_liberalisation; deregulation; monetary_stabilisation,1.7686,5.74,5.92,,
+Ecuador,ECU,2000,deterioration,5.92,-0.55,sound_money(-1.60); regulation(-0.73); legal_system_property_rights(-0.47),deregulation; monetary_stabilisation; property_rights_reform,1.6038,6.47,5.88,,0.011
+Ecuador,ECU,2004,deterioration,5.72,-0.2,sound_money(-1.07); legal_system_property_rights(-0.14); freedom_to_trade(+0.14),monetary_stabilisation,1.0688,5.91,5.98,0.035,-0.007
+Ecuador,ECU,2009,improvement,6.01,0.18,sound_money(+1.94); size_of_government(-0.61); freedom_to_trade(-0.38),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.9389,5.92,5.96,0.035,-0.036
+Ecuador,ECU,2015,improvement,6.23,0.42,sound_money(+1.31); size_of_government(+0.37); regulation(+0.32),deregulation; monetary_stabilisation; fiscal_consolidation,1.3126,5.96,6.35,-0.036,0.034
+"Egypt, Arab Rep.",EGY,1975,deterioration,4.13,-0.87,sound_money(-1.36); legal_system_property_rights(-0.64); size_of_government(-0.51),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.3616,5.0,4.49,,
+"Egypt, Arab Rep.",EGY,1980,improvement,4.49,0.36,sound_money(+1.71); size_of_government(+0.24); freedom_to_trade(-0.24),monetary_stabilisation,1.709,4.13,4.18,,
+"Egypt, Arab Rep.",EGY,1985,deterioration,4.18,-0.31,freedom_to_trade(-2.47); sound_money(+1.10); legal_system_property_rights(+0.48),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.4689,4.49,4.28,,
+"Egypt, Arab Rep.",EGY,1995,improvement,5.24,0.96,freedom_to_trade(+3.95); legal_system_property_rights(+0.92); sound_money(-0.33),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.9452,4.28,6.01,,
+"Egypt, Arab Rep.",EGY,2000,improvement,6.01,0.77,sound_money(+1.88); freedom_to_trade(+1.56); size_of_government(+1.16),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.8823,5.24,5.72,,-0.011
+"Egypt, Arab Rep.",EGY,2002,deterioration,5.63,-0.34,freedom_to_trade(-1.08); size_of_government(-0.44); regulation(-0.27),trade_liberalisation; fiscal_consolidation,1.0763,5.99,5.8,-0.04,0.147
+"Egypt, Arab Rep.",EGY,2004,improvement,5.66,0.21,freedom_to_trade(+1.31); sound_money(-0.91); regulation(+0.74),trade_liberalisation; deregulation; monetary_stabilisation,1.313,5.76,5.9,-0.202,-0.044
+"Egypt, Arab Rep.",EGY,2009,deterioration,5.72,-0.15,size_of_government(-1.27); sound_money(+0.73); regulation(-0.12),monetary_stabilisation; fiscal_consolidation,1.2717,5.88,5.7,0.056,-0.121
+"Egypt, Arab Rep.",EGY,2015,deterioration,5.05,-0.31,sound_money(-1.33); regulation(-0.16); freedom_to_trade(-0.12),monetary_stabilisation,1.3292,5.7,5.14,-0.121,0.152
+"Egypt, Arab Rep.",EGY,2017,deterioration,4.74,-0.17,sound_money(-1.61); freedom_to_trade(+0.65); legal_system_property_rights(+0.10),trade_liberalisation; monetary_stabilisation,1.6102,5.35,5.35,-0.246,0.007
+"Egypt, Arab Rep.",EGY,2018,improvement,5.28,0.54,sound_money(+2.28); regulation(+0.24); size_of_government(+0.10),monetary_stabilisation,2.2753,5.13,5.31,-0.211,-0.066
+"Egypt, Arab Rep.",EGY,2023,deterioration,5.08,-0.27,sound_money(-1.30); regulation(-0.07); size_of_government(-0.01),monetary_stabilisation,1.3027,5.35,,0.007,
+El Salvador,SLV,1975,deterioration,5.51,-0.3,sound_money(-1.02); freedom_to_trade(+0.53); size_of_government(-0.53),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0216,5.81,4.47,,
+El Salvador,SLV,1980,deterioration,4.47,-1.04,freedom_to_trade(-2.87); size_of_government(-1.28); regulation(-0.67),trade_liberalisation; deregulation; fiscal_consolidation,2.8667,5.51,4.55,,
+El Salvador,SLV,1990,improvement,5.21,0.66,freedom_to_trade(+2.15); size_of_government(+0.79); sound_money(+0.21),trade_liberalisation; fiscal_consolidation,2.1522,4.55,7.23,,
+El Salvador,SLV,1995,improvement,7.23,2.02,sound_money(+3.00); freedom_to_trade(+2.64); legal_system_property_rights(+1.82),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.9991,5.21,7.84,,
+El Salvador,SLV,2000,improvement,7.84,0.61,freedom_to_trade(+1.96); sound_money(+0.90); legal_system_property_rights(-0.47),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.9569,7.23,7.6,,0.007
+Estonia,EST,1995,improvement,6.08,1.03,freedom_to_trade(+6.01); sound_money(-2.18); size_of_government(+1.48),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,6.0133,5.05,7.76,,
+Estonia,EST,2000,improvement,7.76,1.68,sound_money(+6.16); regulation(+1.43); legal_system_property_rights(+0.39),deregulation; monetary_stabilisation; property_rights_reform,6.1647,6.08,7.95,,0.055
+Estonia,EST,2022,deterioration,7.57,-0.25,sound_money(-1.79); freedom_to_trade(+0.56); regulation(-0.24),trade_liberalisation; monetary_stabilisation,1.7862,7.94,7.76,-0.039,
+Estonia,EST,2023,improvement,7.76,0.19,sound_money(+1.07); size_of_government(-0.33); regulation(+0.28),monetary_stabilisation; fiscal_consolidation,1.069,7.86,,-0.108,
+Eswatini,SWZ,2006,improvement,5.11,0.75,sound_money(+2.48); regulation(+0.46); legal_system_property_rights(+0.03),deregulation; monetary_stabilisation,2.4774,4.5,4.97,-0.068,0.137
+Eswatini,SWZ,2007,deterioration,4.87,-0.24,size_of_government(-1.08); sound_money(+0.11); legal_system_property_rights(+0.01),fiscal_consolidation,1.0752,4.6,5.1,0.093,0.213
+Eswatini,SWZ,2009,deterioration,4.45,-0.45,regulation(-1.60); size_of_government(-0.10); sound_money(-0.09),deregulation,1.5991,4.73,5.46,0.149,0.077
+Eswatini,SWZ,2010,improvement,5.29,0.84,size_of_government(+2.19); regulation(+1.50); sound_money(-0.84),monetary_stabilisation; deregulation; fiscal_consolidation,2.194,4.74,5.5,-0.003,0.035
+Ethiopia,ETH,2001,deterioration,4.73,-0.14,sound_money(-1.15); size_of_government(-0.60); regulation(+0.51),deregulation; monetary_stabilisation; fiscal_consolidation,1.1454,4.87,5.25,,0.036
+Ethiopia,ETH,2002,improvement,5.24,0.51,size_of_government(+1.52); sound_money(+0.75); regulation(-0.25),monetary_stabilisation; fiscal_consolidation,1.521,4.8,5.25,-0.14,0.027
+Ethiopia,ETH,2003,deterioration,4.7,-0.54,sound_money(-2.35); regulation(+0.15); size_of_government(+0.04),monetary_stabilisation,2.352,4.95,5.3,0.185,-0.205
+Ethiopia,ETH,2004,improvement,5.98,1.28,sound_money(+4.91); regulation(+0.16); size_of_government(+0.07),monetary_stabilisation,4.9096,4.89,5.15,0.0,-0.009
+Ethiopia,ETH,2005,deterioration,5.16,-0.82,sound_money(-3.00); size_of_government(+0.28); regulation(-0.18),monetary_stabilisation,2.9999,5.1,5.14,0.219,-0.01
+Ethiopia,ETH,2008,deterioration,4.92,-0.31,sound_money(-1.31); regulation(-0.20); freedom_to_trade(-0.06),monetary_stabilisation,1.3075,5.25,5.04,0.027,-0.057
+Ethiopia,ETH,2009,improvement,5.25,0.33,sound_money(+1.69); size_of_government(-0.22); regulation(+0.08),monetary_stabilisation,1.6926,5.3,5.0,-0.205,0.004
+Ethiopia,ETH,2011,deterioration,4.87,-0.26,sound_money(-1.61); size_of_government(+0.39); freedom_to_trade(-0.05),monetary_stabilisation; fiscal_consolidation,1.6124,5.14,5.05,-0.01,0.071
+Ethiopia,ETH,2013,improvement,5.11,0.27,sound_money(+1.28); size_of_government(+0.15); legal_system_property_rights(-0.09),monetary_stabilisation,1.2781,5.0,5.2,-0.054,0.094
+Ethiopia,ETH,2021,deterioration,5.1,-0.12,freedom_to_trade(-1.28); sound_money(+0.56); size_of_government(+0.30),trade_liberalisation; monetary_stabilisation,1.2836,5.32,5.09,0.004,-0.16
+Fiji,FJI,1975,deterioration,5.64,-1.06,sound_money(-3.97); regulation(-2.09); freedom_to_trade(+0.89),trade_liberalisation; deregulation; monetary_stabilisation,3.9698,6.7,6.0,,
+Fiji,FJI,1980,improvement,6.0,0.36,regulation(+1.46); sound_money(+0.97); size_of_government(-0.76),deregulation; monetary_stabilisation; fiscal_consolidation,1.4555,5.64,6.42,,
+Fiji,FJI,1990,deterioration,5.68,-0.74,regulation(-2.28); size_of_government(-0.67); legal_system_property_rights(-0.40),deregulation; fiscal_consolidation; property_rights_reform,2.2783,6.42,6.46,,
+Fiji,FJI,1995,improvement,6.46,0.78,freedom_to_trade(+1.88); size_of_government(+1.20); sound_money(+0.60),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.8793,5.68,6.16,,
+Fiji,FJI,2000,deterioration,6.16,-0.3,legal_system_property_rights(-1.81); freedom_to_trade(-0.88); regulation(+0.65),trade_liberalisation; property_rights_reform; deregulation,1.8141,6.46,6.16,,0.112
+Finland,FIN,1975,deterioration,7.28,-0.58,size_of_government(-1.63); sound_money(-1.19); regulation(-0.33),monetary_stabilisation; deregulation; fiscal_consolidation,1.626,7.86,7.5,,
+Finland,FIN,1990,improvement,7.78,0.21,sound_money(+1.33); freedom_to_trade(-0.39); regulation(-0.10),trade_liberalisation; monetary_stabilisation,1.3298,7.57,7.6,,
+Finland,FIN,2000,improvement,8.16,0.56,freedom_to_trade(+1.07); regulation(+0.94); size_of_government(+0.55),trade_liberalisation; deregulation; fiscal_consolidation,1.0663,7.6,8.08,,-0.015
+France,FRA,1990,improvement,7.45,0.93,sound_money(+3.00); size_of_government(+0.75); freedom_to_trade(+0.65),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.997,6.52,7.41,,
+France,FRA,2000,improvement,7.69,0.28,freedom_to_trade(+1.58); regulation(+0.76); legal_system_property_rights(-0.38),trade_liberalisation; deregulation; property_rights_reform,1.5801,7.41,7.63,,0.011
+Gabon,GAB,1975,deterioration,3.89,-0.52,sound_money(-3.50); freedom_to_trade(+0.56); legal_system_property_rights(+0.39),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.5008,4.41,4.45,,
+Gabon,GAB,1980,improvement,4.45,0.56,size_of_government(+0.97); legal_system_property_rights(+0.86); regulation(+0.86),property_rights_reform; deregulation; fiscal_consolidation,0.9735,3.89,5.22,,
+Gabon,GAB,1985,improvement,5.22,0.77,sound_money(+1.74); size_of_government(+0.66); freedom_to_trade(+0.62),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.7444,4.45,5.55,,
+Gabon,GAB,1990,improvement,5.55,0.33,regulation(+1.18); sound_money(-0.66); freedom_to_trade(+0.43),trade_liberalisation; deregulation; monetary_stabilisation,1.181,5.22,5.36,,
+Gabon,GAB,2000,deterioration,4.99,-0.37,regulation(-1.66); legal_system_property_rights(-1.45); size_of_government(+1.24),deregulation; fiscal_consolidation; property_rights_reform,1.6585,5.36,5.05,,0.102
+Gabon,GAB,2010,deterioration,4.83,-0.37,size_of_government(-1.09); regulation(-0.91); sound_money(+0.12),deregulation; fiscal_consolidation,1.0902,5.26,4.85,-0.02,0.073
+"Gambia, The",GMB,2001,deterioration,5.48,-0.48,regulation(-1.27); sound_money(-0.53); size_of_government(-0.12),deregulation; monetary_stabilisation,1.2664,5.96,4.99,,0.299
+"Gambia, The",GMB,2002,deterioration,4.9,-0.58,regulation(-1.23); sound_money(-0.75); size_of_government(-0.26),deregulation; monetary_stabilisation,1.2336,5.72,5.23,-0.48,0.487
+"Gambia, The",GMB,2003,deterioration,4.25,-0.65,sound_money(-1.54); size_of_government(-1.02); legal_system_property_rights(-0.04),monetary_stabilisation; fiscal_consolidation,1.5408,5.45,5.62,-0.53,0.395
+"Gambia, The",GMB,2004,improvement,4.69,0.44,size_of_government(+1.34); sound_money(+0.32); legal_system_property_rights(+0.10),monetary_stabilisation; fiscal_consolidation,1.3393,5.15,5.92,-0.571,0.223
+"Gambia, The",GMB,2005,improvement,5.2,0.51,sound_money(+1.39); legal_system_property_rights(+0.44); size_of_government(+0.12),property_rights_reform; monetary_stabilisation,1.3917,5.06,6.2,-0.377,0.149
+"Gambia, The",GMB,2006,improvement,5.92,0.72,sound_money(+2.73); size_of_government(+0.12); regulation(+0.03),monetary_stabilisation,2.7278,4.9,6.33,-0.077,0.137
+"Gambia, The",GMB,2008,improvement,6.23,0.16,sound_money(+1.26); size_of_government(-0.51); legal_system_property_rights(-0.05),monetary_stabilisation; fiscal_consolidation,1.2618,5.23,6.57,0.487,0.146
+"Gambia, The",GMB,2010,improvement,6.62,0.46,regulation(+2.40); sound_money(-1.05); size_of_government(-0.09),deregulation; monetary_stabilisation,2.4046,5.92,6.78,0.223,0.107
+"Gambia, The",GMB,2013,improvement,6.9,0.3,sound_money(+1.01); size_of_government(+0.66); regulation(-0.17),monetary_stabilisation; fiscal_consolidation,1.0079,6.43,7.02,0.114,0.075
+Georgia,GEO,2001,improvement,6.75,0.41,sound_money(+2.44); size_of_government(-0.14); regulation(+0.06),monetary_stabilisation,2.4369,6.34,7.05,,0.135
+Georgia,GEO,2012,improvement,7.59,0.28,sound_money(+1.05); size_of_government(+0.12); freedom_to_trade(+0.11),monetary_stabilisation,1.0478,7.13,7.77,0.034,0.024
+Ghana,GHA,1975,deterioration,3.67,-0.86,sound_money(-2.49); legal_system_property_rights(-1.28); regulation(-0.74),property_rights_reform; deregulation; monetary_stabilisation,2.486,4.53,3.13,,
+Ghana,GHA,1980,deterioration,3.13,-0.54,sound_money(-2.46); size_of_government(+0.62); regulation(-0.53),deregulation; monetary_stabilisation; fiscal_consolidation,2.4583,3.67,3.13,,
+Ghana,GHA,1990,improvement,4.52,1.39,freedom_to_trade(+3.66); sound_money(+2.08); legal_system_property_rights(+0.85),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.6611,3.13,5.28,,
+Ghana,GHA,1995,improvement,5.28,0.76,legal_system_property_rights(+1.47); freedom_to_trade(+1.18); regulation(+0.99),trade_liberalisation; property_rights_reform; deregulation,1.4682,4.52,5.53,,
+Ghana,GHA,2000,improvement,5.53,0.25,freedom_to_trade(+1.01); size_of_government(+0.57); legal_system_property_rights(-0.53),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.0061,5.28,6.05,,0.178
+Ghana,GHA,2002,improvement,5.98,0.36,sound_money(+2.06); size_of_government(-0.53); regulation(+0.35),deregulation; monetary_stabilisation; fiscal_consolidation,2.0613,5.58,6.45,0.09,0.22
+Ghana,GHA,2004,improvement,6.28,0.28,sound_money(+1.51); freedom_to_trade(-0.47); regulation(+0.39),trade_liberalisation; deregulation; monetary_stabilisation,1.5104,5.78,6.67,0.177,0.053
+Ghana,GHA,2006,improvement,6.78,0.42,size_of_government(+1.64); sound_money(+0.28); freedom_to_trade(+0.26),fiscal_consolidation,1.6393,6.05,6.65,0.178,-0.079
+Ghana,GHA,2014,deterioration,6.16,-0.48,sound_money(-1.77); freedom_to_trade(-0.51); size_of_government(-0.22),trade_liberalisation; monetary_stabilisation,1.7686,6.58,6.4,-0.009,0.087
+Ghana,GHA,2022,deterioration,5.98,-0.44,sound_money(-2.47); freedom_to_trade(+0.34); legal_system_property_rights(-0.14),trade_liberalisation; monetary_stabilisation,2.4723,6.47,5.81,-0.025,
+Greece,GRC,1975,deterioration,5.73,-0.18,sound_money(-1.45); legal_system_property_rights(+1.27); size_of_government(-0.73),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.4476,5.91,5.93,,
+Greece,GRC,1985,deterioration,5.58,-0.35,size_of_government(-1.67); freedom_to_trade(-0.88); regulation(+0.42),trade_liberalisation; deregulation; fiscal_consolidation,1.6669,5.93,6.43,,
+Greece,GRC,1990,improvement,6.43,0.85,size_of_government(+1.79); freedom_to_trade(+1.27); legal_system_property_rights(+0.83),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.79,5.58,6.64,,
+Greece,GRC,2000,improvement,7.28,0.64,sound_money(+1.82); freedom_to_trade(+1.45); regulation(+0.74),trade_liberalisation; deregulation; monetary_stabilisation,1.8211,6.64,7.25,,0.023
+Greece,GRC,2013,deterioration,6.93,-0.25,size_of_government(-1.32); sound_money(+0.09); legal_system_property_rights(-0.04),fiscal_consolidation,1.3227,7.15,6.85,0.026,-0.007
+Greece,GRC,2015,deterioration,6.7,-0.35,sound_money(-1.10); size_of_government(-0.37); freedom_to_trade(-0.23),monetary_stabilisation; fiscal_consolidation,1.1039,7.11,6.88,-0.047,0.046
+Greece,GRC,2018,improvement,7.03,0.36,sound_money(+1.35); size_of_government(+0.68); regulation(-0.14),monetary_stabilisation; fiscal_consolidation,1.3505,6.83,7.01,-0.078,0.02
+Guatemala,GTM,1975,improvement,6.5,0.45,freedom_to_trade(+1.73); regulation(+0.84); legal_system_property_rights(-0.14),trade_liberalisation; deregulation,1.7345,6.05,6.16,,
+Guatemala,GTM,1980,deterioration,6.16,-0.34,sound_money(+2.14); freedom_to_trade(-1.74); size_of_government(-1.18),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.1384,6.5,5.2,,
+Guatemala,GTM,1985,deterioration,5.2,-0.96,freedom_to_trade(-3.64); sound_money(-0.84); regulation(-0.61),trade_liberalisation; deregulation; monetary_stabilisation,3.6437,6.16,6.19,,
+Guatemala,GTM,1990,improvement,6.19,0.99,freedom_to_trade(+4.56); sound_money(-1.12); legal_system_property_rights(+0.73),trade_liberalisation; property_rights_reform; monetary_stabilisation,4.5627,5.2,7.26,,
+Guatemala,GTM,1995,improvement,7.26,1.07,freedom_to_trade(+2.36); sound_money(+1.45); size_of_government(+0.82),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.3554,6.19,6.82,,
+Guinea,GIN,2003,deterioration,5.76,-0.13,sound_money(-1.30); size_of_government(+0.74); legal_system_property_rights(-0.19),monetary_stabilisation; fiscal_consolidation,1.3014,5.84,4.69,0.03,-0.155
+Guinea,GIN,2004,deterioration,5.28,-0.48,sound_money(-1.93); size_of_government(+0.18); regulation(-0.16),monetary_stabilisation,1.9283,5.82,4.37,-0.011,-0.178
+Guinea,GIN,2005,deterioration,4.92,-0.36,sound_money(-1.77); size_of_government(+0.50); regulation(-0.17),monetary_stabilisation; fiscal_consolidation,1.7717,5.71,4.09,-0.113,-0.182
+Guinea,GIN,2006,deterioration,4.08,-0.84,regulation(-1.93); sound_money(-1.50); legal_system_property_rights(+0.21),deregulation; monetary_stabilisation,1.9267,5.53,4.1,-0.235,-0.183
+Guinea,GIN,2007,improvement,4.41,0.33,sound_money(+1.32); legal_system_property_rights(-0.20); size_of_government(+0.10),monetary_stabilisation,1.3213,5.19,4.05,-0.446,-0.074
+Guinea,GIN,2009,deterioration,3.69,-1.07,size_of_government(-5.00); sound_money(+1.79); regulation(-1.10),monetary_stabilisation; deregulation; fiscal_consolidation,5.0,4.69,4.08,-0.155,0.171
+Guinea,GIN,2010,deterioration,3.53,-0.16,sound_money(-1.94); size_of_government(+1.31); legal_system_property_rights(-0.06),monetary_stabilisation; fiscal_consolidation,1.9367,4.37,4.28,-0.178,0.1
+Guinea,GIN,2011,improvement,4.11,0.58,size_of_government(+1.24); sound_money(+0.93); regulation(+0.11),monetary_stabilisation; fiscal_consolidation,1.2394,4.09,4.55,-0.182,0.277
+Guinea,GIN,2013,improvement,4.28,0.1,size_of_government(-1.16); regulation(+0.34); sound_money(+0.31),monetary_stabilisation; deregulation; fiscal_consolidation,1.1592,4.05,5.02,-0.074,0.322
+Guinea,GIN,2016,improvement,5.43,0.88,size_of_government(+2.60); regulation(+1.34); sound_money(+0.38),monetary_stabilisation; deregulation; fiscal_consolidation,2.6018,4.28,5.5,0.1,0.044
+Guinea,GIN,2017,deterioration,5.27,-0.16,size_of_government(-2.34); regulation(+1.04); freedom_to_trade(+0.87),trade_liberalisation; deregulation; fiscal_consolidation,2.3433,4.55,5.6,0.277,0.028
+Guinea,GIN,2018,improvement,5.55,0.28,size_of_government(+1.57); sound_money(-0.30); legal_system_property_rights(+0.23),fiscal_consolidation,1.5717,4.77,5.67,0.311,0.066
+Guinea,GIN,2022,improvement,5.77,0.28,size_of_government(+1.07); sound_money(+0.30); regulation(-0.12),monetary_stabilisation; fiscal_consolidation,1.0735,5.5,5.87,0.044,
+Guinea-Bissau,GNB,1990,deterioration,3.13,-0.22,regulation(-1.94); size_of_government(+1.75); sound_money(-1.07),monetary_stabilisation; deregulation; fiscal_consolidation,1.9369,3.35,3.53,,
+Guinea-Bissau,GNB,2000,improvement,4.14,0.61,sound_money(+1.82); size_of_government(-0.61); regulation(-0.40),deregulation; monetary_stabilisation; fiscal_consolidation,1.8167,3.53,4.83,,0.084
+Guinea-Bissau,GNB,2001,improvement,4.68,0.54,sound_money(+1.88); regulation(+0.67); legal_system_property_rights(+0.21),deregulation; monetary_stabilisation,1.8787,4.14,4.9,,0.078
+Guinea-Bissau,GNB,2008,deterioration,4.5,-0.32,sound_money(-1.66); legal_system_property_rights(-0.50); size_of_government(+0.22),property_rights_reform; monetary_stabilisation,1.6623,4.92,5.02,0.016,0.154
+Guinea-Bissau,GNB,2009,improvement,4.83,0.33,sound_money(+1.19); regulation(+0.65); legal_system_property_rights(-0.11),deregulation; monetary_stabilisation,1.1851,4.86,5.06,-0.108,0.1
+Guinea-Bissau,GNB,2011,improvement,4.97,0.29,size_of_government(+1.24); regulation(+0.72); sound_money(-0.48),monetary_stabilisation; deregulation; fiscal_consolidation,1.2354,4.77,5.23,-0.069,-0.02
+Guinea-Bissau,GNB,2012,improvement,5.34,0.37,size_of_government(+1.91); sound_money(+0.56); regulation(-0.47),monetary_stabilisation; deregulation; fiscal_consolidation,1.9111,4.76,5.24,0.048,0.038
+Guinea-Bissau,GNB,2014,deterioration,5.03,-0.24,size_of_government(-1.68); regulation(+1.00); sound_money(-0.54),monetary_stabilisation; deregulation; fiscal_consolidation,1.6823,5.02,5.33,0.154,0.053
+Guinea-Bissau,GNB,2015,improvement,5.29,0.26,size_of_government(+1.62); regulation(-0.32); legal_system_property_rights(+0.19),deregulation; fiscal_consolidation,1.6235,5.06,5.33,0.1,0.043
+Guinea-Bissau,GNB,2019,improvement,5.59,0.43,size_of_government(+1.29); freedom_to_trade(+0.53); sound_money(+0.40),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.2868,5.21,5.3,0.033,-0.01
+Guinea-Bissau,GNB,2020,deterioration,5.33,-0.26,size_of_government(-1.09); freedom_to_trade(-0.61); regulation(+0.30),trade_liberalisation; fiscal_consolidation,1.0921,5.33,5.3,0.053,0.0
+Guyana,GUY,1975,deterioration,5.07,-1.39,sound_money(-4.37); legal_system_property_rights(-1.44); size_of_government(-1.36),property_rights_reform; monetary_stabilisation; fiscal_consolidation,4.3652,6.46,4.47,,
+Guyana,GUY,1980,deterioration,4.47,-0.6,regulation(-2.47); legal_system_property_rights(+0.93); sound_money(+0.89),deregulation; monetary_stabilisation; property_rights_reform,2.4716,5.07,4.45,,
+Guyana,GUY,1985,deterioration,4.45,-0.02,size_of_government(+1.07); freedom_to_trade(-0.60); sound_money(-0.46),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0686,4.47,4.3,,
+Guyana,GUY,1990,deterioration,4.3,-0.15,sound_money(-2.87); regulation(+0.22); legal_system_property_rights(+0.11),monetary_stabilisation,2.8718,4.45,5.18,,
+Guyana,GUY,1995,improvement,5.18,0.88,sound_money(+2.35); regulation(+1.18); legal_system_property_rights(-0.25),deregulation; monetary_stabilisation,2.345,4.3,6.03,,
+Guyana,GUY,2000,improvement,6.03,0.85,sound_money(+2.92); legal_system_property_rights(-1.61); regulation(+0.97),property_rights_reform; deregulation; monetary_stabilisation,2.9158,5.18,5.89,,0.062
+Guyana,GUY,2005,improvement,6.19,0.36,size_of_government(+2.20); freedom_to_trade(-0.29); sound_money(-0.14),fiscal_consolidation,2.1984,5.85,6.09,-0.058,0.037
+Guyana,GUY,2006,deterioration,6.03,-0.16,size_of_government(-1.10); freedom_to_trade(+0.13); regulation(+0.07),fiscal_consolidation,1.0962,5.89,6.1,0.062,0.021
+Haiti,HTI,1975,deterioration,5.41,-0.48,sound_money(-2.25); legal_system_property_rights(+0.29); size_of_government(-0.25),monetary_stabilisation,2.2512,5.89,5.03,,
+Haiti,HTI,1980,deterioration,5.03,-0.38,freedom_to_trade(-2.46); sound_money(+0.66); size_of_government(-0.19),trade_liberalisation; monetary_stabilisation,2.4557,5.41,5.46,,
+Haiti,HTI,1985,improvement,5.46,0.43,sound_money(+1.33); freedom_to_trade(-0.56); legal_system_property_rights(+0.39),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.3269,5.03,5.08,,
+Haiti,HTI,1990,deterioration,5.08,-0.38,regulation(-1.74); size_of_government(+0.71); sound_money(-0.55),monetary_stabilisation; deregulation; fiscal_consolidation,1.7426,5.46,6.36,,
+Haiti,HTI,1995,improvement,6.36,1.28,regulation(+2.77); sound_money(-2.05); legal_system_property_rights(+1.25),deregulation; monetary_stabilisation; property_rights_reform,2.7738,5.08,6.41,,
+Haiti,HTI,2000,improvement,6.41,0.05,sound_money(+1.15); legal_system_property_rights(-0.94); size_of_government(-0.53),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.152,6.36,6.33,,-0.014
+Haiti,HTI,2003,deterioration,6.28,-0.03,sound_money(-1.86); size_of_government(+0.79); freedom_to_trade(+0.74),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.864,6.37,6.38,-0.05,0.03
+Haiti,HTI,2009,improvement,6.64,0.16,sound_money(+1.16); size_of_government(-0.47); regulation(+0.15),monetary_stabilisation; fiscal_consolidation,1.1577,6.38,6.28,0.03,0.023
+Haiti,HTI,2019,improvement,6.29,0.1,size_of_government(+1.09); sound_money(-0.65); regulation(+0.04),monetary_stabilisation; fiscal_consolidation,1.0891,6.3,6.0,-0.076,-0.071
+Haiti,HTI,2022,deterioration,5.82,-0.17,sound_money(-1.35); size_of_government(+0.53); freedom_to_trade(+0.35),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.3547,6.17,6.01,-0.04,
+Honduras,HND,1975,improvement,6.48,0.2,freedom_to_trade(+2.24); regulation(-0.94); sound_money(-0.63),trade_liberalisation; deregulation; monetary_stabilisation,2.2444,6.28,5.31,,
+Honduras,HND,1980,deterioration,5.31,-1.17,freedom_to_trade(-3.17); size_of_government(-2.15); legal_system_property_rights(-0.33),trade_liberalisation; property_rights_reform; fiscal_consolidation,3.1718,6.48,5.82,,
+Honduras,HND,1985,improvement,5.82,0.51,sound_money(+0.62); size_of_government(+0.27); legal_system_property_rights(+0.14),monetary_stabilisation,0.6173,5.31,5.8,,
+Honduras,HND,1995,improvement,6.35,0.55,freedom_to_trade(+3.00); sound_money(-1.33); legal_system_property_rights(+0.64),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.9967,5.8,6.5,,
+Honduras,HND,2000,improvement,6.5,0.15,size_of_government(+1.36); freedom_to_trade(-1.01); regulation(+0.56),trade_liberalisation; deregulation; fiscal_consolidation,1.3643,6.35,6.82,,0.084
+"Hong Kong SAR, China",HKG,1975,improvement,9.3,0.33,freedom_to_trade(+1.03); sound_money(+0.40); legal_system_property_rights(+0.23),trade_liberalisation; monetary_stabilisation,1.0318,8.97,9.29,,
+Hungary,HUN,1975,improvement,5.04,0.28,regulation(+1.17); sound_money(-0.06); legal_system_property_rights(-0.01),deregulation,1.1712,4.76,4.85,,
+Hungary,HUN,1985,deterioration,4.84,-0.01,size_of_government(-1.13); regulation(+0.48); sound_money(+0.32),monetary_stabilisation; deregulation; fiscal_consolidation,1.1289,4.85,5.52,,
+Hungary,HUN,1990,improvement,5.52,0.68,freedom_to_trade(+1.38); size_of_government(+1.00); regulation(+0.93),trade_liberalisation; deregulation; fiscal_consolidation,1.3844,4.84,6.59,,
+Hungary,HUN,1995,improvement,6.59,1.07,freedom_to_trade(+3.33); size_of_government(+1.50); legal_system_property_rights(+0.48),trade_liberalisation; property_rights_reform; fiscal_consolidation,3.3281,5.52,6.91,,
+Hungary,HUN,2001,improvement,7.31,0.4,sound_money(+1.47); freedom_to_trade(+0.92); regulation(-0.26),trade_liberalisation; monetary_stabilisation,1.4693,6.91,7.31,,0.023
+Hungary,HUN,2022,deterioration,7.13,-0.19,sound_money(-1.24); size_of_government(+0.19); freedom_to_trade(+0.07),monetary_stabilisation,1.2368,7.38,7.07,-0.062,
+Iceland,ISL,1975,deterioration,5.54,-1.09,freedom_to_trade(-2.24); sound_money(-2.15); regulation(-1.70),trade_liberalisation; deregulation; monetary_stabilisation,2.2444,6.63,5.79,,
+Iceland,ISL,1980,improvement,5.79,0.25,freedom_to_trade(+3.21); size_of_government(-1.39); sound_money(-0.97),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.2149,5.54,5.72,,
+Iceland,ISL,1990,improvement,7.06,1.34,sound_money(+4.90); freedom_to_trade(+1.09); regulation(+0.59),trade_liberalisation; deregulation; monetary_stabilisation,4.9007,5.72,7.59,,
+Iceland,ISL,1995,improvement,7.59,0.53,sound_money(+2.57); legal_system_property_rights(-0.79); freedom_to_trade(+0.76),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.5695,7.06,8.0,,
+Iceland,ISL,2008,deterioration,7.1,-0.84,regulation(-1.73); sound_money(-0.97); size_of_government(-0.60),deregulation; monetary_stabilisation; fiscal_consolidation,1.7292,8.03,6.89,-0.044,0.123
+Iceland,ISL,2009,deterioration,6.71,-0.39,size_of_government(-1.10); sound_money(-1.02); regulation(+0.36),monetary_stabilisation; deregulation; fiscal_consolidation,1.0975,7.85,7.01,-0.238,0.152
+Iceland,ISL,2016,improvement,7.84,0.49,sound_money(+2.60); regulation(-0.25); freedom_to_trade(+0.10),monetary_stabilisation,2.6007,7.15,7.79,0.114,-0.037
+India,IND,1975,deterioration,4.88,-0.96,regulation(-1.94); size_of_government(+0.59); sound_money(-0.41),monetary_stabilisation; deregulation; fiscal_consolidation,1.9364,5.84,4.94,,
+India,IND,1995,improvement,5.55,0.59,size_of_government(+1.07); regulation(+0.64); legal_system_property_rights(+0.55),deregulation; fiscal_consolidation; property_rights_reform,1.0741,4.96,6.1,,
+India,IND,2000,improvement,6.1,0.55,freedom_to_trade(+2.59); size_of_government(+0.95); legal_system_property_rights(-0.87),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.5911,5.55,6.12,,0.041
+India,IND,2015,improvement,6.27,0.32,sound_money(+1.34); legal_system_property_rights(+0.23); size_of_government(-0.05),monetary_stabilisation,1.3409,5.98,6.54,0.014,0.037
+Indonesia,IDN,1975,improvement,4.92,0.39,size_of_government(-1.12); freedom_to_trade(+0.77); sound_money(+0.70),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.1172,4.53,4.91,,
+Indonesia,IDN,1985,improvement,5.82,0.91,sound_money(+2.18); size_of_government(+1.08); freedom_to_trade(+0.65),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.1806,4.91,5.93,,
+Indonesia,IDN,1995,improvement,6.38,0.45,regulation(+1.11); legal_system_property_rights(+0.90); sound_money(+0.56),deregulation; monetary_stabilisation; property_rights_reform,1.1057,5.93,5.96,,
+Indonesia,IDN,2000,deterioration,5.96,-0.42,sound_money(-2.63); freedom_to_trade(+0.61); size_of_government(+0.46),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.6303,6.38,6.06,,0.18
+Indonesia,IDN,2003,improvement,6.2,0.36,sound_money(+1.17); legal_system_property_rights(+0.29); freedom_to_trade(+0.19),monetary_stabilisation,1.1745,5.82,6.39,-0.06,0.054
+Indonesia,IDN,2005,improvement,6.38,0.16,regulation(+1.04); freedom_to_trade(-0.38); size_of_government(+0.34),trade_liberalisation; deregulation; fiscal_consolidation,1.0363,5.98,6.53,0.105,0.074
+Indonesia,IDN,2010,improvement,6.78,0.26,sound_money(+1.34); freedom_to_trade(-0.26); size_of_government(+0.24),monetary_stabilisation,1.3369,6.45,6.82,0.029,0.046
+"Iran, Islamic Rep.",IRN,1975,improvement,5.95,0.12,freedom_to_trade(+2.75); legal_system_property_rights(-1.32); size_of_government(-0.60),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.747,5.83,4.3,,
+"Iran, Islamic Rep.",IRN,1980,deterioration,4.3,-1.65,freedom_to_trade(-6.20); regulation(-2.27); legal_system_property_rights(-0.46),trade_liberalisation; deregulation; property_rights_reform,6.2033,5.95,4.34,,
+"Iran, Islamic Rep.",IRN,1995,deterioration,4.34,-0.43,sound_money(-4.82); legal_system_property_rights(+1.59); freedom_to_trade(+1.47),trade_liberalisation; property_rights_reform; monetary_stabilisation,4.8178,4.77,5.21,,
+"Iran, Islamic Rep.",IRN,2000,improvement,5.21,0.87,sound_money(+3.00); freedom_to_trade(+1.54); legal_system_property_rights(-1.19),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.0004,4.34,5.54,,0.009
+"Iran, Islamic Rep.",IRN,2001,improvement,5.63,0.42,size_of_government(+1.53); sound_money(+0.37); freedom_to_trade(+0.27),monetary_stabilisation; fiscal_consolidation,1.527,5.21,5.54,,0.053
+"Iran, Islamic Rep.",IRN,2011,deterioration,5.07,-0.33,sound_money(-1.13); regulation(-0.41); size_of_government(-0.29),deregulation; monetary_stabilisation,1.1254,5.45,4.82,-0.046,0.145
+"Iran, Islamic Rep.",IRN,2012,deterioration,4.54,-0.53,freedom_to_trade(-2.56); sound_money(-0.49); size_of_government(+0.43),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.5618,5.34,4.95,-0.072,0.145
+"Iran, Islamic Rep.",IRN,2013,improvement,4.69,0.15,freedom_to_trade(+1.50); sound_money(-0.50); regulation(-0.17),trade_liberalisation; monetary_stabilisation,1.5013,5.16,4.94,-0.203,-0.005
+"Iran, Islamic Rep.",IRN,2014,improvement,4.74,0.05,freedom_to_trade(-1.28); sound_money(+0.88); regulation(+0.82),trade_liberalisation; deregulation; monetary_stabilisation,1.2785,5.02,4.89,-0.232,-0.149
+"Iran, Islamic Rep.",IRN,2015,improvement,5.0,0.26,freedom_to_trade(+1.50); size_of_government(-0.16); legal_system_property_rights(+0.09),trade_liberalisation,1.5018,4.89,4.78,-0.17,-0.208
+"Iran, Islamic Rep.",IRN,2018,deterioration,4.6,-0.63,freedom_to_trade(-2.32); sound_money(-0.73); legal_system_property_rights(-0.30),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.3209,4.95,4.42,0.145,-0.022
+"Iran, Islamic Rep.",IRN,2019,deterioration,4.51,-0.09,sound_money(-1.12); size_of_government(+0.37); freedom_to_trade(+0.33),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.1209,4.94,4.4,-0.005,-0.001
+Iraq,IRQ,2001,deterioration,2.35,-0.33,sound_money(-1.52); legal_system_property_rights(+0.30); size_of_government(+0.00),property_rights_reform; monetary_stabilisation,1.5193,2.68,2.65,,0.251
+Iraq,IRQ,2003,improvement,2.48,0.23,size_of_government(+1.33); sound_money(-0.76); legal_system_property_rights(+0.42),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.3324,2.43,3.34,-0.215,0.448
+Iraq,IRQ,2004,deterioration,2.44,-0.04,size_of_government(-1.55); regulation(+1.18); sound_money(+0.30),monetary_stabilisation; deregulation; fiscal_consolidation,1.5507,2.44,3.63,-0.07,0.298
+Iraq,IRQ,2006,improvement,3.4,0.71,sound_money(+2.12); size_of_government(+0.72); legal_system_property_rights(+0.02),monetary_stabilisation; fiscal_consolidation,2.1239,2.44,4.01,0.087,-0.051
+Iraq,IRQ,2007,improvement,4.25,0.85,sound_money(+3.26); size_of_government(+0.52); regulation(-0.40),deregulation; monetary_stabilisation; fiscal_consolidation,3.2604,2.65,4.0,0.251,0.063
+Iraq,IRQ,2008,deterioration,3.9,-0.35,size_of_government(-1.20); sound_money(-0.36); legal_system_property_rights(+0.14),monetary_stabilisation; fiscal_consolidation,1.1971,3.05,4.07,0.45,0.086
+Iraq,IRQ,2016,improvement,5.82,1.48,size_of_government(+2.30); sound_money(+1.41); regulation(+0.81),monetary_stabilisation; deregulation; fiscal_consolidation,2.3023,4.25,5.54,0.111,-0.005
+Iraq,IRQ,2021,deterioration,5.46,-0.2,sound_money(-1.11); legal_system_property_rights(+0.08); regulation(+0.06),monetary_stabilisation,1.1094,5.61,5.41,-0.037,-0.08
+Ireland,IRL,1975,deterioration,6.66,-0.48,size_of_government(-2.20); sound_money(-0.94); freedom_to_trade(+0.69),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.2,7.14,6.94,,
+Ireland,IRL,1995,improvement,7.92,0.58,sound_money(+2.81); legal_system_property_rights(-0.75); freedom_to_trade(+0.45),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.8063,7.34,8.17,,
+Ireland,IRL,2000,improvement,8.17,0.25,freedom_to_trade(+1.64); sound_money(-0.46); size_of_government(+0.42),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.6436,7.92,8.12,,0.051
+Israel,ISR,1975,deterioration,4.64,-0.68,freedom_to_trade(-1.13); size_of_government(-0.90); legal_system_property_rights(-0.89),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.1333,5.32,4.46,,
+Israel,ISR,1980,deterioration,4.46,-0.18,sound_money(-3.86); freedom_to_trade(+3.86); size_of_government(-0.49),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.8626,4.64,4.72,,
+Israel,ISR,1985,improvement,4.72,0.26,size_of_government(+1.88); sound_money(-0.46); legal_system_property_rights(+0.40),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.8847,4.46,5.71,,
+Israel,ISR,1990,improvement,5.71,0.99,sound_money(+3.10); regulation(+1.08); freedom_to_trade(+0.64),trade_liberalisation; deregulation; monetary_stabilisation,3.1047,4.72,6.52,,
+Israel,ISR,1995,improvement,6.52,0.81,sound_money(+2.95); legal_system_property_rights(+1.21); freedom_to_trade(+0.26),property_rights_reform; monetary_stabilisation,2.9454,5.71,7.01,,
+Israel,ISR,2000,improvement,7.01,0.49,freedom_to_trade(+1.82); sound_money(+0.61); regulation(+0.37),trade_liberalisation; deregulation; monetary_stabilisation,1.8205,6.52,7.37,,0.108
+Israel,ISR,2001,improvement,7.14,0.13,sound_money(+1.31); regulation(-0.51); size_of_government(-0.17),deregulation; monetary_stabilisation,1.313,7.01,7.43,,0.049
+Italy,ITA,1975,deterioration,6.02,-0.47,freedom_to_trade(-1.52); sound_money(-0.74); size_of_government(-0.45),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.5163,6.49,5.98,,
+Italy,ITA,1980,deterioration,5.98,-0.04,size_of_government(-1.55); legal_system_property_rights(+0.94); freedom_to_trade(+0.66),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.5506,6.02,6.23,,
+Italy,ITA,1990,improvement,7.1,0.87,sound_money(+3.00); size_of_government(+1.29); regulation(+0.51),deregulation; monetary_stabilisation; fiscal_consolidation,2.9957,6.23,6.96,,
+Italy,ITA,2000,improvement,7.54,0.58,freedom_to_trade(+1.80); size_of_government(+0.91); regulation(+0.38),trade_liberalisation; deregulation; fiscal_consolidation,1.8003,6.96,7.47,,-0.003
+Jamaica,JAM,1975,deterioration,5.52,-1.22,sound_money(-4.13); legal_system_property_rights(-0.98); size_of_government(+0.97),property_rights_reform; monetary_stabilisation; fiscal_consolidation,4.1327,6.74,4.94,,
+Jamaica,JAM,1980,deterioration,4.94,-0.58,freedom_to_trade(-1.63); regulation(-1.39); size_of_government(-1.34),trade_liberalisation; deregulation; fiscal_consolidation,1.6278,5.52,5.62,,
+Jamaica,JAM,1985,improvement,5.62,0.68,size_of_government(+2.76); freedom_to_trade(+1.96); sound_money(-1.53),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.7572,4.94,6.31,,
+Jamaica,JAM,1990,improvement,6.31,0.69,regulation(+2.01); size_of_government(+1.19); sound_money(+1.03),monetary_stabilisation; deregulation; fiscal_consolidation,2.0065,5.62,7.07,,
+Jamaica,JAM,1995,improvement,7.07,0.76,freedom_to_trade(+2.44); sound_money(+1.48); size_of_government(+0.44),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.4387,6.31,7.55,,
+Jamaica,JAM,2000,improvement,7.55,0.48,sound_money(+2.16); freedom_to_trade(+1.15); legal_system_property_rights(-0.91),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.1648,7.07,7.4,,-0.047
+Jamaica,JAM,2008,deterioration,6.94,-0.35,sound_money(-1.28); regulation(-0.41); freedom_to_trade(-0.05),deregulation; monetary_stabilisation,1.2768,7.35,7.21,-0.005,0.093
+Jamaica,JAM,2009,improvement,7.1,0.16,sound_money(+1.20); freedom_to_trade(-0.32); regulation(+0.19),trade_liberalisation; monetary_stabilisation,1.1974,7.26,7.27,-0.076,0.096
+Japan,JPN,1975,deterioration,7.48,-0.06,size_of_government(-2.06); sound_money(+0.91); freedom_to_trade(+0.65),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.0614,7.54,7.65,,
+Japan,JPN,1990,improvement,8.29,0.31,sound_money(+1.25); legal_system_property_rights(-0.40); size_of_government(+0.32),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.2526,7.98,8.01,,
+Jordan,JOR,1975,deterioration,4.92,-0.53,size_of_government(-2.13); legal_system_property_rights(-1.42); sound_money(+0.79),monetary_stabilisation; property_rights_reform; fiscal_consolidation,2.1317,5.45,5.45,,
+Jordan,JOR,1980,improvement,5.45,0.53,sound_money(+1.94); regulation(+0.56); freedom_to_trade(+0.42),trade_liberalisation; deregulation; monetary_stabilisation,1.944,4.92,5.7,,
+Jordan,JOR,1990,deterioration,5.08,-0.62,sound_money(-1.73); freedom_to_trade(-1.60); size_of_government(+0.46),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.7273,5.7,5.9,,
+Jordan,JOR,1995,improvement,5.9,0.82,freedom_to_trade(+1.15); sound_money(+1.01); legal_system_property_rights(+0.98),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.1544,5.08,6.97,,
+Jordan,JOR,2000,improvement,6.97,1.07,sound_money(+2.40); freedom_to_trade(+1.49); size_of_government(+1.33),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.4026,5.9,6.9,,0.026
+Jordan,JOR,2008,deterioration,6.79,-0.24,sound_money(-1.32); regulation(-0.13); freedom_to_trade(+0.12),monetary_stabilisation,1.3182,6.94,7.19,0.035,0.065
+Jordan,JOR,2009,improvement,7.0,0.21,sound_money(+1.27); size_of_government(-0.27); regulation(+0.19),monetary_stabilisation,1.2703,6.93,7.26,-0.019,0.042
+Jordan,JOR,2010,improvement,7.17,0.17,size_of_government(+1.05); regulation(+0.35); sound_money(-0.27),deregulation; fiscal_consolidation,1.054,6.95,7.29,-0.012,0.037
+Kazakhstan,KAZ,2004,improvement,6.35,0.44,sound_money(+1.73); legal_system_property_rights(-0.08); size_of_government(+0.07),monetary_stabilisation,1.7331,5.87,6.21,0.041,0.037
+Kazakhstan,KAZ,2007,improvement,6.24,0.21,sound_money(+1.37); freedom_to_trade(-0.34); size_of_government(-0.21),trade_liberalisation; monetary_stabilisation,1.3651,6.1,6.35,0.05,0.085
+Kazakhstan,KAZ,2009,improvement,6.38,0.24,sound_money(+1.06); freedom_to_trade(+0.15); size_of_government(+0.06),monetary_stabilisation,1.0609,6.2,6.51,-0.043,0.1
+Kazakhstan,KAZ,2022,deterioration,6.76,-0.08,sound_money(-1.12); freedom_to_trade(+0.47); regulation(+0.19),trade_liberalisation; monetary_stabilisation,1.1186,6.93,6.84,-0.017,
+Kenya,KEN,1975,improvement,5.21,0.2,freedom_to_trade(+1.56); regulation(-1.12); legal_system_property_rights(+0.43),trade_liberalisation; deregulation; property_rights_reform,1.5556,5.01,4.72,,
+Kenya,KEN,1980,deterioration,4.72,-0.49,size_of_government(-1.58); freedom_to_trade(-0.93); legal_system_property_rights(-0.55),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.5791,5.21,5.11,,
+Kenya,KEN,1995,improvement,5.96,0.79,freedom_to_trade(+2.24); legal_system_property_rights(+1.57); size_of_government(+1.08),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.237,5.17,6.02,,
+Kenya,KEN,2000,improvement,6.02,0.06,sound_money(+1.85); legal_system_property_rights(-1.74); freedom_to_trade(+0.32),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.8537,5.96,6.38,,0.162
+Kenya,KEN,2004,improvement,6.43,0.21,size_of_government(+1.35); freedom_to_trade(-0.77); regulation(+0.75),trade_liberalisation; deregulation; fiscal_consolidation,1.3519,6.16,6.7,0.079,-0.072
+Kenya,KEN,2008,deterioration,6.44,-0.42,sound_money(-1.77); size_of_government(-0.36); regulation(-0.19),monetary_stabilisation; fiscal_consolidation,1.7688,6.62,6.65,0.159,0.006
+Kenya,KEN,2009,improvement,6.63,0.19,sound_money(+1.55); regulation(-0.32); size_of_government(-0.26),deregulation; monetary_stabilisation,1.5496,6.66,6.67,0.004,0.017
+Kenya,KEN,2011,deterioration,6.54,-0.19,sound_money(-1.08); regulation(+0.13); size_of_government(+0.10),monetary_stabilisation,1.0791,6.68,6.68,-0.025,-0.01
+Kenya,KEN,2016,deterioration,6.63,-0.04,size_of_government(-1.05); regulation(+0.49); sound_money(+0.26),deregulation; fiscal_consolidation,1.0488,6.66,6.76,0.033,0.023
+"Korea, Rep.",KOR,1975,deterioration,5.53,-0.36,regulation(-1.84); size_of_government(-1.17); freedom_to_trade(+1.07),trade_liberalisation; deregulation; fiscal_consolidation,1.8396,5.89,5.38,,
+"Korea, Rep.",KOR,1985,improvement,5.92,0.54,sound_money(+1.40); regulation(+0.74); size_of_government(+0.55),deregulation; monetary_stabilisation; fiscal_consolidation,1.4029,5.38,6.86,,
+"Korea, Rep.",KOR,1990,improvement,6.86,0.94,freedom_to_trade(+1.91); regulation(+1.19); legal_system_property_rights(+1.18),trade_liberalisation; deregulation; property_rights_reform,1.906,5.92,7.25,,
+"Korea, Rep.",KOR,1995,improvement,7.25,0.39,sound_money(+1.57); legal_system_property_rights(+0.62); size_of_government(+0.46),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.5657,6.86,7.14,,
+Kuwait,KWT,1975,deterioration,5.08,-1.73,sound_money(-3.18); size_of_government(-1.57); legal_system_property_rights(-1.33),property_rights_reform; monetary_stabilisation; fiscal_consolidation,3.1807,6.81,4.42,,
+Kuwait,KWT,1980,deterioration,4.42,-0.66,sound_money(-1.79); regulation(-0.53); size_of_government(-0.50),deregulation; monetary_stabilisation; fiscal_consolidation,1.7882,5.08,6.07,,
+Kuwait,KWT,1985,improvement,6.07,1.65,sound_money(+3.75); legal_system_property_rights(+0.64); regulation(+0.60),property_rights_reform; deregulation; monetary_stabilisation,3.7521,4.42,5.78,,
+Kuwait,KWT,1990,deterioration,5.78,-0.29,sound_money(-2.35); size_of_government(+2.07); regulation(-0.73),deregulation; monetary_stabilisation; fiscal_consolidation,2.3535,6.07,6.49,,
+Kuwait,KWT,1995,improvement,6.49,0.71,sound_money(+2.73); legal_system_property_rights(+1.72); size_of_government(-0.74),property_rights_reform; monetary_stabilisation; fiscal_consolidation,2.7337,5.78,6.71,,
+Kuwait,KWT,2000,improvement,6.71,0.22,size_of_government(+2.03); sound_money(-1.12); freedom_to_trade(+0.26),monetary_stabilisation; fiscal_consolidation,2.028,6.49,7.02,,0.007
+Kuwait,KWT,2008,deterioration,6.73,-0.38,size_of_government(-1.20); sound_money(-0.50); freedom_to_trade(-0.11),monetary_stabilisation; fiscal_consolidation,1.197,7.06,6.62,0.001,0.005
+Kyrgyz Republic,KGZ,2001,improvement,5.0,0.29,size_of_government(+1.79); sound_money(+1.45); regulation(+0.27),monetary_stabilisation; fiscal_consolidation,1.7856,4.71,5.68,,0.337
+Kyrgyz Republic,KGZ,2004,improvement,5.8,0.69,sound_money(+2.83); size_of_government(-0.11); regulation(+0.06),monetary_stabilisation,2.8268,4.97,6.24,0.127,0.034
+Kyrgyz Republic,KGZ,2005,improvement,6.24,0.44,sound_money(+1.51); regulation(-0.65); size_of_government(+0.31),deregulation; monetary_stabilisation; fiscal_consolidation,1.5142,5.14,6.26,0.229,0.054
+Kyrgyz Republic,KGZ,2008,deterioration,6.05,-0.19,sound_money(-1.39); size_of_government(+0.29); freedom_to_trade(+0.14),monetary_stabilisation,1.3933,5.92,6.41,0.265,0.022
+Kyrgyz Republic,KGZ,2009,improvement,6.48,0.43,sound_money(+1.78); legal_system_property_rights(+0.69); freedom_to_trade(-0.28),property_rights_reform; monetary_stabilisation,1.7777,6.1,6.47,0.05,0.111
+Kyrgyz Republic,KGZ,2012,improvement,6.48,0.23,sound_money(+1.43); regulation(-0.27); freedom_to_trade(-0.12),monetary_stabilisation,1.4331,6.27,6.74,0.031,0.082
+Kyrgyz Republic,KGZ,2016,improvement,6.88,0.21,sound_money(+1.15); regulation(-0.09); size_of_government(-0.07),monetary_stabilisation,1.1521,6.54,6.76,0.112,-0.088
+Lao PDR,LAO,2001,deterioration,3.29,-0.45,regulation(-1.91); sound_money(+0.08); size_of_government(+0.05),deregulation,1.9138,3.74,4.84,,0.397
+Lao PDR,LAO,2002,improvement,4.25,0.96,regulation(+2.23); size_of_government(+1.98); sound_money(-0.38),monetary_stabilisation; deregulation; fiscal_consolidation,2.2291,3.52,5.15,-0.45,0.414
+Lao PDR,LAO,2004,improvement,5.05,0.98,sound_money(+3.60); size_of_government(+0.18); regulation(+0.13),monetary_stabilisation,3.595,3.84,5.65,0.195,0.161
+Lao PDR,LAO,2006,improvement,5.71,0.59,sound_money(+2.71); size_of_government(-0.32); regulation(-0.06),monetary_stabilisation; fiscal_consolidation,2.7054,4.36,5.68,0.446,-0.08
+Lao PDR,LAO,2009,improvement,5.93,0.23,sound_money(+1.32); size_of_government(-0.73); legal_system_property_rights(+0.35),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.3178,5.48,5.41,0.199,0.02
+Lao PDR,LAO,2010,deterioration,5.44,-0.49,sound_money(-2.14); regulation(+0.07); legal_system_property_rights(+0.07),monetary_stabilisation,2.1439,5.65,5.53,0.161,0.153
+Lao PDR,LAO,2013,deterioration,4.74,-0.67,regulation(-1.89); sound_money(-0.53); size_of_government(-0.27),deregulation; monetary_stabilisation,1.8893,5.6,6.13,-0.097,0.094
+Lao PDR,LAO,2014,improvement,5.94,1.2,size_of_government(+2.30); regulation(+1.98); sound_money(-0.16),deregulation; fiscal_consolidation,2.2976,5.41,6.2,-0.241,0.073
+Lao PDR,LAO,2022,deterioration,5.86,-0.33,sound_money(-2.36); freedom_to_trade(+0.64); regulation(+0.05),trade_liberalisation; monetary_stabilisation,2.3574,6.23,5.65,-0.032,
+Latvia,LVA,1995,improvement,6.2,0.25,sound_money(-2.50); size_of_government(+0.99); regulation(-0.16),monetary_stabilisation; fiscal_consolidation,2.4987,5.95,7.36,,
+Latvia,LVA,2000,improvement,7.36,1.16,sound_money(+4.49); regulation(+1.60); freedom_to_trade(-0.71),trade_liberalisation; deregulation; monetary_stabilisation,4.4854,6.2,7.65,,0.024
+Latvia,LVA,2009,improvement,7.66,0.09,sound_money(+1.04); size_of_government(-0.30); regulation(-0.13),monetary_stabilisation,1.0397,7.66,7.76,-0.019,0.092
+Latvia,LVA,2022,deterioration,7.47,-0.16,sound_money(-1.43); size_of_government(+0.57); regulation(+0.08),monetary_stabilisation; fiscal_consolidation,1.4284,7.71,7.6,-0.049,
+Lebanon,LBN,2006,improvement,5.81,0.5,sound_money(+2.06); size_of_government(-0.07); legal_system_property_rights(+0.00),monetary_stabilisation,2.0601,5.17,6.25,0.077,0.22
+Lebanon,LBN,2008,deterioration,5.71,-0.41,sound_money(-1.16); regulation(-0.59); size_of_government(+0.08),deregulation; monetary_stabilisation,1.1626,5.54,6.54,0.247,0.135
+Lebanon,LBN,2009,improvement,6.02,0.31,sound_money(+1.25); regulation(+0.02); legal_system_property_rights(+0.01),monetary_stabilisation,1.2494,5.65,6.68,0.163,0.005
+Lebanon,LBN,2010,improvement,6.63,0.61,regulation(+1.47); size_of_government(+0.61); sound_money(+0.06),deregulation; fiscal_consolidation,1.4724,5.79,6.68,0.132,-0.01
+Lebanon,LBN,2020,deterioration,5.19,-1.24,sound_money(-4.41); freedom_to_trade(-2.29); size_of_government(+0.63),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,4.4095,6.61,5.42,-0.065,-0.095
+Lesotho,LSO,2002,deterioration,3.95,-0.26,sound_money(-2.05); size_of_government(+1.00); regulation(+0.02),monetary_stabilisation; fiscal_consolidation,2.0485,4.07,5.58,0.28,0.207
+Lesotho,LSO,2003,improvement,4.81,0.86,sound_money(+2.42); size_of_government(+0.89); regulation(+0.11),monetary_stabilisation; fiscal_consolidation,2.4166,4.03,5.75,0.01,-0.007
+Lesotho,LSO,2004,improvement,5.79,0.98,sound_money(+3.44); size_of_government(+0.52); legal_system_property_rights(-0.01),monetary_stabilisation; fiscal_consolidation,3.4367,4.22,5.72,0.238,-0.019
+Liberia,LBR,2001,deterioration,4.26,-0.24,sound_money(-1.17); size_of_government(+0.20); legal_system_property_rights(+0.02),monetary_stabilisation,1.1668,4.5,4.84,,0.447
+Liberia,LBR,2002,deterioration,3.87,-0.39,size_of_government(-1.27); sound_money(-0.21); legal_system_property_rights(-0.10),fiscal_consolidation,1.2663,4.38,5.21,-0.24,0.324
+Liberia,LBR,2003,improvement,4.45,0.58,size_of_government(+1.27); sound_money(+0.92); legal_system_property_rights(+0.13),monetary_stabilisation; fiscal_consolidation,1.2663,4.21,5.45,-0.315,0.183
+Liberia,LBR,2004,improvement,4.97,0.52,sound_money(+1.02); legal_system_property_rights(+0.61); size_of_government(+0.26),property_rights_reform; monetary_stabilisation,1.0212,4.27,5.72,-0.054,0.215
+Liberia,LBR,2006,improvement,5.73,0.53,sound_money(+2.13); regulation(-0.10); legal_system_property_rights(+0.07),monetary_stabilisation,2.1289,4.55,5.91,0.298,0.065
+Liberia,LBR,2008,deterioration,5.64,-0.05,sound_money(-1.63); regulation(+1.34); legal_system_property_rights(+0.09),deregulation; monetary_stabilisation,1.6349,5.21,5.94,0.324,-0.153
+Liberia,LBR,2009,improvement,6.32,0.68,sound_money(+2.20); legal_system_property_rights(+0.51); size_of_government(-0.00),property_rights_reform; monetary_stabilisation,2.2034,5.45,5.95,0.183,0.042
+Liberia,LBR,2010,deterioration,6.09,-0.23,sound_money(-1.08); size_of_government(+0.23); regulation(-0.07),monetary_stabilisation,1.084,5.72,5.96,0.215,0.125
+Liberia,LBR,2014,improvement,6.35,0.66,sound_money(+1.75); regulation(+1.10); size_of_government(+0.13),deregulation; monetary_stabilisation,1.7476,5.94,5.98,-0.153,-0.123
+Liberia,LBR,2015,deterioration,6.15,-0.2,size_of_government(-1.01); sound_money(+0.34); freedom_to_trade(-0.13),monetary_stabilisation; fiscal_consolidation,1.013,5.95,5.94,0.042,-0.074
+Liberia,LBR,2018,deterioration,5.72,-0.33,sound_money(-1.30); regulation(-0.25); size_of_government(-0.11),monetary_stabilisation,1.298,6.09,6.04,0.056,0.091
+Libya,LBY,2003,improvement,3.85,0.7,regulation(+1.59); sound_money(+1.17); legal_system_property_rights(+0.07),deregulation; monetary_stabilisation,1.588,3.15,3.81,,0.195
+Libya,LBY,2004,deterioration,3.41,-0.44,sound_money(-1.83); legal_system_property_rights(+0.09); size_of_government(+0.00),monetary_stabilisation,1.8267,3.5,3.85,0.7,0.037
+Libya,LBY,2006,improvement,4.09,0.69,sound_money(+2.67); legal_system_property_rights(+0.09); size_of_government(+0.00),monetary_stabilisation,2.6747,3.45,3.72,0.031,-0.228
+Libya,LBY,2009,deterioration,3.62,-0.4,sound_money(-1.41); legal_system_property_rights(-0.28); regulation(+0.02),monetary_stabilisation,1.4053,3.81,3.93,0.195,0.291
+Libya,LBY,2011,deterioration,3.16,-0.52,sound_money(-2.49); size_of_government(+0.39); legal_system_property_rights(+0.06),monetary_stabilisation; fiscal_consolidation,2.4907,3.91,4.31,-0.133,0.086
+Libya,LBY,2012,improvement,3.76,0.6,sound_money(+2.02); size_of_government(+0.36); legal_system_property_rights(-0.11),monetary_stabilisation; fiscal_consolidation,2.0189,3.72,4.31,-0.228,-0.192
+Libya,LBY,2013,improvement,4.65,0.89,size_of_government(+2.07); sound_money(+0.77); regulation(+0.24),monetary_stabilisation; fiscal_consolidation,2.0656,3.65,4.23,-0.098,-0.106
+Libya,LBY,2014,deterioration,4.39,-0.26,freedom_to_trade(-1.12); regulation(-0.25); sound_money(+0.06),trade_liberalisation,1.123,3.77,4.18,0.214,-0.068
+Libya,LBY,2016,deterioration,4.27,-0.22,sound_money(-1.18); regulation(+0.09); legal_system_property_rights(-0.01),monetary_stabilisation,1.1782,4.09,4.33,0.329,0.258
+Libya,LBY,2017,deterioration,3.75,-0.52,freedom_to_trade(-2.46); regulation(-0.34); sound_money(+0.23),trade_liberalisation; deregulation,2.4574,4.31,4.54,0.086,0.172
+Libya,LBY,2018,improvement,4.23,0.48,sound_money(+2.40); regulation(-0.06); legal_system_property_rights(+0.04),monetary_stabilisation,2.3989,4.31,4.65,-0.192,0.131
+Libya,LBY,2020,improvement,4.73,0.56,freedom_to_trade(+2.50); sound_money(+0.45); regulation(-0.08),trade_liberalisation; monetary_stabilisation,2.4962,4.18,4.79,-0.068,0.005
+Libya,LBY,2021,improvement,4.79,0.06,freedom_to_trade(+1.29); sound_money(-1.01); legal_system_property_rights(+0.01),trade_liberalisation; monetary_stabilisation,1.2856,4.23,4.79,0.134,0.02
+Lithuania,LTU,1995,improvement,5.87,0.24,sound_money(-5.02); size_of_government(+2.33); regulation(+1.19),deregulation; monetary_stabilisation; fiscal_consolidation,5.0217,5.63,7.0,,
+Lithuania,LTU,2000,improvement,7.0,1.13,sound_money(+4.58); regulation(+0.98); size_of_government(+0.41),deregulation; monetary_stabilisation; fiscal_consolidation,4.5773,5.87,7.49,,0.111
+Lithuania,LTU,2002,improvement,7.49,0.37,sound_money(+1.59); regulation(+0.37); size_of_government(-0.24),deregulation; monetary_stabilisation,1.5934,7.06,7.56,0.12,-0.031
+Lithuania,LTU,2020,deterioration,7.62,-0.39,size_of_government(-1.12); sound_money(-0.31); regulation(-0.30),monetary_stabilisation; fiscal_consolidation,1.1166,7.89,7.55,0.034,-0.09
+Lithuania,LTU,2022,deterioration,7.33,-0.42,sound_money(-1.78); regulation(-0.44); size_of_government(+0.12),deregulation; monetary_stabilisation,1.7802,7.82,7.57,-0.042,
+Lithuania,LTU,2023,improvement,7.57,0.24,sound_money(+1.05); regulation(+0.34); size_of_government(-0.21),deregulation; monetary_stabilisation,1.0495,7.72,,-0.136,
+Luxembourg,LUX,1975,improvement,8.51,0.54,sound_money(+0.66); size_of_government(+0.56); freedom_to_trade(-0.27),monetary_stabilisation; fiscal_consolidation,0.6567,7.97,8.69,,
+Luxembourg,LUX,1980,improvement,8.69,0.18,legal_system_property_rights(+1.15); size_of_government(-0.20); regulation(-0.08),property_rights_reform,1.1454,8.51,8.82,,
+Luxembourg,LUX,1990,deterioration,8.09,-0.73,size_of_government(-3.08); regulation(-0.31); freedom_to_trade(-0.23),deregulation; fiscal_consolidation,3.0786,8.82,8.04,,
+Madagascar,MDG,1975,deterioration,4.66,-1.14,sound_money(-2.65); size_of_government(-1.53); freedom_to_trade(-1.23),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.6541,5.8,3.85,,
+Madagascar,MDG,1980,deterioration,3.85,-0.81,size_of_government(-2.14); regulation(-1.00); freedom_to_trade(-0.73),trade_liberalisation; deregulation; fiscal_consolidation,2.1439,4.66,4.24,,
+Madagascar,MDG,1985,improvement,4.24,0.39,freedom_to_trade(+1.66); size_of_government(+0.20); regulation(+0.09),trade_liberalisation,1.6611,3.85,4.47,,
+Madagascar,MDG,1990,improvement,4.47,0.23,size_of_government(+1.31); regulation(-0.46); freedom_to_trade(+0.44),trade_liberalisation; deregulation; fiscal_consolidation,1.3113,4.24,4.35,,
+Madagascar,MDG,1995,deterioration,4.35,-0.12,sound_money(-3.06); freedom_to_trade(+1.73); legal_system_property_rights(+0.75),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.0575,4.47,5.43,,
+Madagascar,MDG,2000,improvement,5.43,1.08,sound_money(+3.90); freedom_to_trade(+0.89); regulation(+0.79),trade_liberalisation; deregulation; monetary_stabilisation,3.8963,4.35,5.69,,-0.081
+Madagascar,MDG,2002,deterioration,5.64,-0.23,sound_money(-1.22); size_of_government(+0.58); legal_system_property_rights(-0.31),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.223,5.65,5.72,0.44,0.025
+Madagascar,MDG,2003,improvement,5.86,0.22,sound_money(+1.50); size_of_government(-0.81); regulation(+0.39),deregulation; monetary_stabilisation; fiscal_consolidation,1.4979,5.65,5.76,0.105,0.138
+Madagascar,MDG,2004,deterioration,5.59,-0.27,sound_money(-1.39); freedom_to_trade(+0.13); regulation(-0.12),monetary_stabilisation,1.3874,5.7,5.87,0.106,0.163
+Malawi,MWI,1975,deterioration,4.68,-1.07,size_of_government(-2.31); regulation(-1.64); sound_money(-0.53),monetary_stabilisation; deregulation; fiscal_consolidation,2.3058,5.75,4.44,,
+Malawi,MWI,1980,deterioration,4.44,-0.24,freedom_to_trade(-1.96); legal_system_property_rights(+0.98); regulation(-0.52),trade_liberalisation; property_rights_reform; deregulation,1.9556,4.68,4.96,,
+Malawi,MWI,1985,improvement,4.96,0.52,freedom_to_trade(+1.13); regulation(+0.87); sound_money(+0.58),trade_liberalisation; deregulation; monetary_stabilisation,1.1322,4.44,5.05,,
+Malawi,MWI,1990,improvement,5.05,0.09,freedom_to_trade(+1.46); size_of_government(+0.84); sound_money(-0.73),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.4611,4.96,4.27,,
+Malawi,MWI,1995,deterioration,4.27,-0.78,sound_money(-4.49); regulation(+0.40); size_of_government(-0.23),deregulation; monetary_stabilisation,4.487,5.05,4.42,,
+Malawi,MWI,2007,improvement,5.34,0.39,sound_money(+2.52); size_of_government(-0.97); regulation(+0.38),deregulation; monetary_stabilisation; fiscal_consolidation,2.524,4.82,5.64,0.018,-0.002
+Malawi,MWI,2011,improvement,5.92,0.26,sound_money(+1.34); size_of_government(-0.48); freedom_to_trade(+0.43),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.338,5.43,5.42,0.174,0.046
+Malawi,MWI,2012,deterioration,5.41,-0.51,sound_money(-1.58); size_of_government(-0.44); freedom_to_trade(-0.30),monetary_stabilisation; fiscal_consolidation,1.5752,5.63,5.51,0.127,0.121
+Malawi,MWI,2018,deterioration,5.64,-0.18,freedom_to_trade(-1.63); legal_system_property_rights(+0.40); size_of_government(+0.39),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.6325,5.51,5.54,0.121,-0.106
+Malawi,MWI,2022,deterioration,5.52,-0.26,sound_money(-1.62); regulation(+0.36); legal_system_property_rights(+0.09),deregulation; monetary_stabilisation,1.6188,5.7,5.14,-0.004,
+Malaysia,MYS,1980,improvement,6.83,0.19,sound_money(+2.00); size_of_government(-0.97); regulation(-0.44),deregulation; monetary_stabilisation; fiscal_consolidation,2.0021,6.64,6.73,,
+Malaysia,MYS,2000,deterioration,6.49,-0.51,size_of_government(-1.00); sound_money(-0.61); freedom_to_trade(-0.42),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0047,7.0,6.19,,0.07
+Malaysia,MYS,2001,deterioration,6.1,-0.39,sound_money(-1.37); regulation(-0.35); size_of_government(-0.31),deregulation; monetary_stabilisation; fiscal_consolidation,1.3744,6.49,6.24,,0.085
+Malaysia,MYS,2013,improvement,7.15,0.62,sound_money(+2.61); size_of_government(+0.21); regulation(+0.16),monetary_stabilisation,2.6055,6.42,7.38,0.063,0.083
+Mali,MLI,1975,deterioration,5.07,-0.73,sound_money(-2.01); size_of_government(+1.29); regulation(-0.89),deregulation; monetary_stabilisation; fiscal_consolidation,2.0092,5.8,5.69,,
+Mali,MLI,1980,improvement,5.69,0.62,sound_money(+1.81); freedom_to_trade(+1.68); legal_system_property_rights(-1.04),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.8077,5.07,5.55,,
+Mali,MLI,1995,deterioration,5.72,-0.16,sound_money(-1.89); legal_system_property_rights(+1.32); freedom_to_trade(+0.97),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.8919,5.88,5.8,,
+Mali,MLI,2000,improvement,5.8,0.08,sound_money(+3.04); size_of_government(-1.95); legal_system_property_rights(-0.51),property_rights_reform; monetary_stabilisation; fiscal_consolidation,3.0401,5.72,5.54,,0.005
+Mali,MLI,2001,deterioration,5.57,-0.23,sound_money(-1.83); size_of_government(+0.67); freedom_to_trade(-0.02),monetary_stabilisation; fiscal_consolidation,1.8282,5.8,5.57,,0.052
+Mali,MLI,2007,improvement,5.96,0.23,size_of_government(+1.07); regulation(-0.79); sound_money(+0.71),monetary_stabilisation; deregulation; fiscal_consolidation,1.0749,5.57,5.83,0.052,0.022
+Mali,MLI,2008,deterioration,5.73,-0.23,sound_money(-1.04); size_of_government(-0.28); legal_system_property_rights(-0.19),monetary_stabilisation,1.0437,5.68,5.82,0.09,-0.031
+Mali,MLI,2013,deterioration,5.71,-0.18,size_of_government(-1.14); sound_money(+0.41); freedom_to_trade(-0.12),monetary_stabilisation; fiscal_consolidation,1.1377,5.83,5.7,0.022,-0.0
+Malta,MLT,1975,deterioration,5.84,-0.45,sound_money(-2.48); freedom_to_trade(+0.48); size_of_government(-0.18),trade_liberalisation; monetary_stabilisation,2.4821,6.29,5.55,,
+Malta,MLT,1980,deterioration,5.55,-0.29,size_of_government(-1.02); freedom_to_trade(-0.53); sound_money(-0.27),trade_liberalisation; fiscal_consolidation,1.0196,5.84,5.57,,
+Malta,MLT,1990,improvement,6.08,0.51,size_of_government(+0.97); regulation(+0.91); sound_money(+0.26),deregulation; fiscal_consolidation,0.9656,5.57,7.31,,
+Malta,MLT,1995,improvement,7.31,1.23,legal_system_property_rights(+2.45); size_of_government(+2.38); freedom_to_trade(+0.79),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.4497,6.08,7.14,,
+Malta,MLT,2000,deterioration,7.14,-0.17,legal_system_property_rights(-1.21); freedom_to_trade(+0.71); size_of_government(-0.20),trade_liberalisation; property_rights_reform,1.2121,7.31,7.31,,0.211
+Malta,MLT,2004,improvement,7.68,0.81,sound_money(+2.26); freedom_to_trade(+1.27); regulation(+0.37),trade_liberalisation; deregulation; monetary_stabilisation,2.2604,7.04,7.8,-0.089,0.017
+Mauritania,MRT,2004,improvement,4.98,0.28,size_of_government(+2.22); sound_money(-1.11); legal_system_property_rights(-0.01),monetary_stabilisation; fiscal_consolidation,2.2169,4.4,5.69,0.092,0.088
+Mauritania,MRT,2006,improvement,5.71,0.27,sound_money(+1.63); size_of_government(-0.87); legal_system_property_rights(+0.44),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.6333,4.72,5.74,0.312,0.003
+Mauritius,MUS,1975,deterioration,5.27,-1.6,sound_money(-5.66); size_of_government(-1.89); regulation(-0.26),monetary_stabilisation; fiscal_consolidation,5.6633,6.87,5.15,,
+Mauritius,MUS,1980,deterioration,5.15,-0.12,regulation(-1.30); sound_money(+0.79); size_of_government(-0.32),deregulation; monetary_stabilisation; fiscal_consolidation,1.3006,5.27,6.61,,
+Mauritius,MUS,1985,improvement,6.61,1.46,freedom_to_trade(+2.88); sound_money(+1.60); regulation(+1.48),trade_liberalisation; deregulation; monetary_stabilisation,2.8762,5.15,6.51,,
+Mauritius,MUS,1995,improvement,7.44,0.93,sound_money(+3.07); freedom_to_trade(+1.68); legal_system_property_rights(-0.75),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.0738,6.51,7.53,,
+Mauritius,MUS,2000,improvement,7.53,0.09,regulation(-1.40); freedom_to_trade(+1.05); legal_system_property_rights(+0.40),trade_liberalisation; deregulation; property_rights_reform,1.3966,7.44,7.45,,0.067
+Mauritius,MUS,2005,improvement,7.74,0.34,freedom_to_trade(+1.12); legal_system_property_rights(+0.38); regulation(+0.14),trade_liberalisation; property_rights_reform,1.1199,7.41,7.95,-0.037,0.086
+Mauritius,MUS,2007,improvement,7.97,0.33,size_of_government(+1.15); legal_system_property_rights(+0.25); regulation(+0.18),fiscal_consolidation,1.154,7.49,8.02,0.1,-0.011
+Mexico,MEX,1975,deterioration,6.55,-0.23,sound_money(-1.13); size_of_government(-0.42); legal_system_property_rights(+0.37),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.1253,6.78,5.38,,
+Mexico,MEX,1980,deterioration,5.38,-1.17,freedom_to_trade(-4.27); size_of_government(-1.92); legal_system_property_rights(+0.98),trade_liberalisation; property_rights_reform; fiscal_consolidation,4.2744,6.55,4.77,,
+Mexico,MEX,1985,deterioration,4.77,-0.61,sound_money(-4.36); freedom_to_trade(+1.51); regulation(-1.07),trade_liberalisation; deregulation; monetary_stabilisation,4.3643,5.38,5.92,,
+Mexico,MEX,1990,improvement,5.92,1.15,freedom_to_trade(+3.07); size_of_government(+1.38); regulation(+0.86),trade_liberalisation; deregulation; fiscal_consolidation,3.0673,4.77,6.72,,
+Mexico,MEX,1995,improvement,6.72,0.8,freedom_to_trade(+1.36); regulation(+1.34); sound_money(+1.32),trade_liberalisation; deregulation; monetary_stabilisation,1.357,5.92,6.67,,
+Mexico,MEX,2000,deterioration,6.67,-0.05,sound_money(+1.47); legal_system_property_rights(-0.76); freedom_to_trade(-0.75),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.4692,6.72,6.86,,0.068
+Moldova,MDA,2001,improvement,5.38,0.05,sound_money(+1.88); size_of_government(-0.82); regulation(+0.09),monetary_stabilisation; fiscal_consolidation,1.8829,5.33,5.97,,0.192
+Moldova,MDA,2004,improvement,6.18,0.68,sound_money(+2.76); size_of_government(-0.03); legal_system_property_rights(+0.03),monetary_stabilisation,2.7561,5.46,6.27,0.078,0.011
+Moldova,MDA,2009,improvement,6.35,0.1,sound_money(+1.43); regulation(-0.40); size_of_government(-0.35),deregulation; monetary_stabilisation; fiscal_consolidation,1.4283,6.23,6.59,0.004,0.081
+Moldova,MDA,2022,deterioration,6.4,-0.62,sound_money(-2.50); regulation(-0.33); size_of_government(-0.15),deregulation; monetary_stabilisation,2.5029,6.92,6.59,0.03,
+Moldova,MDA,2023,improvement,6.59,0.19,sound_money(+1.06); legal_system_property_rights(-0.09); size_of_government(-0.08),monetary_stabilisation,1.0604,6.84,,-0.116,
+Mongolia,MNG,2002,improvement,6.9,0.78,sound_money(+3.09); size_of_government(+0.20); regulation(-0.13),monetary_stabilisation,3.0886,6.04,6.73,0.15,-0.019
+Mongolia,MNG,2009,improvement,6.83,0.44,sound_money(+1.26); freedom_to_trade(+0.35); size_of_government(+0.15),trade_liberalisation; monetary_stabilisation,1.2628,6.65,6.83,-0.068,0.019
+Mongolia,MNG,2015,improvement,7.06,0.21,sound_money(+1.54); freedom_to_trade(-0.31); regulation(-0.22),trade_liberalisation; monetary_stabilisation,1.5404,6.83,7.06,0.019,0.007
+Mongolia,MNG,2016,deterioration,6.83,-0.23,size_of_government(-1.30); sound_money(+0.69); regulation(-0.48),monetary_stabilisation; deregulation; fiscal_consolidation,1.2951,6.88,7.06,0.06,-0.11
+Mongolia,MNG,2017,improvement,7.19,0.36,size_of_government(+1.52); regulation(+0.77); sound_money(-0.43),monetary_stabilisation; deregulation; fiscal_consolidation,1.5186,6.88,6.97,0.031,-0.137
+Montenegro,MNE,2003,deterioration,5.02,-0.1,sound_money(+2.44); regulation(-2.08); size_of_government(-0.72),deregulation; monetary_stabilisation; fiscal_consolidation,2.4398,4.93,6.2,0.155,0.223
+Montenegro,MNE,2004,improvement,5.45,0.43,sound_money(+1.26); size_of_government(+0.50); legal_system_property_rights(-0.03),monetary_stabilisation; fiscal_consolidation,1.2613,4.95,6.4,0.09,0.05
+Montenegro,MNE,2005,improvement,6.04,0.59,regulation(+0.72); sound_money(+0.45); size_of_government(-0.37),deregulation; monetary_stabilisation; fiscal_consolidation,0.7233,5.05,6.54,0.145,0.009
+Montenegro,MNE,2006,improvement,6.68,0.64,sound_money(+2.39); freedom_to_trade(+0.55); legal_system_property_rights(+0.25),trade_liberalisation; monetary_stabilisation,2.3898,5.3,6.6,0.271,0.132
+Montenegro,MNE,2007,deterioration,6.49,-0.19,sound_money(-1.98); size_of_government(+0.64); freedom_to_trade(+0.40),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.9779,5.66,6.7,0.414,0.183
+Montenegro,MNE,2010,improvement,6.74,0.28,sound_money(+1.00); size_of_government(+0.47); freedom_to_trade(-0.47),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0038,6.4,7.13,0.05,0.027
+Montenegro,MNE,2013,improvement,7.45,0.44,sound_money(+1.89); regulation(+0.48); size_of_government(-0.13),deregulation; monetary_stabilisation,1.8939,6.7,7.17,0.183,0.015
+Montenegro,MNE,2016,improvement,7.26,0.31,size_of_government(+1.76); regulation(-0.13); sound_money(-0.12),fiscal_consolidation,1.7601,7.13,7.27,0.027,0.062
+Montenegro,MNE,2018,improvement,7.31,0.27,sound_money(+1.21); legal_system_property_rights(+0.09); regulation(+0.08),monetary_stabilisation,1.2101,7.2,7.24,-0.084,-0.064
+Montenegro,MNE,2022,deterioration,7.05,-0.31,sound_money(-1.39); regulation(-0.28); size_of_government(+0.14),monetary_stabilisation,1.3923,7.27,7.16,0.062,
+Morocco,MAR,1980,deterioration,4.72,-0.27,freedom_to_trade(-1.06); size_of_government(-0.82); regulation(+0.45),trade_liberalisation; deregulation; fiscal_consolidation,1.0556,4.99,5.02,,
+Morocco,MAR,1995,improvement,5.65,0.44,legal_system_property_rights(+1.07); freedom_to_trade(+0.66); size_of_government(+0.34),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.0684,5.21,5.72,,
+Mozambique,MOZ,2001,improvement,5.06,0.22,sound_money(+2.31); size_of_government(-1.42); legal_system_property_rights(+0.01),monetary_stabilisation; fiscal_consolidation,2.3133,4.84,5.39,,0.12
+Mozambique,MOZ,2002,deterioration,4.92,-0.14,sound_money(-1.28); size_of_government(+0.70); legal_system_property_rights(-0.00),monetary_stabilisation; fiscal_consolidation,1.2817,4.95,5.56,0.22,0.055
+Mozambique,MOZ,2003,improvement,5.44,0.52,sound_money(+1.51); regulation(-0.08); size_of_government(+0.04),monetary_stabilisation,1.5104,4.94,5.62,0.04,0.053
+Mozambique,MOZ,2010,deterioration,5.46,-0.09,sound_money(-1.03); size_of_government(+0.30); regulation(+0.25),monetary_stabilisation,1.0331,5.61,5.71,0.037,0.035
+Mozambique,MOZ,2018,improvement,6.38,0.5,size_of_government(+1.15); sound_money(+1.15); regulation(+0.26),monetary_stabilisation; fiscal_consolidation,1.1536,5.76,6.13,0.026,-0.051
+Mozambique,MOZ,2020,deterioration,6.01,-0.43,sound_money(-1.33); freedom_to_trade(-0.63); regulation(-0.24),trade_liberalisation; monetary_stabilisation,1.3277,6.03,6.06,0.208,0.095
+Mozambique,MOZ,2023,improvement,6.21,0.25,sound_money(+1.65); regulation(-0.45); size_of_government(+0.07),deregulation; monetary_stabilisation,1.6455,6.16,,-0.126,
+Myanmar,MMR,1975,deterioration,2.71,-0.64,sound_money(-2.64); freedom_to_trade(-0.80); legal_system_property_rights(+0.77),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.6417,3.35,3.26,,
+Myanmar,MMR,1980,improvement,3.26,0.55,sound_money(+2.87); regulation(-0.52); legal_system_property_rights(-0.35),deregulation; monetary_stabilisation; property_rights_reform,2.8651,2.71,3.27,,
+Myanmar,MMR,1990,deterioration,2.35,-0.92,sound_money(-2.85); legal_system_property_rights(-0.74); regulation(-0.13),property_rights_reform; monetary_stabilisation,2.8505,3.27,2.86,,
+Myanmar,MMR,1995,improvement,2.86,0.51,legal_system_property_rights(+1.60); sound_money(+0.45); regulation(+0.10),property_rights_reform; monetary_stabilisation,1.5966,2.35,3.66,,
+Myanmar,MMR,2000,improvement,3.66,0.8,regulation(+1.50); legal_system_property_rights(-1.20); freedom_to_trade(+0.78),trade_liberalisation; deregulation; property_rights_reform,1.5002,2.86,3.41,,0.077
+Myanmar,MMR,2001,deterioration,3.43,-0.23,sound_money(-2.24); freedom_to_trade(+1.13); legal_system_property_rights(-0.30),trade_liberalisation; monetary_stabilisation,2.2426,3.66,3.41,,0.086
+Myanmar,MMR,2004,improvement,3.57,0.39,sound_money(+1.88); regulation(+0.10); size_of_government(-0.05),monetary_stabilisation,1.8762,3.37,3.53,-0.165,0.05
+Myanmar,MMR,2006,deterioration,3.42,-0.22,sound_money(-1.33); freedom_to_trade(+0.22); size_of_government(+0.09),monetary_stabilisation,1.3283,3.41,3.67,0.077,0.18
+Myanmar,MMR,2009,improvement,3.88,0.44,sound_money(+2.36); regulation(-0.08); size_of_government(-0.08),monetary_stabilisation,2.3643,3.47,4.66,-0.062,0.421
+Myanmar,MMR,2012,improvement,5.13,1.09,freedom_to_trade(+3.66); sound_money(+0.75); size_of_government(+0.53),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.6566,3.67,5.24,0.18,0.053
+Myanmar,MMR,2022,deterioration,4.5,-0.53,freedom_to_trade(-1.85); sound_money(-0.99); size_of_government(+0.31),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.8487,5.34,4.46,-0.063,
+Namibia,NAM,1990,improvement,5.56,0.65,sound_money(+1.44); legal_system_property_rights(+1.02); size_of_government(+0.47),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.4427,4.91,5.9,,
+Namibia,NAM,1995,improvement,5.9,0.34,legal_system_property_rights(+2.24); freedom_to_trade(-0.56); size_of_government(+0.38),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.2371,5.56,5.98,,
+Namibia,NAM,2000,improvement,5.98,0.08,regulation(-1.38); legal_system_property_rights(-1.01); freedom_to_trade(+0.82),trade_liberalisation; deregulation; property_rights_reform,1.3793,5.9,6.1,,0.086
+Nepal,NPL,1975,improvement,3.89,1.06,sound_money(-1.88); freedom_to_trade(+1.82); regulation(+1.50),trade_liberalisation; deregulation; monetary_stabilisation,1.8806,2.83,4.63,,
+Nepal,NPL,1980,improvement,4.63,0.74,freedom_to_trade(+2.95); sound_money(+1.62); size_of_government(-1.54),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.9522,3.89,4.54,,
+Nepal,NPL,1990,improvement,4.91,0.37,regulation(+2.47); size_of_government(-0.78); legal_system_property_rights(+0.63),deregulation; fiscal_consolidation; property_rights_reform,2.4746,4.54,5.64,,
+Nepal,NPL,1995,improvement,5.64,0.73,size_of_government(+2.44); legal_system_property_rights(+0.99); freedom_to_trade(+0.34),trade_liberalisation; property_rights_reform; fiscal_consolidation,2.4395,4.91,5.82,,
+Nepal,NPL,2001,improvement,6.09,0.27,size_of_government(+1.40); sound_money(-0.20); regulation(+0.16),fiscal_consolidation,1.4017,5.82,6.23,,0.042
+Netherlands,NLD,1980,improvement,7.89,0.25,freedom_to_trade(+1.12); size_of_government(-0.96); regulation(+0.43),trade_liberalisation; deregulation; fiscal_consolidation,1.12,7.64,7.95,,
+New Zealand,NZL,1975,deterioration,6.58,-0.37,size_of_government(-1.67); sound_money(-0.45); legal_system_property_rights(+0.30),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.6656,6.95,6.86,,
+New Zealand,NZL,1985,improvement,7.21,0.35,size_of_government(+1.02); freedom_to_trade(+0.36); regulation(+0.24),trade_liberalisation; fiscal_consolidation,1.0222,6.86,8.25,,
+New Zealand,NZL,1990,improvement,8.25,1.04,sound_money(+2.37); freedom_to_trade(+1.01); regulation(+0.96),trade_liberalisation; deregulation; monetary_stabilisation,2.3748,7.21,8.49,,
+New Zealand,NZL,1995,improvement,8.49,0.24,sound_money(+1.46); freedom_to_trade(-1.00); size_of_government(+0.92),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.4596,8.25,8.76,,
+New Zealand,NZL,2000,improvement,8.76,0.27,freedom_to_trade(+1.73); size_of_government(-0.42); legal_system_property_rights(+0.27),trade_liberalisation; fiscal_consolidation,1.7272,8.49,8.64,,-0.009
+Nicaragua,NIC,1975,improvement,5.99,0.16,size_of_government(+1.48); sound_money(-0.95); legal_system_property_rights(+0.31),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.4848,5.83,4.18,,
+Nicaragua,NIC,1980,deterioration,4.18,-1.81,freedom_to_trade(-5.78); sound_money(-2.45); size_of_government(-2.13),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,5.7774,5.99,2.43,,
+Nicaragua,NIC,1985,deterioration,2.43,-1.75,sound_money(-5.99); size_of_government(-1.67); regulation(-1.29),deregulation; monetary_stabilisation; fiscal_consolidation,5.9934,4.18,3.29,,
+Nicaragua,NIC,1990,improvement,3.29,0.86,freedom_to_trade(+4.13); size_of_government(-0.52); regulation(+0.40),trade_liberalisation; deregulation; fiscal_consolidation,4.1273,2.43,6.14,,
+Nicaragua,NIC,1995,improvement,6.14,2.85,sound_money(+4.34); regulation(+3.21); size_of_government(+3.18),deregulation; monetary_stabilisation; fiscal_consolidation,4.3436,3.29,6.54,,
+Nicaragua,NIC,2000,improvement,6.54,0.4,sound_money(+3.49); regulation(-1.19); legal_system_property_rights(-0.80),deregulation; monetary_stabilisation; property_rights_reform,3.4884,6.14,6.79,,0.076
+Nicaragua,NIC,2009,improvement,6.79,0.15,sound_money(+1.55); size_of_government(-0.59); regulation(-0.16),monetary_stabilisation; fiscal_consolidation,1.5451,6.85,6.89,-0.033,0.001
+Niger,NER,1975,deterioration,5.87,-0.46,sound_money(-1.45); legal_system_property_rights(+0.76); size_of_government(-0.22),property_rights_reform; monetary_stabilisation,1.45,6.33,5.6,,
+Niger,NER,1985,improvement,5.87,0.27,sound_money(+1.58); size_of_government(-0.37); freedom_to_trade(+0.24),monetary_stabilisation; fiscal_consolidation,1.5837,5.6,5.19,,
+Niger,NER,1990,deterioration,5.19,-0.68,size_of_government(-3.43); sound_money(+0.57); regulation(-0.35),monetary_stabilisation; deregulation; fiscal_consolidation,3.4253,5.87,4.72,,
+Niger,NER,1995,deterioration,4.72,-0.47,legal_system_property_rights(-2.07); sound_money(-1.18); size_of_government(+0.41),property_rights_reform; monetary_stabilisation; fiscal_consolidation,2.0698,5.19,5.46,,
+Niger,NER,2000,improvement,5.46,0.74,freedom_to_trade(+2.37); sound_money(+2.24); regulation(-1.53),trade_liberalisation; deregulation; monetary_stabilisation,2.3663,4.72,5.23,,0.001
+Niger,NER,2001,deterioration,5.13,-0.33,sound_money(-1.42); size_of_government(-0.15); freedom_to_trade(-0.13),monetary_stabilisation,1.4188,5.46,5.3,,0.018
+Niger,NER,2003,improvement,5.5,0.28,size_of_government(+1.70); sound_money(-0.22); legal_system_property_rights(-0.11),fiscal_consolidation,1.6986,5.27,5.26,-0.12,0.031
+Niger,NER,2004,deterioration,5.13,-0.37,freedom_to_trade(-1.40); size_of_government(-0.45); regulation(-0.10),trade_liberalisation; fiscal_consolidation,1.3999,5.33,5.32,0.021,0.03
+Niger,NER,2005,improvement,5.18,0.05,size_of_government(+1.01); freedom_to_trade(-0.78); sound_money(-0.48),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0139,5.29,5.42,-0.029,0.058
+Niger,NER,2012,deterioration,5.41,-0.16,size_of_government(-1.19); sound_money(+0.41); regulation(-0.07),monetary_stabilisation; fiscal_consolidation,1.1858,5.44,5.69,0.101,0.113
+Niger,NER,2023,improvement,5.87,0.25,size_of_government(+1.42); regulation(-0.05); sound_money(+0.02),fiscal_consolidation,1.4206,5.71,,-0.028,
+Nigeria,NGA,1975,deterioration,3.82,-0.22,size_of_government(-2.64); sound_money(+0.79); freedom_to_trade(+0.47),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.6392,4.04,3.78,,
+Nigeria,NGA,1980,deterioration,3.78,-0.04,sound_money(+2.49); size_of_government(-1.48); freedom_to_trade(-1.03),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.4856,3.82,4.52,,
+Nigeria,NGA,1985,improvement,4.52,0.74,size_of_government(+2.36); regulation(+0.80); sound_money(+0.31),monetary_stabilisation; deregulation; fiscal_consolidation,2.362,3.78,4.08,,
+Nigeria,NGA,1990,deterioration,4.08,-0.44,sound_money(-1.93); size_of_government(-1.24); freedom_to_trade(+1.15),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.9296,4.52,3.83,,
+Nigeria,NGA,1995,deterioration,3.83,-0.25,sound_money(-2.93); size_of_government(+1.91); freedom_to_trade(-1.13),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.9339,4.08,4.96,,
+Nigeria,NGA,2000,improvement,4.96,1.13,sound_money(+3.67); freedom_to_trade(+2.73); size_of_government(-1.08),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.6701,3.83,5.43,,0.208
+Nigeria,NGA,2002,improvement,5.39,0.52,size_of_government(+1.20); sound_money(+0.65); freedom_to_trade(+0.58),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.202,4.92,5.79,-0.09,0.153
+Nigeria,NGA,2020,deterioration,6.31,-0.4,freedom_to_trade(-1.52); size_of_government(-0.30); regulation(-0.09),trade_liberalisation,1.5167,6.55,6.15,0.093,-0.315
+Nigeria,NGA,2021,improvement,6.52,0.21,freedom_to_trade(+1.02); sound_money(-0.22); size_of_government(+0.20),trade_liberalisation,1.0207,6.54,5.96,-0.012,-0.15
+Nigeria,NGA,2022,deterioration,6.04,-0.48,freedom_to_trade(-2.04); sound_money(-0.39); legal_system_property_rights(-0.08),trade_liberalisation; monetary_stabilisation,2.044,6.55,5.89,-0.037,
+North Macedonia,MKD,2022,deterioration,6.69,-0.22,sound_money(-1.25); size_of_government(+0.24); regulation(-0.06),monetary_stabilisation,1.2488,7.02,6.76,-0.054,
+Norway,NOR,1975,deterioration,7.29,-0.16,size_of_government(-1.50); freedom_to_trade(+0.28); sound_money(+0.22),fiscal_consolidation,1.5019,7.45,7.08,,
+Norway,NOR,1990,improvement,7.82,0.39,sound_money(+2.71); size_of_government(-0.64); freedom_to_trade(+0.27),monetary_stabilisation; fiscal_consolidation,2.7069,7.43,7.88,,
+Norway,NOR,2015,deterioration,7.38,-0.47,sound_money(-2.46); freedom_to_trade(+0.42); size_of_government(-0.33),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.4593,7.79,7.76,0.039,-0.054
+Norway,NOR,2016,improvement,7.82,0.44,sound_money(+2.40); size_of_government(-0.11); legal_system_property_rights(-0.08),monetary_stabilisation,2.4003,7.73,7.7,-0.074,-0.091
+Oman,OMN,1980,deterioration,5.28,-0.08,sound_money(-1.41); regulation(+1.09); size_of_government(-0.02),deregulation; monetary_stabilisation,1.4056,5.36,6.74,,
+Oman,OMN,1985,improvement,6.74,1.46,sound_money(+4.01); regulation(+0.17); legal_system_property_rights(+0.08),monetary_stabilisation,4.011,5.28,6.58,,
+Oman,OMN,1990,deterioration,6.58,-0.16,sound_money(-1.37); regulation(+0.38); legal_system_property_rights(+0.18),deregulation; monetary_stabilisation,1.3681,6.74,6.51,,
+Oman,OMN,1995,deterioration,6.51,-0.07,freedom_to_trade(-1.73); legal_system_property_rights(+1.57); regulation(-1.52),trade_liberalisation; property_rights_reform; deregulation,1.7281,6.58,6.71,,
+Oman,OMN,2000,improvement,6.71,0.2,sound_money(-1.07); freedom_to_trade(+1.03); regulation(+0.85),trade_liberalisation; deregulation; monetary_stabilisation,1.0741,6.51,6.83,,0.019
+Oman,OMN,2008,deterioration,6.61,-0.24,sound_money(-1.22); regulation(-0.42); size_of_government(+0.36),deregulation; monetary_stabilisation; fiscal_consolidation,1.2183,6.84,6.59,-0.029,0.024
+Pakistan,PAK,1975,deterioration,3.76,-1.16,size_of_government(-3.11); regulation(-2.63); freedom_to_trade(+2.37),trade_liberalisation; deregulation; fiscal_consolidation,3.1053,4.92,4.27,,
+Pakistan,PAK,1980,improvement,4.27,0.51,regulation(+1.35); sound_money(+1.22); size_of_government(+0.76),deregulation; monetary_stabilisation; fiscal_consolidation,1.3519,3.76,4.7,,
+Pakistan,PAK,1985,improvement,4.7,0.43,freedom_to_trade(+1.57); legal_system_property_rights(+0.47); sound_money(+0.33),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.5667,4.27,4.68,,
+Pakistan,PAK,1990,deterioration,4.68,-0.02,sound_money(+1.31); freedom_to_trade(-0.70); legal_system_property_rights(-0.57),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.3057,4.7,5.15,,
+Pakistan,PAK,1995,improvement,5.15,0.47,freedom_to_trade(+1.44); legal_system_property_rights(+1.35); sound_money(-0.70),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.4363,4.68,5.1,,
+Pakistan,PAK,2000,deterioration,5.1,-0.05,size_of_government(+1.47); sound_money(-1.31); legal_system_property_rights(-0.94),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.4669,5.15,5.55,,0.082
+Pakistan,PAK,2008,deterioration,5.47,-0.31,sound_money(-1.35); regulation(-0.39); size_of_government(+0.23),deregulation; monetary_stabilisation,1.3488,5.68,5.87,0.063,0.075
+Pakistan,PAK,2022,deterioration,5.72,-0.26,sound_money(-1.07); regulation(-0.14); legal_system_property_rights(-0.10),monetary_stabilisation,1.0653,5.99,5.62,-0.014,
+Panama,PAN,1975,deterioration,6.33,-0.65,size_of_government(-1.58); sound_money(-1.10); regulation(-0.61),monetary_stabilisation; deregulation; fiscal_consolidation,1.5763,6.98,5.86,,
+Panama,PAN,1980,deterioration,5.86,-0.47,sound_money(-2.05); legal_system_property_rights(-0.25); regulation(-0.18),monetary_stabilisation,2.0507,6.33,6.69,,
+Panama,PAN,1985,improvement,6.69,0.83,sound_money(+3.06); size_of_government(+1.10); legal_system_property_rights(+0.29),monetary_stabilisation; fiscal_consolidation,3.0578,5.86,7.23,,
+Panama,PAN,1990,improvement,7.23,0.54,regulation(+1.75); legal_system_property_rights(+0.93); freedom_to_trade(-0.62),trade_liberalisation; deregulation; property_rights_reform,1.7453,6.69,7.73,,
+Panama,PAN,1995,improvement,7.73,0.5,size_of_government(+1.37); freedom_to_trade(+0.98); sound_money(-0.55),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.3742,7.23,7.61,,
+Papua New Guinea,PNG,1975,deterioration,5.19,-1.84,sound_money(-3.47); size_of_government(-2.28); regulation(-2.20),deregulation; monetary_stabilisation; fiscal_consolidation,3.4717,7.03,5.57,,
+Papua New Guinea,PNG,1985,improvement,6.21,0.64,size_of_government(+2.01); sound_money(+0.66); regulation(-0.11),monetary_stabilisation; fiscal_consolidation,2.0149,5.57,6.22,,
+Papua New Guinea,PNG,1995,deterioration,5.86,-0.36,sound_money(-1.10); freedom_to_trade(-0.84); legal_system_property_rights(-0.66),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.1045,6.22,5.76,,
+Papua New Guinea,PNG,2000,deterioration,5.76,-0.1,legal_system_property_rights(-1.40); freedom_to_trade(+0.90); regulation(+0.68),trade_liberalisation; property_rights_reform; deregulation,1.3996,5.86,6.0,,0.123
+Papua New Guinea,PNG,2008,deterioration,6.33,-0.13,sound_money(-1.11); size_of_government(+0.30); freedom_to_trade(+0.21),monetary_stabilisation; fiscal_consolidation,1.1066,6.22,6.47,0.163,0.016
+Papua New Guinea,PNG,2015,deterioration,6.12,-0.24,sound_money(-1.48); size_of_government(+0.24); freedom_to_trade(+0.14),monetary_stabilisation,1.4825,6.45,6.16,-0.019,0.011
+Paraguay,PRY,1975,deterioration,5.27,-0.2,sound_money(-1.26); legal_system_property_rights(+1.08); size_of_government(-0.94),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.2623,5.47,5.44,,
+Paraguay,PRY,1985,deterioration,5.18,-0.26,freedom_to_trade(-2.66); regulation(+2.31); size_of_government(-0.87),trade_liberalisation; deregulation; fiscal_consolidation,2.6619,5.44,5.67,,
+Paraguay,PRY,1990,improvement,5.67,0.49,freedom_to_trade(+2.42); sound_money(-1.37); size_of_government(+1.09),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.4225,5.18,7.14,,
+Paraguay,PRY,1995,improvement,7.14,1.47,sound_money(+1.99); freedom_to_trade(+1.92); legal_system_property_rights(+1.52),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.9856,5.67,6.94,,
+Paraguay,PRY,2000,deterioration,6.94,-0.2,legal_system_property_rights(-1.18); freedom_to_trade(+0.91); size_of_government(-0.68),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.1808,7.14,6.92,,-0.007
+Paraguay,PRY,2004,improvement,6.9,0.05,sound_money(+1.00); regulation(-0.45); freedom_to_trade(-0.22),deregulation; monetary_stabilisation,1.0015,6.92,6.96,-0.041,0.01
+Paraguay,PRY,2021,deterioration,6.56,-0.48,sound_money(-2.60); regulation(+0.09); legal_system_property_rights(+0.06),monetary_stabilisation,2.5975,7.14,7.04,-0.019,0.08
+Paraguay,PRY,2022,improvement,7.0,0.44,sound_money(+1.68); freedom_to_trade(+0.47); regulation(+0.04),trade_liberalisation; monetary_stabilisation,1.6828,7.02,7.08,-0.136,
+Peru,PER,1975,deterioration,4.18,-1.03,freedom_to_trade(-2.60); size_of_government(-2.05); sound_money(-0.93),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.6008,5.21,3.66,,
+Peru,PER,1980,deterioration,3.66,-0.52,sound_money(-3.96); freedom_to_trade(+2.12); regulation(-0.70),trade_liberalisation; deregulation; monetary_stabilisation,3.9557,4.18,3.09,,
+Peru,PER,1985,deterioration,3.09,-0.57,freedom_to_trade(-2.41); sound_money(-1.05); regulation(+0.54),trade_liberalisation; deregulation; monetary_stabilisation,2.4105,3.66,3.92,,
+Peru,PER,1990,improvement,3.92,0.83,freedom_to_trade(+2.47); size_of_government(+2.08); regulation(-1.51),trade_liberalisation; deregulation; fiscal_consolidation,2.4698,3.09,6.02,,
+Peru,PER,1995,improvement,6.02,2.1,sound_money(+3.59); freedom_to_trade(+3.27); regulation(+1.97),trade_liberalisation; deregulation; monetary_stabilisation,3.5885,3.92,7.32,,
+Peru,PER,2000,improvement,7.32,1.3,sound_money(+4.10); freedom_to_trade(+1.76); regulation(+0.68),trade_liberalisation; deregulation; monetary_stabilisation,4.0989,6.02,7.55,,-0.003
+Philippines,PHL,1975,deterioration,4.65,-0.63,legal_system_property_rights(-1.40); regulation(-1.32); freedom_to_trade(+1.30),trade_liberalisation; property_rights_reform; deregulation,1.4019,5.28,4.97,,
+Philippines,PHL,1980,improvement,4.97,0.32,freedom_to_trade(+1.60); size_of_government(-0.50); regulation(+0.41),trade_liberalisation; deregulation; fiscal_consolidation,1.6,4.65,4.69,,
+Philippines,PHL,1985,deterioration,4.69,-0.28,sound_money(-1.83); freedom_to_trade(+0.56); legal_system_property_rights(-0.15),trade_liberalisation; monetary_stabilisation,1.8316,4.97,5.83,,
+Philippines,PHL,1990,improvement,5.83,1.14,regulation(+1.84); sound_money(+1.64); size_of_government(+1.29),deregulation; monetary_stabilisation; fiscal_consolidation,1.8417,4.69,7.02,,
+Philippines,PHL,1995,improvement,7.02,1.19,sound_money(+2.79); legal_system_property_rights(+1.29); freedom_to_trade(+1.12),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.7889,5.83,6.99,,
+Philippines,PHL,2004,deterioration,6.94,-0.13,sound_money(-1.48); freedom_to_trade(+0.48); regulation(+0.24),trade_liberalisation; monetary_stabilisation,1.4772,7.02,6.85,0.036,-0.041
+Philippines,PHL,2010,improvement,7.1,0.3,sound_money(+1.18); regulation(+0.31); size_of_government(+0.11),deregulation; monetary_stabilisation,1.1844,6.85,7.32,-0.041,0.035
+Poland,POL,1980,deterioration,5.29,-0.3,legal_system_property_rights(-1.35); size_of_government(+0.52); sound_money(-0.43),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.3462,5.59,4.16,,
+Poland,POL,1985,deterioration,4.16,-1.13,sound_money(-3.47); regulation(+2.22); size_of_government(-1.10),deregulation; monetary_stabilisation; fiscal_consolidation,3.4727,5.29,4.55,,
+Poland,POL,1990,improvement,4.55,0.39,freedom_to_trade(+3.04); legal_system_property_rights(+1.33); regulation(-1.24),trade_liberalisation; property_rights_reform; deregulation,3.0422,4.16,5.93,,
+Poland,POL,1995,improvement,5.93,1.38,sound_money(+3.43); freedom_to_trade(+2.16); regulation(+1.36),trade_liberalisation; deregulation; monetary_stabilisation,3.426,4.55,6.48,,
+Poland,POL,2000,improvement,6.48,0.55,size_of_government(+1.77); regulation(+1.15); legal_system_property_rights(-0.19),deregulation; fiscal_consolidation,1.7673,5.93,6.73,,0.056
+Poland,POL,2022,deterioration,6.77,-0.25,sound_money(-1.13); regulation(-0.22); size_of_government(+0.13),monetary_stabilisation,1.1295,7.12,6.8,-0.057,
+Portugal,PRT,1975,deterioration,5.06,-0.67,freedom_to_trade(-3.11); legal_system_property_rights(+2.52); sound_money(-1.22),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.1111,5.73,6.23,,
+Portugal,PRT,1980,improvement,6.23,1.17,freedom_to_trade(+3.22); size_of_government(+0.89); legal_system_property_rights(-0.50),trade_liberalisation; property_rights_reform; fiscal_consolidation,3.2222,5.06,6.18,,
+Portugal,PRT,1990,improvement,6.75,0.57,size_of_government(+0.79); freedom_to_trade(+0.54); legal_system_property_rights(+0.52),trade_liberalisation; property_rights_reform; fiscal_consolidation,0.7946,6.18,7.3,,
+Portugal,PRT,1995,improvement,7.3,0.55,sound_money(+2.94); regulation(-0.43); freedom_to_trade(+0.43),trade_liberalisation; deregulation; monetary_stabilisation,2.9437,6.75,7.81,,
+Portugal,PRT,2000,improvement,7.81,0.51,freedom_to_trade(+1.22); regulation(+0.83); legal_system_property_rights(+0.24),trade_liberalisation; deregulation,1.2205,7.3,7.65,,-0.033
+Qatar,QAT,2010,improvement,6.91,1.57,size_of_government(+3.65); sound_money(+1.52); legal_system_property_rights(-0.04),monetary_stabilisation; fiscal_consolidation,3.6467,5.26,6.99,0.104,0.022
+Romania,ROU,1990,deterioration,4.54,-0.82,size_of_government(-1.97); sound_money(+0.06); legal_system_property_rights(-0.05),fiscal_consolidation,1.9714,5.36,4.46,,
+Romania,ROU,1995,deterioration,4.46,-0.08,sound_money(-6.33); freedom_to_trade(+2.30); size_of_government(+1.51),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,6.3273,4.54,5.37,,
+Romania,ROU,2000,improvement,5.37,0.91,regulation(+1.82); freedom_to_trade(+1.13); sound_money(+1.04),trade_liberalisation; deregulation; monetary_stabilisation,1.8188,4.46,6.42,,0.318
+Romania,ROU,2001,improvement,5.75,0.38,sound_money(+1.78); size_of_government(+0.55); regulation(-0.16),monetary_stabilisation; fiscal_consolidation,1.7798,5.37,6.7,,0.261
+Romania,ROU,2002,improvement,6.23,0.48,sound_money(+1.43); freedom_to_trade(+0.42); regulation(+0.31),trade_liberalisation; deregulation; monetary_stabilisation,1.4349,5.56,6.94,0.38,0.258
+Romania,ROU,2005,improvement,7.16,0.57,sound_money(+1.74); freedom_to_trade(+0.53); size_of_government(+0.46),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.7397,6.07,7.31,0.308,0.026
+Romania,ROU,2022,deterioration,7.32,-0.23,sound_money(-1.00); size_of_government(-0.13); regulation(-0.09),monetary_stabilisation,1.0024,7.63,7.32,-0.06,
+Russian Federation,RUS,1985,improvement,3.8,0.63,sound_money(+1.35); regulation(+1.27); size_of_government(-0.10),deregulation; monetary_stabilisation,1.3533,3.17,3.4,,
+Russian Federation,RUS,1990,deterioration,3.4,-0.4,legal_system_property_rights(-1.11); sound_money(-0.75); size_of_government(+0.34),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.1056,3.8,4.57,,
+Russian Federation,RUS,1995,improvement,4.57,1.17,size_of_government(+5.12); sound_money(-3.58); regulation(+2.18),monetary_stabilisation; deregulation; fiscal_consolidation,5.1164,3.4,4.58,,
+Russian Federation,RUS,2004,improvement,4.95,0.3,sound_money(+1.51); freedom_to_trade(-0.27); regulation(+0.24),monetary_stabilisation,1.5062,4.57,5.4,0.049,0.056
+Russian Federation,RUS,2005,improvement,5.37,0.42,sound_money(+1.81); size_of_government(+0.89); freedom_to_trade(-0.63),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.807,4.64,5.5,0.101,0.137
+Russian Federation,RUS,2007,improvement,5.53,0.4,sound_money(+1.24); legal_system_property_rights(+0.46); size_of_government(+0.42),property_rights_reform; monetary_stabilisation; fiscal_consolidation,1.2385,4.95,5.79,0.166,0.17
+Russian Federation,RUS,2016,improvement,6.34,0.32,sound_money(+1.25); freedom_to_trade(+0.21); regulation(+0.08),monetary_stabilisation,1.2452,6.07,6.37,0.01,-0.086
+Russian Federation,RUS,2022,deterioration,5.34,-0.79,sound_money(-3.33); freedom_to_trade(-0.23); legal_system_property_rights(-0.20),monetary_stabilisation,3.3269,6.37,5.09,-0.086,
+Rwanda,RWA,1975,deterioration,3.59,-1.77,sound_money(-4.19); legal_system_property_rights(-0.39); size_of_government(+0.26),property_rights_reform; monetary_stabilisation,4.185,5.36,4.4,,
+Rwanda,RWA,1980,improvement,4.4,0.81,sound_money(+4.53); size_of_government(-1.41); regulation(+0.45),deregulation; monetary_stabilisation; fiscal_consolidation,4.5282,3.59,5.19,,
+Rwanda,RWA,1985,improvement,5.19,0.79,size_of_government(-1.39); regulation(+0.67); sound_money(+0.17),deregulation; fiscal_consolidation,1.3889,4.4,4.84,,
+Rwanda,RWA,1990,deterioration,4.84,-0.35,size_of_government(+2.17); sound_money(-0.54); regulation(-0.10),monetary_stabilisation; fiscal_consolidation,2.171,5.19,4.1,,
+Rwanda,RWA,1995,deterioration,4.1,-0.74,sound_money(-2.67); legal_system_property_rights(-2.34); freedom_to_trade(+1.81),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.668,4.84,5.4,,
+Rwanda,RWA,2000,improvement,5.4,1.3,sound_money(+3.64); freedom_to_trade(+1.76); size_of_government(-1.05),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.6383,4.1,5.78,,0.051
+Rwanda,RWA,2010,improvement,6.65,0.48,sound_money(+1.93); freedom_to_trade(+0.95); size_of_government(-0.55),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.9279,6.03,6.68,0.046,0.033
+Rwanda,RWA,2022,deterioration,6.36,-0.31,sound_money(-2.15); freedom_to_trade(+0.58); legal_system_property_rights(+0.04),trade_liberalisation; monetary_stabilisation,2.1526,6.72,6.37,-0.051,
+Saudi Arabia,SAU,2006,improvement,5.68,0.52,sound_money(+1.83); size_of_government(+0.26); legal_system_property_rights(+0.00),monetary_stabilisation,1.832,5.32,5.88,-0.042,0.156
+Saudi Arabia,SAU,2010,improvement,6.37,1.02,size_of_government(+2.20); sound_money(+1.00); regulation(-0.32),monetary_stabilisation; deregulation; fiscal_consolidation,2.1985,5.53,6.14,0.031,-0.031
+Senegal,SEN,1975,improvement,5.57,0.35,size_of_government(+2.14); sound_money(-1.36); freedom_to_trade(+1.14),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.1417,5.22,5.38,,
+Senegal,SEN,1980,deterioration,5.38,-0.19,size_of_government(-1.29); sound_money(+0.66); freedom_to_trade(-0.60),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.2854,5.57,5.33,,
+Senegal,SEN,1995,deterioration,5.28,-0.14,sound_money(-1.18); freedom_to_trade(+0.79); regulation(-0.22),trade_liberalisation; monetary_stabilisation,1.1802,5.42,5.92,,
+Senegal,SEN,2000,improvement,5.92,0.64,size_of_government(+1.51); sound_money(+1.30); freedom_to_trade(+0.98),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.515,5.28,5.93,,-0.002
+Senegal,SEN,2013,improvement,6.18,0.32,size_of_government(+1.24); regulation(+0.19); sound_money(+0.15),fiscal_consolidation,1.2427,5.83,6.2,0.017,0.026
+Senegal,SEN,2022,deterioration,6.09,-0.07,sound_money(-1.14); freedom_to_trade(+0.43); size_of_government(+0.33),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.1353,6.22,6.15,-0.028,
+Serbia,SRB,2002,deterioration,3.69,-0.49,regulation(-2.28); sound_money(+0.73); size_of_government(-0.50),deregulation; monetary_stabilisation; fiscal_consolidation,2.2758,4.18,5.11,0.01,0.581
+Serbia,SRB,2003,improvement,3.98,0.29,sound_money(+1.28); size_of_government(-0.08); legal_system_property_rights(-0.05),monetary_stabilisation,1.282,4.01,5.52,-0.24,0.424
+Serbia,SRB,2005,improvement,5.39,1.11,size_of_government(+1.35); regulation(+0.86); sound_money(+0.45),monetary_stabilisation; deregulation; fiscal_consolidation,1.3459,4.06,6.07,0.002,0.092
+Serbia,SRB,2006,improvement,5.79,0.4,sound_money(+2.01); regulation(-0.10); legal_system_property_rights(+0.10),monetary_stabilisation,2.0141,4.3,6.17,0.301,0.052
+Serbia,SRB,2022,deterioration,6.59,-0.08,sound_money(-1.00); size_of_government(+0.35); regulation(+0.24),monetary_stabilisation; fiscal_consolidation,1.001,6.81,6.56,-0.06,
+Seychelles,SYC,2002,improvement,5.85,0.58,size_of_government(+1.44); sound_money(+0.73); regulation(+0.09),monetary_stabilisation; fiscal_consolidation,1.4444,5.31,6.12,-0.08,0.061
+Seychelles,SYC,2003,improvement,6.13,0.28,size_of_government(+1.29); sound_money(-0.27); legal_system_property_rights(+0.21),fiscal_consolidation,1.2949,5.49,5.87,0.25,-0.176
+Seychelles,SYC,2004,deterioration,5.93,-0.2,sound_money(-1.73); regulation(+0.57); size_of_government(+0.33),deregulation; monetary_stabilisation; fiscal_consolidation,1.725,5.65,5.77,0.292,-0.249
+Seychelles,SYC,2006,improvement,6.12,0.06,regulation(+1.14); size_of_government(-0.97); sound_money(+0.06),deregulation; fiscal_consolidation,1.1442,5.85,5.81,0.166,0.094
+Seychelles,SYC,2008,deterioration,4.91,-1.43,sound_money(-3.45); regulation(-2.09); legal_system_property_rights(-0.88),deregulation; monetary_stabilisation; property_rights_reform,3.4528,6.12,6.22,0.061,0.355
+Seychelles,SYC,2009,improvement,5.42,0.51,regulation(+1.95); size_of_government(-0.59); legal_system_property_rights(+0.41),deregulation; fiscal_consolidation; property_rights_reform,1.9488,5.87,6.61,-0.176,0.346
+Seychelles,SYC,2010,improvement,6.25,0.83,sound_money(+3.05); regulation(+0.23); legal_system_property_rights(+0.02),monetary_stabilisation,3.0479,5.77,6.8,-0.249,0.355
+Seychelles,SYC,2013,improvement,7.36,1.44,size_of_government(+2.10); sound_money(+1.79); regulation(+0.35),monetary_stabilisation; deregulation; fiscal_consolidation,2.0999,5.73,7.25,0.274,-0.023
+Seychelles,SYC,2014,improvement,7.37,0.01,sound_money(+1.03); size_of_government(-0.74); freedom_to_trade(-0.29),monetary_stabilisation; fiscal_consolidation,1.0327,6.22,7.3,0.355,0.091
+Seychelles,SYC,2019,improvement,7.63,0.34,size_of_government(+1.33); sound_money(+0.36); freedom_to_trade(+0.07),monetary_stabilisation; fiscal_consolidation,1.3299,7.25,7.38,-0.023,0.154
+Seychelles,SYC,2020,deterioration,7.21,-0.42,sound_money(-1.05); freedom_to_trade(-0.62); size_of_government(-0.47),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0526,7.3,7.43,0.091,0.22
+Seychelles,SYC,2022,improvement,7.57,0.43,sound_money(+1.00); freedom_to_trade(+0.62); size_of_government(+0.54),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.0049,7.28,7.58,-0.004,
+Sierra Leone,SLE,1980,deterioration,4.26,-0.18,size_of_government(-1.55); legal_system_property_rights(+0.92); regulation(-0.19),property_rights_reform; fiscal_consolidation,1.5479,4.44,3.29,,
+Sierra Leone,SLE,1985,deterioration,3.29,-0.97,sound_money(-5.11); size_of_government(+1.21); regulation(-1.11),deregulation; monetary_stabilisation; fiscal_consolidation,5.1106,4.26,3.08,,
+Sierra Leone,SLE,1990,deterioration,3.08,-0.21,freedom_to_trade(+1.72); regulation(-0.79); sound_money(-0.76),trade_liberalisation; deregulation; monetary_stabilisation,1.7223,3.29,3.98,,
+Sierra Leone,SLE,1995,improvement,3.98,0.9,sound_money(+3.70); freedom_to_trade(+1.82); size_of_government(-0.83),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.6973,3.08,4.85,,
+Sierra Leone,SLE,2000,improvement,4.85,0.87,sound_money(+2.74); regulation(+1.93); freedom_to_trade(-0.82),trade_liberalisation; deregulation; monetary_stabilisation,2.7367,3.98,5.07,,0.123
+Sierra Leone,SLE,2002,improvement,5.0,0.21,freedom_to_trade(+1.50); sound_money(-0.54); size_of_government(-0.31),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.4967,4.82,5.47,-0.06,0.246
+Sierra Leone,SLE,2006,improvement,5.73,0.35,size_of_government(+2.02); regulation(-0.38); freedom_to_trade(+0.15),deregulation; fiscal_consolidation,2.0228,5.07,6.11,0.123,0.002
+Sierra Leone,SLE,2011,deterioration,5.92,-0.32,size_of_government(-1.43); sound_money(-0.11); freedom_to_trade(+0.08),fiscal_consolidation,1.4268,6.07,5.91,0.135,-0.023
+Sierra Leone,SLE,2022,deterioration,5.8,-0.03,sound_money(-2.16); size_of_government(+0.80); freedom_to_trade(+0.63),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.157,5.85,5.6,0.042,
+Singapore,SGP,1985,improvement,8.08,0.4,sound_money(+2.01); freedom_to_trade(+0.54); size_of_government(-0.37),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.0111,7.68,8.53,,
+Singapore,SGP,1990,improvement,8.53,0.45,size_of_government(+1.33); sound_money(+0.68); regulation(+0.25),monetary_stabilisation; fiscal_consolidation,1.3253,8.08,8.54,,
+Singapore,SGP,1995,improvement,8.54,0.01,freedom_to_trade(-1.01); sound_money(+0.63); size_of_government(+0.21),trade_liberalisation; monetary_stabilisation,1.0096,8.53,8.61,,
+Slovak Republic,SVK,2000,improvement,6.67,0.64,freedom_to_trade(+1.04); sound_money(+0.82); regulation(+0.81),trade_liberalisation; deregulation; monetary_stabilisation,1.0449,6.03,7.02,,0.183
+Slovak Republic,SVK,2004,improvement,7.4,0.64,sound_money(+1.42); size_of_government(+0.91); freedom_to_trade(+0.52),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.4171,6.75,7.45,0.028,0.032
+Slovenia,SVN,2000,improvement,6.73,0.7,sound_money(+2.89); freedom_to_trade(+0.54); legal_system_property_rights(+0.23),trade_liberalisation; monetary_stabilisation,2.8877,6.03,7.07,,0.06
+Slovenia,SVN,2001,improvement,6.96,0.23,sound_money(+1.40); regulation(-0.46); size_of_government(+0.09),deregulation; monetary_stabilisation,1.3967,6.73,7.1,,0.034
+South Africa,ZAF,1975,deterioration,5.73,-0.35,size_of_government(-1.53); sound_money(-1.10); legal_system_property_rights(+0.92),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.5306,6.08,5.42,,
+South Africa,ZAF,1985,deterioration,5.36,-0.06,freedom_to_trade(-1.18); sound_money(+0.38); regulation(+0.27),trade_liberalisation; monetary_stabilisation,1.1756,5.42,5.8,,
+South Africa,ZAF,1995,improvement,6.82,1.02,legal_system_property_rights(+1.41); regulation(+1.40); sound_money(+0.65),property_rights_reform; deregulation; monetary_stabilisation,1.4073,5.8,6.91,,
+South Africa,ZAF,2000,improvement,6.91,0.09,freedom_to_trade(+1.36); sound_money(+1.20); legal_system_property_rights(-1.08),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.3566,6.82,6.87,,0.02
+Spain,ESP,1975,deterioration,6.0,-0.07,sound_money(-1.19); size_of_government(-1.18); freedom_to_trade(+0.76),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.1943,6.07,6.56,,
+Spain,ESP,1980,improvement,6.56,0.56,legal_system_property_rights(+1.69); freedom_to_trade(+1.45); size_of_government(-0.80),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.6871,6.0,6.72,,
+Spain,ESP,1995,improvement,7.46,0.53,sound_money(+3.25); regulation(-0.50); size_of_government(+0.19),deregulation; monetary_stabilisation,3.2462,6.93,7.99,,
+Spain,ESP,2000,improvement,7.99,0.53,freedom_to_trade(+1.31); size_of_government(+0.88); regulation(+0.37),trade_liberalisation; deregulation; fiscal_consolidation,1.3091,7.46,7.98,,0.002
+Sri Lanka,LKA,1980,improvement,5.34,0.2,freedom_to_trade(+2.80); sound_money(-1.34); size_of_government(-0.42),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.7995,5.14,5.61,,
+Sri Lanka,LKA,1985,improvement,5.61,0.27,sound_money(+1.25); size_of_government(+0.21); regulation(+0.20),monetary_stabilisation,1.2463,5.34,5.62,,
+Sri Lanka,LKA,1990,improvement,5.62,0.01,size_of_government(+1.57); sound_money(-0.63); freedom_to_trade(-0.48),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.5721,5.61,6.24,,
+Sri Lanka,LKA,1995,improvement,6.24,0.62,freedom_to_trade(+2.17); sound_money(+0.67); legal_system_property_rights(+0.23),trade_liberalisation; monetary_stabilisation,2.1668,5.62,6.5,,
+Sri Lanka,LKA,2000,improvement,6.5,0.26,freedom_to_trade(+2.23); legal_system_property_rights(-1.10); size_of_government(+0.15),trade_liberalisation; property_rights_reform,2.2349,6.24,6.29,,-0.023
+Sri Lanka,LKA,2009,improvement,6.06,0.32,sound_money(+1.80); size_of_government(-0.40); regulation(+0.20),monetary_stabilisation; fiscal_consolidation,1.797,6.06,6.36,-0.13,0.103
+Sri Lanka,LKA,2013,improvement,6.63,0.34,sound_money(+1.52); freedom_to_trade(+0.10); size_of_government(+0.10),monetary_stabilisation,1.5218,6.1,6.65,0.13,0.058
+Sri Lanka,LKA,2014,deterioration,6.48,-0.15,freedom_to_trade(-1.07); sound_money(+0.29); size_of_government(-0.14),trade_liberalisation,1.0653,6.28,6.68,0.128,0.011
+Sri Lanka,LKA,2020,deterioration,6.32,-0.34,sound_money(-1.46); regulation(-0.26); size_of_government(+0.20),monetary_stabilisation,1.4625,6.68,5.92,0.011,-0.125
+Sri Lanka,LKA,2021,deterioration,6.06,-0.26,freedom_to_trade(-1.19); sound_money(-0.29); legal_system_property_rights(+0.12),trade_liberalisation,1.1858,6.62,5.84,-0.071,-0.07
+Sri Lanka,LKA,2022,deterioration,5.88,-0.18,sound_money(-3.52); freedom_to_trade(+2.08); size_of_government(+0.33),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.5219,6.49,5.81,-0.16,
+Sri Lanka,LKA,2023,deterioration,5.81,-0.07,size_of_government(-1.14); sound_money(+0.89); freedom_to_trade(-0.05),monetary_stabilisation; fiscal_consolidation,1.1395,6.34,,-0.24,
+Sudan,SDN,2002,improvement,4.69,0.19,sound_money(+1.00); size_of_government(-0.28); legal_system_property_rights(+0.07),monetary_stabilisation,1.0009,4.46,4.7,0.09,-0.046
+Sudan,SDN,2009,improvement,5.12,0.46,size_of_government(+1.66); sound_money(+0.50); regulation(-0.33),monetary_stabilisation; deregulation; fiscal_consolidation,1.6633,4.66,4.78,-0.002,-0.072
+Sudan,SDN,2011,deterioration,4.92,-0.11,sound_money(-1.24); size_of_government(+0.85); legal_system_property_rights(-0.11),monetary_stabilisation; fiscal_consolidation,1.238,4.82,4.66,0.123,-0.005
+Sudan,SDN,2012,deterioration,4.55,-0.37,sound_money(-1.28); regulation(-0.53); legal_system_property_rights(+0.25),deregulation; monetary_stabilisation,1.2804,4.87,4.54,0.095,-0.188
+Sudan,SDN,2015,improvement,5.07,0.23,sound_money(+1.06); regulation(-0.13); legal_system_property_rights(-0.00),monetary_stabilisation,1.0637,4.78,3.86,-0.072,-0.102
+Sudan,SDN,2016,deterioration,4.28,-0.79,sound_money(-1.16); size_of_government(-0.72); regulation(-0.21),monetary_stabilisation; fiscal_consolidation,1.1582,4.79,3.81,0.059,0.06
+Sudan,SDN,2018,deterioration,3.57,-0.35,regulation(-1.30); sound_money(-0.78); size_of_government(+0.18),deregulation; monetary_stabilisation,1.3002,4.54,3.92,-0.188,0.1
+Sudan,SDN,2020,improvement,3.95,0.39,freedom_to_trade(+2.44); sound_money(-0.57); regulation(+0.19),trade_liberalisation; monetary_stabilisation,2.4449,4.08,4.03,-0.373,-0.015
+Suriname,SUR,2006,improvement,5.85,0.07,sound_money(+1.10); size_of_government(-0.73); regulation(-0.07),monetary_stabilisation; fiscal_consolidation,1.1017,5.78,6.5,,-0.047
+Suriname,SUR,2007,improvement,6.67,0.82,sound_money(+2.69); size_of_government(+0.63); legal_system_property_rights(-0.02),monetary_stabilisation; fiscal_consolidation,2.6916,5.82,6.47,0.07,0.003
+Suriname,SUR,2008,deterioration,6.27,-0.4,sound_money(-1.19); size_of_government(-0.34); legal_system_property_rights(-0.08),monetary_stabilisation; fiscal_consolidation,1.1855,6.1,6.52,0.445,-0.04
+Suriname,SUR,2009,improvement,6.7,0.43,sound_money(+2.11); size_of_government(-0.40); legal_system_property_rights(+0.03),monetary_stabilisation; fiscal_consolidation,2.1088,6.14,6.48,0.229,0.004
+Suriname,SUR,2012,improvement,6.5,0.23,sound_money(+1.16); size_of_government(-0.22); regulation(+0.14),monetary_stabilisation,1.16,6.5,6.29,-0.047,-0.163
+Suriname,SUR,2016,deterioration,5.93,-0.53,sound_money(-2.87); size_of_government(+0.62); regulation(-0.40),deregulation; monetary_stabilisation; fiscal_consolidation,2.8714,6.45,5.96,0.036,-0.177
+Suriname,SUR,2018,improvement,6.33,0.32,sound_money(+1.43); regulation(+0.13); size_of_government(+0.05),monetary_stabilisation,1.4324,6.29,5.69,-0.163,-0.183
+Suriname,SUR,2020,deterioration,5.7,-0.62,sound_money(-3.11); size_of_government(+0.33); regulation(-0.24),monetary_stabilisation; fiscal_consolidation,3.1099,6.21,5.48,0.012,0.03
+Sweden,SWE,1975,improvement,7.13,0.22,sound_money(+1.29); regulation(-1.22); freedom_to_trade(+0.50),trade_liberalisation; deregulation; monetary_stabilisation,1.288,6.91,7.06,,
+Sweden,SWE,1995,improvement,7.61,0.03,sound_money(+1.51); regulation(-0.57); legal_system_property_rights(-0.39),deregulation; monetary_stabilisation; property_rights_reform,1.5149,7.58,8.08,,
+Switzerland,CHE,1980,improvement,8.42,0.62,freedom_to_trade(+2.83); legal_system_property_rights(+0.36); size_of_government(-0.09),trade_liberalisation; property_rights_reform,2.8289,7.8,8.77,,
+Switzerland,CHE,2005,deterioration,8.33,-0.18,freedom_to_trade(-1.27); size_of_government(+0.34); legal_system_property_rights(+0.13),trade_liberalisation; fiscal_consolidation,1.2684,8.62,8.36,-0.051,-0.005
+Syrian Arab Republic,SYR,1975,deterioration,4.29,-0.05,size_of_government(-2.06); freedom_to_trade(+1.24); sound_money(+1.04),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.0561,4.34,3.66,,
+Syrian Arab Republic,SYR,1980,deterioration,3.66,-0.63,freedom_to_trade(-2.41); regulation(-0.63); sound_money(+0.52),trade_liberalisation; deregulation; monetary_stabilisation,2.41,4.29,2.96,,
+Syrian Arab Republic,SYR,1985,deterioration,2.96,-0.7,sound_money(-2.12); size_of_government(-1.41); legal_system_property_rights(+0.50),property_rights_reform; monetary_stabilisation; fiscal_consolidation,2.1156,3.66,3.2,,
+Syrian Arab Republic,SYR,1990,improvement,3.2,0.24,size_of_government(+1.64); sound_money(-0.56); legal_system_property_rights(+0.42),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.6374,2.96,3.81,,
+Syrian Arab Republic,SYR,1995,improvement,3.81,0.61,legal_system_property_rights(+1.49); sound_money(+0.96); freedom_to_trade(+0.81),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.491,3.2,4.36,,
+Syrian Arab Republic,SYR,2000,improvement,4.36,0.55,freedom_to_trade(+3.43); legal_system_property_rights(-1.77); regulation(+0.47),trade_liberalisation; property_rights_reform; deregulation,3.4333,3.81,4.83,,0.098
+Syrian Arab Republic,SYR,2001,improvement,4.75,0.39,sound_money(+1.36); legal_system_property_rights(+0.84); regulation(+0.08),property_rights_reform; monetary_stabilisation,1.3644,4.36,4.88,,0.107
+Syrian Arab Republic,SYR,2002,deterioration,4.71,-0.04,freedom_to_trade(-1.18); size_of_government(+0.83); sound_money(+0.16),trade_liberalisation; fiscal_consolidation,1.1751,4.56,5.02,0.39,0.161
+Syrian Arab Republic,SYR,2007,improvement,5.41,0.41,size_of_government(+1.16); sound_money(+0.77); freedom_to_trade(-0.15),monetary_stabilisation; fiscal_consolidation,1.1603,4.88,5.1,0.107,-0.073
+Syrian Arab Republic,SYR,2008,deterioration,5.01,-0.4,sound_money(-1.56); regulation(-0.45); freedom_to_trade(+0.38),trade_liberalisation; deregulation; monetary_stabilisation,1.5595,5.02,5.0,0.161,-0.214
+Syrian Arab Republic,SYR,2011,improvement,5.54,0.34,sound_money(+1.34); size_of_government(+0.61); legal_system_property_rights(-0.17),monetary_stabilisation; fiscal_consolidation,1.3423,5.17,4.48,0.024,-0.022
+Syrian Arab Republic,SYR,2012,deterioration,4.5,-1.04,sound_money(-2.56); freedom_to_trade(-1.80); regulation(-0.67),trade_liberalisation; deregulation; monetary_stabilisation,2.5608,5.28,4.47,0.045,-0.018
+Syrian Arab Republic,SYR,2018,improvement,4.85,0.39,sound_money(+2.49); size_of_government(-0.46); regulation(-0.03),monetary_stabilisation; fiscal_consolidation,2.4885,4.47,4.29,-0.018,-0.018
+Syrian Arab Republic,SYR,2019,deterioration,4.72,-0.13,sound_money(-1.25); size_of_government(+0.52); freedom_to_trade(+0.07),monetary_stabilisation; fiscal_consolidation,1.2521,4.53,4.18,0.077,0.179
+Syrian Arab Republic,SYR,2020,deterioration,4.03,-0.69,freedom_to_trade(-2.44); sound_money(-0.64); size_of_government(-0.49),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.437,4.59,4.23,0.084,0.295
+Syrian Arab Republic,SYR,2023,improvement,4.62,0.57,freedom_to_trade(+1.90); regulation(+0.91); size_of_government(+0.06),trade_liberalisation; deregulation,1.9,4.34,,-0.229,
+Taiwan,TWN,1975,deterioration,5.4,-0.2,sound_money(-2.18); legal_system_property_rights(+2.01); size_of_government(-0.77),property_rights_reform; monetary_stabilisation; fiscal_consolidation,2.1784,5.6,5.78,,
+Taiwan,TWN,1980,improvement,5.78,0.38,freedom_to_trade(+1.03); sound_money(+0.75); legal_system_property_rights(+0.32),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.0267,5.4,6.19,,
+Taiwan,TWN,1985,improvement,6.19,0.41,sound_money(+1.28); regulation(+0.42); size_of_government(+0.38),deregulation; monetary_stabilisation; fiscal_consolidation,1.2776,5.78,6.88,,
+Taiwan,TWN,1990,improvement,6.88,0.69,freedom_to_trade(+1.84); legal_system_property_rights(+0.74); regulation(+0.74),trade_liberalisation; property_rights_reform; deregulation,1.8378,6.19,7.11,,
+Taiwan,TWN,1995,improvement,7.11,0.23,size_of_government(+1.14); sound_money(+0.27); freedom_to_trade(-0.24),fiscal_consolidation,1.1412,6.88,7.5,,
+Taiwan,TWN,2000,improvement,7.5,0.39,freedom_to_trade(+1.25); size_of_government(+0.48); sound_money(-0.41),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.2453,7.11,7.61,,0.094
+Tajikistan,TJK,2002,improvement,4.5,0.8,sound_money(+3.33); size_of_government(-0.12); legal_system_property_rights(-0.03),monetary_stabilisation,3.3299,3.56,4.24,0.29,0.3
+Tajikistan,TJK,2003,deterioration,3.82,-0.68,regulation(-1.51); size_of_government(-0.81); sound_money(-0.42),monetary_stabilisation; deregulation; fiscal_consolidation,1.5069,3.87,4.37,0.545,0.227
+Tajikistan,TJK,2004,deterioration,3.58,-0.24,regulation(-1.01); sound_money(+0.88); size_of_government(-0.83),deregulation; monetary_stabilisation; fiscal_consolidation,1.014,3.86,4.58,0.203,0.034
+Tajikistan,TJK,2005,improvement,4.04,0.46,regulation(+1.12); legal_system_property_rights(+0.76); sound_money(+0.08),deregulation; property_rights_reform,1.1229,3.8,4.87,0.046,0.061
+Tajikistan,TJK,2006,improvement,5.28,1.24,sound_money(+2.39); size_of_government(+2.07); regulation(+0.49),deregulation; monetary_stabilisation; fiscal_consolidation,2.3857,3.93,4.95,-0.024,0.344
+Tajikistan,TJK,2007,deterioration,4.47,-0.81,size_of_government(-1.56); regulation(-1.06); sound_money(-0.58),monetary_stabilisation; deregulation; fiscal_consolidation,1.5606,4.24,5.21,0.178,0.36
+Tajikistan,TJK,2009,improvement,4.6,0.1,sound_money(+1.57); regulation(-0.91); size_of_government(-0.29),deregulation; monetary_stabilisation,1.5736,4.37,5.72,0.227,0.077
+Tajikistan,TJK,2010,improvement,5.52,0.92,size_of_government(+2.03); regulation(+1.20); sound_money(+0.06),deregulation; fiscal_consolidation,2.0311,4.58,5.78,0.034,0.036
+Tajikistan,TJK,2013,improvement,5.77,0.01,regulation(+1.13); sound_money(-0.98); legal_system_property_rights(-0.11),deregulation; monetary_stabilisation,1.1307,5.21,5.85,0.36,0.019
+Tanzania,TZA,1975,deterioration,4.11,-0.7,sound_money(-2.03); freedom_to_trade(-1.49); size_of_government(+0.53),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.032,4.81,4.54,,
+Tanzania,TZA,1980,improvement,4.54,0.43,size_of_government(+1.72); legal_system_property_rights(+0.84); sound_money(-0.69),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.7177,4.11,4.08,,
+Tanzania,TZA,1985,deterioration,4.08,-0.46,size_of_government(-1.75); regulation(-0.77); sound_money(+0.43),monetary_stabilisation; deregulation; fiscal_consolidation,1.7469,4.54,4.32,,
+Tanzania,TZA,1995,improvement,6.01,1.69,freedom_to_trade(+3.79); size_of_government(+2.87); regulation(+1.00),trade_liberalisation; deregulation; fiscal_consolidation,3.7886,4.32,6.31,,
+Tanzania,TZA,2000,improvement,6.31,0.3,sound_money(+1.99); legal_system_property_rights(-0.97); freedom_to_trade(+0.44),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.9884,6.01,6.29,,-0.044
+Thailand,THA,1985,improvement,5.86,0.25,regulation(+1.02); sound_money(+0.51); size_of_government(-0.36),deregulation; monetary_stabilisation; fiscal_consolidation,1.0207,5.61,6.42,,
+Thailand,THA,1990,improvement,6.42,0.56,size_of_government(+1.67); sound_money(+1.12); freedom_to_trade(-0.30),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.6706,5.86,7.31,,
+Thailand,THA,1995,improvement,7.31,0.89,sound_money(+1.64); freedom_to_trade(+1.42); legal_system_property_rights(+0.60),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.6432,6.42,6.72,,
+Thailand,THA,2000,deterioration,6.72,-0.59,sound_money(-2.77); size_of_government(-1.07); freedom_to_trade(+0.58),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.766,7.31,6.75,,-0.013
+Thailand,THA,2015,improvement,6.82,0.22,sound_money(+1.40); size_of_government(-0.47); legal_system_property_rights(+0.15),monetary_stabilisation; fiscal_consolidation,1.4023,6.51,6.97,0.021,0.038
+Thailand,THA,2020,improvement,7.05,0.05,sound_money(+1.06); freedom_to_trade(-0.43); size_of_government(-0.22),trade_liberalisation; monetary_stabilisation,1.0614,6.92,7.01,0.043,0.05
+Timor-Leste,TLS,2005,improvement,4.35,0.64,sound_money(+1.88); size_of_government(+0.58); regulation(+0.18),monetary_stabilisation; fiscal_consolidation,1.8754,3.62,4.7,-0.014,0.105
+Timor-Leste,TLS,2006,improvement,4.74,0.39,sound_money(+2.50); size_of_government(-0.71); regulation(-0.21),monetary_stabilisation; fiscal_consolidation,2.4995,3.77,4.92,0.139,0.349
+Timor-Leste,TLS,2007,deterioration,4.45,-0.29,sound_money(-1.81); regulation(+0.67); legal_system_property_rights(+0.02),deregulation; monetary_stabilisation,1.8132,3.97,5.23,0.314,0.418
+Timor-Leste,TLS,2010,improvement,5.17,0.53,size_of_government(+1.20); regulation(+0.63); sound_money(+0.27),deregulation; fiscal_consolidation,1.205,4.54,6.02,0.034,0.064
+Timor-Leste,TLS,2011,improvement,5.86,0.69,size_of_government(+1.58); sound_money(-0.19); regulation(+0.17),fiscal_consolidation,1.5776,4.7,6.02,0.105,-0.019
+Timor-Leste,TLS,2014,improvement,6.14,0.11,sound_money(+1.21); freedom_to_trade(-0.28); regulation(-0.27),monetary_stabilisation,1.2072,5.54,6.17,0.359,0.104
+Timor-Leste,TLS,2016,deterioration,5.85,-0.25,regulation(-1.19); sound_money(-0.03); freedom_to_trade(-0.01),deregulation,1.1915,6.02,6.22,0.064,-0.041
+Timor-Leste,TLS,2017,improvement,6.21,0.36,freedom_to_trade(+1.08); regulation(+0.89); legal_system_property_rights(+0.64),trade_liberalisation; deregulation; property_rights_reform,1.0809,6.02,6.17,-0.019,-0.093
+Timor-Leste,TLS,2021,deterioration,6.05,-0.11,sound_money(-1.32); size_of_government(+1.09); regulation(-0.34),deregulation; monetary_stabilisation; fiscal_consolidation,1.3243,6.18,5.97,0.083,-0.0
+Timor-Leste,TLS,2022,deterioration,5.97,-0.08,size_of_government(-1.24); freedom_to_trade(+0.70); regulation(+0.67),trade_liberalisation; deregulation; fiscal_consolidation,1.2423,6.22,5.97,-0.041,
+Togo,TGO,1980,deterioration,4.38,-0.08,freedom_to_trade(-1.57); regulation(+0.40); sound_money(+0.39),trade_liberalisation; deregulation; monetary_stabilisation,1.5734,4.46,5.41,,
+Togo,TGO,1985,improvement,5.41,1.03,size_of_government(+2.89); sound_money(+1.11); freedom_to_trade(+0.91),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.8872,4.38,5.6,,
+Togo,TGO,1995,deterioration,5.14,-0.46,sound_money(-1.71); regulation(-1.68); size_of_government(+0.57),deregulation; monetary_stabilisation; fiscal_consolidation,1.712,5.6,5.6,,
+Togo,TGO,2000,improvement,5.6,0.46,sound_money(+1.12); regulation(-0.94); size_of_government(+0.40),deregulation; monetary_stabilisation; fiscal_consolidation,1.1241,5.14,5.79,,0.01
+Trinidad and Tobago,TTO,1975,deterioration,5.27,-2.04,sound_money(-5.04); regulation(-0.86); size_of_government(-0.66),deregulation; monetary_stabilisation; fiscal_consolidation,5.0441,7.31,5.51,,
+Trinidad and Tobago,TTO,1980,improvement,5.51,0.24,size_of_government(+1.17); freedom_to_trade(-0.53); sound_money(+0.45),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.1674,5.27,5.56,,
+Trinidad and Tobago,TTO,1985,improvement,5.56,0.05,size_of_government(-1.91); sound_money(+1.40); regulation(+0.78),monetary_stabilisation; deregulation; fiscal_consolidation,1.9075,5.51,5.88,,
+Trinidad and Tobago,TTO,1990,improvement,5.88,0.32,size_of_government(+2.01); regulation(-0.45); legal_system_property_rights(+0.17),deregulation; fiscal_consolidation,2.0143,5.56,7.19,,
+Trinidad and Tobago,TTO,1995,improvement,7.19,1.31,freedom_to_trade(+4.47); sound_money(+2.65); legal_system_property_rights(-0.26),trade_liberalisation; monetary_stabilisation,4.4724,5.88,7.25,,
+Trinidad and Tobago,TTO,2000,improvement,7.25,0.06,legal_system_property_rights(-1.03); size_of_government(+0.50); regulation(+0.36),property_rights_reform; deregulation; fiscal_consolidation,1.0267,7.19,7.18,,-0.03
+Trinidad and Tobago,TTO,2020,deterioration,7.03,-0.19,freedom_to_trade(-1.15); sound_money(+0.16); legal_system_property_rights(+0.03),trade_liberalisation,1.1476,7.13,6.67,0.075,-0.02
+Tunisia,TUN,1975,deterioration,5.08,-0.02,freedom_to_trade(+1.04); sound_money(-0.96); legal_system_property_rights(-0.39),trade_liberalisation; property_rights_reform; monetary_stabilisation,1.0444,5.1,5.02,,
+Tunisia,TUN,1990,improvement,5.26,0.22,legal_system_property_rights(-1.58); size_of_government(+1.40); freedom_to_trade(+1.11),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.5822,5.04,5.61,,
+Tunisia,TUN,1995,improvement,5.61,0.35,legal_system_property_rights(+1.95); size_of_government(-0.94); freedom_to_trade(+0.71),trade_liberalisation; property_rights_reform; fiscal_consolidation,1.9517,5.26,6.26,,
+Tunisia,TUN,2000,improvement,6.26,0.65,size_of_government(+2.37); freedom_to_trade(+0.90); sound_money(-0.21),trade_liberalisation; fiscal_consolidation,2.3707,5.61,6.25,,0.021
+Tunisia,TUN,2020,improvement,5.89,0.11,sound_money(+1.31); freedom_to_trade(-0.41); regulation(-0.25),trade_liberalisation; monetary_stabilisation,1.3144,5.97,5.9,-0.087,-0.035
+Türkiye,TUR,1975,improvement,4.72,0.07,freedom_to_trade(+2.76); size_of_government(-1.72); regulation(-0.72),trade_liberalisation; deregulation; fiscal_consolidation,2.7622,4.65,3.83,,
+Türkiye,TUR,1980,deterioration,3.83,-0.89,sound_money(-3.75); regulation(-0.82); freedom_to_trade(+0.39),trade_liberalisation; deregulation; monetary_stabilisation,3.7518,4.72,4.93,,
+Türkiye,TUR,1985,improvement,4.93,1.1,freedom_to_trade(+2.09); sound_money(+1.47); regulation(+0.93),trade_liberalisation; deregulation; monetary_stabilisation,2.0895,3.83,5.19,,
+Türkiye,TUR,1990,improvement,5.19,0.26,sound_money(+1.52); regulation(-0.25); size_of_government(+0.17),monetary_stabilisation,1.5202,4.93,5.8,,
+Türkiye,TUR,1995,improvement,5.8,0.61,freedom_to_trade(+1.17); regulation(+0.98); size_of_government(+0.91),trade_liberalisation; deregulation; fiscal_consolidation,1.174,5.19,5.82,,
+Türkiye,TUR,2007,improvement,6.55,0.15,sound_money(+1.07); legal_system_property_rights(-0.37); size_of_government(-0.03),property_rights_reform; monetary_stabilisation,1.0674,6.15,6.86,0.151,0.117
+Türkiye,TUR,2009,improvement,6.81,0.26,sound_money(+1.95); size_of_government(-0.49); regulation(-0.17),monetary_stabilisation; fiscal_consolidation,1.9524,6.41,6.97,0.086,-0.002
+Türkiye,TUR,2021,deterioration,6.06,-0.36,sound_money(-1.45); freedom_to_trade(-0.53); size_of_government(+0.09),trade_liberalisation; monetary_stabilisation,1.4458,6.58,5.51,-0.12,-0.13
+Türkiye,TUR,2022,deterioration,5.57,-0.49,sound_money(-2.75); freedom_to_trade(+0.30); regulation(-0.09),monetary_stabilisation,2.7528,6.41,5.44,-0.13,
+Uganda,UGA,1975,deterioration,3.19,-0.87,regulation(-1.37); sound_money(+1.06); legal_system_property_rights(-0.25),deregulation; monetary_stabilisation,1.3733,4.06,3.47,,
+Uganda,UGA,1980,improvement,3.47,0.28,freedom_to_trade(+2.64); sound_money(-1.90); size_of_government(+0.74),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.6444,3.19,2.69,,
+Uganda,UGA,1985,deterioration,2.69,-0.78,size_of_government(-3.85); regulation(-0.30); legal_system_property_rights(+0.20),deregulation; fiscal_consolidation,3.8521,3.47,3.08,,
+Uganda,UGA,1990,improvement,3.08,0.39,regulation(+2.08); freedom_to_trade(-0.91); sound_money(+0.37),trade_liberalisation; deregulation; monetary_stabilisation,2.0847,2.69,5.41,,
+Uganda,UGA,1995,improvement,5.41,2.33,sound_money(+3.94); freedom_to_trade(+3.06); size_of_government(+3.06),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.9391,3.08,6.55,,
+Uganda,UGA,2000,improvement,6.55,1.14,sound_money(+4.74); freedom_to_trade(+1.74); size_of_government(-0.52),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,4.7373,5.41,6.58,,-0.005
+Uganda,UGA,2005,improvement,6.57,0.0,regulation(+1.04); freedom_to_trade(-0.72); sound_money(-0.60),trade_liberalisation; deregulation; monetary_stabilisation,1.0392,6.57,6.8,0.002,0.006
+Uganda,UGA,2011,deterioration,6.49,-0.35,sound_money(-1.46); size_of_government(-0.18); regulation(-0.18),monetary_stabilisation,1.4592,6.8,6.78,0.006,0.05
+Uganda,UGA,2013,improvement,6.76,0.13,sound_money(+1.01); size_of_government(-0.42); legal_system_property_rights(+0.10),monetary_stabilisation; fiscal_consolidation,1.0064,6.7,6.89,-0.063,0.046
+Ukraine,UKR,2000,improvement,4.41,1.03,sound_money(+1.12); regulation(+1.06); size_of_government(+0.89),deregulation; monetary_stabilisation; fiscal_consolidation,1.1245,3.38,5.15,,0.079
+Ukraine,UKR,2001,improvement,4.81,0.4,sound_money(+2.70); size_of_government(-0.24); freedom_to_trade(-0.17),monetary_stabilisation,2.6986,4.41,5.24,,0.005
+Ukraine,UKR,2008,deterioration,5.06,-0.14,sound_money(-1.01); freedom_to_trade(+0.37); legal_system_property_rights(-0.09),trade_liberalisation; monetary_stabilisation,1.0129,5.22,5.58,0.012,0.189
+Ukraine,UKR,2009,improvement,5.18,0.12,sound_money(+1.24); size_of_government(-0.36); regulation(-0.18),monetary_stabilisation; fiscal_consolidation,1.2373,5.2,5.65,-0.042,0.056
+Ukraine,UKR,2014,deterioration,5.52,-0.38,sound_money(-1.42); freedom_to_trade(-0.69); size_of_government(+0.14),trade_liberalisation; monetary_stabilisation,1.4248,5.58,5.62,0.189,0.223
+Ukraine,UKR,2015,deterioration,5.13,-0.39,sound_money(-1.98); freedom_to_trade(+0.43); regulation(-0.33),trade_liberalisation; deregulation; monetary_stabilisation,1.9769,5.65,5.82,0.056,0.171
+Ukraine,UKR,2016,improvement,5.52,0.39,sound_money(+1.12); regulation(+0.46); size_of_government(+0.17),deregulation; monetary_stabilisation,1.1243,5.59,5.91,-0.12,0.113
+Ukraine,UKR,2019,improvement,6.12,0.35,sound_money(+1.43); size_of_government(+0.22); legal_system_property_rights(+0.06),monetary_stabilisation,1.4324,5.5,5.59,0.094,-0.35
+Ukraine,UKR,2022,deterioration,5.05,-0.92,sound_money(-1.72); size_of_government(-1.48); freedom_to_trade(-0.64),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.7153,5.91,5.24,0.113,
+United Arab Emirates,ARE,1990,improvement,7.02,0.54,size_of_government(+2.12); sound_money(+0.53); regulation(-0.22),monetary_stabilisation; fiscal_consolidation,2.1202,6.48,6.84,,
+United Arab Emirates,ARE,1995,deterioration,6.84,-0.18,legal_system_property_rights(+1.22); regulation(+0.52); sound_money(+0.49),property_rights_reform; deregulation; monetary_stabilisation,1.2238,7.02,7.07,,
+United Arab Emirates,ARE,2000,improvement,7.07,0.23,sound_money(-1.45); size_of_government(+0.42); legal_system_property_rights(+0.12),monetary_stabilisation; fiscal_consolidation,1.4504,6.84,6.99,,0.022
+United Kingdom,GBR,1975,improvement,6.52,0.03,freedom_to_trade(+2.67); size_of_government(-1.20); sound_money(-1.12),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.6712,6.49,7.51,,
+United Kingdom,GBR,1980,improvement,7.51,0.99,freedom_to_trade(+2.30); sound_money(+1.00); size_of_government(+0.78),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.3015,6.52,8.49,,
+United Kingdom,GBR,1985,improvement,8.49,0.98,sound_money(+3.21); regulation(+0.84); size_of_government(+0.42),deregulation; monetary_stabilisation; fiscal_consolidation,3.2148,7.51,8.49,,
+United Kingdom,GBR,1995,deterioration,8.32,-0.17,freedom_to_trade(-1.18); sound_money(+1.09); regulation(-0.54),trade_liberalisation; deregulation; monetary_stabilisation,1.1755,8.49,8.63,,
+United Kingdom,GBR,2000,improvement,8.63,0.31,freedom_to_trade(+1.20); size_of_government(+0.60); sound_money(-0.41),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.202,8.32,8.48,,-0.054
+Uruguay,URY,1975,deterioration,5.39,-1.32,sound_money(-2.98); regulation(-2.01); legal_system_property_rights(-1.19),deregulation; monetary_stabilisation; property_rights_reform,2.9765,6.71,5.84,,
+Uruguay,URY,1980,improvement,5.84,0.45,sound_money(+1.32); size_of_government(+0.69); regulation(+0.23),monetary_stabilisation; fiscal_consolidation,1.319,5.39,6.4,,
+Uruguay,URY,1985,improvement,6.4,0.56,regulation(+2.20); legal_system_property_rights(+0.91); size_of_government(-0.65),deregulation; fiscal_consolidation; property_rights_reform,2.202,5.84,6.86,,
+Uruguay,URY,2000,improvement,7.17,0.46,sound_money(+3.69); regulation(-0.91); size_of_government(-0.74),deregulation; monetary_stabilisation; fiscal_consolidation,3.6917,6.71,7.08,,0.041
+Uruguay,URY,2004,improvement,7.11,0.29,sound_money(+1.27); regulation(+0.66); size_of_government(-0.45),deregulation; monetary_stabilisation; fiscal_consolidation,1.2741,7.04,7.27,-0.113,0.006
+"Venezuela, RB",VEN,1975,deterioration,6.77,-0.81,sound_money(-2.53); regulation(-1.09); freedom_to_trade(-0.18),deregulation; monetary_stabilisation,2.5284,7.58,6.88,,
+"Venezuela, RB",VEN,1985,deterioration,6.25,-0.63,freedom_to_trade(-4.70); sound_money(+0.94); regulation(+0.29),trade_liberalisation; monetary_stabilisation,4.6976,6.88,5.71,,
+"Venezuela, RB",VEN,1990,deterioration,5.71,-0.54,sound_money(-4.29); freedom_to_trade(+2.24); regulation(-0.55),trade_liberalisation; deregulation; monetary_stabilisation,4.2857,6.25,4.92,,
+"Venezuela, RB",VEN,1995,deterioration,4.92,-0.79,sound_money(-1.92); freedom_to_trade(-1.39); regulation(-0.62),trade_liberalisation; deregulation; monetary_stabilisation,1.9217,5.71,5.37,,
+"Venezuela, RB",VEN,2000,improvement,5.37,0.45,freedom_to_trade(+2.68); sound_money(+2.65); legal_system_property_rights(-1.80),trade_liberalisation; property_rights_reform; monetary_stabilisation,2.6793,4.92,4.44,,-0.256
+"Venezuela, RB",VEN,2001,improvement,5.68,0.31,sound_money(+2.13); regulation(-0.30); legal_system_property_rights(-0.24),monetary_stabilisation,2.1259,5.37,4.13,,0.052
+"Venezuela, RB",VEN,2002,deterioration,4.14,-1.54,freedom_to_trade(-3.41); sound_money(-2.22); size_of_government(-0.99),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.4085,5.52,4.02,0.31,-0.061
+"Venezuela, RB",VEN,2004,improvement,4.32,0.55,freedom_to_trade(+1.29); regulation(+0.82); size_of_government(+0.26),trade_liberalisation; deregulation,1.2854,4.74,3.74,-0.634,-0.281
+"Venezuela, RB",VEN,2007,deterioration,3.56,-0.57,freedom_to_trade(-1.85); sound_money(-0.95); size_of_government(+0.12),trade_liberalisation; monetary_stabilisation,1.849,4.13,3.28,0.052,-0.044
+"Venezuela, RB",VEN,2009,deterioration,3.23,-0.25,sound_money(-1.04); freedom_to_trade(-0.15); legal_system_property_rights(-0.07),monetary_stabilisation,1.0441,3.96,3.11,-0.243,-0.08
+"Venezuela, RB",VEN,2015,deterioration,2.79,-0.17,sound_money(-1.24); size_of_government(+0.31); freedom_to_trade(+0.10),monetary_stabilisation; fiscal_consolidation,1.244,3.11,2.75,-0.08,0.059
+"Venezuela, RB",VEN,2018,improvement,2.95,0.34,freedom_to_trade(+2.26); size_of_government(-0.40); regulation(-0.14),trade_liberalisation; fiscal_consolidation,2.256,2.79,2.94,-0.09,0.118
+"Venezuela, RB",VEN,2019,deterioration,2.56,-0.39,freedom_to_trade(-2.31); size_of_government(+0.28); legal_system_property_rights(+0.11),trade_liberalisation,2.3149,2.79,3.04,-0.02,0.044
+"Venezuela, RB",VEN,2020,improvement,2.98,0.42,freedom_to_trade(+2.09); legal_system_property_rights(+0.13); size_of_government(-0.09),trade_liberalisation,2.0852,2.71,3.06,-0.017,0.05
+Vietnam,VNM,2003,deterioration,5.23,-0.71,size_of_government(-2.09); sound_money(-1.53); regulation(+0.10),monetary_stabilisation; fiscal_consolidation,2.0888,6.01,5.57,-0.055,-0.023
+Vietnam,VNM,2004,improvement,5.48,0.25,size_of_government(+1.49); sound_money(-0.50); legal_system_property_rights(+0.34),monetary_stabilisation; property_rights_reform; fiscal_consolidation,1.4856,5.81,5.6,-0.255,-0.044
+Vietnam,VNM,2008,deterioration,5.37,-0.28,sound_money(-1.83); freedom_to_trade(+0.25); size_of_government(+0.24),monetary_stabilisation,1.8348,5.55,5.5,0.107,-0.008
+Vietnam,VNM,2009,improvement,5.61,0.24,sound_money(+1.63); size_of_government(-0.62); freedom_to_trade(+0.30),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.6292,5.57,5.51,-0.023,0.051
+Vietnam,VNM,2012,improvement,5.51,0.19,sound_money(+1.22); size_of_government(-0.18); legal_system_property_rights(-0.10),monetary_stabilisation,1.2169,5.49,5.74,-0.052,0.088
+"Yemen, Rep.",YEM,2001,improvement,4.5,0.51,sound_money(+1.29); size_of_government(+0.76); legal_system_property_rights(-0.01),monetary_stabilisation; fiscal_consolidation,1.288,3.99,4.17,,0.042
+"Yemen, Rep.",YEM,2003,deterioration,3.92,-0.43,size_of_government(-1.74); sound_money(+0.19); regulation(-0.17),fiscal_consolidation,1.74,4.28,4.49,0.18,0.263
+"Yemen, Rep.",YEM,2006,improvement,4.5,0.46,sound_money(+2.08); size_of_government(-0.24); legal_system_property_rights(+0.01),monetary_stabilisation,2.0835,4.17,5.17,-0.121,0.23
+"Yemen, Rep.",YEM,2007,improvement,4.93,0.43,sound_money(+1.36); size_of_government(+0.38); legal_system_property_rights(+0.22),monetary_stabilisation; fiscal_consolidation,1.3642,4.17,5.33,0.042,0.267
+"Yemen, Rep.",YEM,2008,improvement,4.93,0.0,sound_money(-1.71); size_of_government(+1.45); regulation(+0.27),monetary_stabilisation; fiscal_consolidation,1.7109,4.29,5.51,0.246,0.247
+"Yemen, Rep.",YEM,2009,deterioration,4.56,-0.37,regulation(-1.42); size_of_government(-0.95); sound_money(+0.92),monetary_stabilisation; deregulation; fiscal_consolidation,1.4229,4.49,5.8,0.263,0.058
+"Yemen, Rep.",YEM,2010,improvement,5.79,1.23,regulation(+1.87); size_of_government(+1.63); sound_money(-0.08),deregulation; fiscal_consolidation,1.8728,4.59,5.71,0.147,-0.035
+"Yemen, Rep.",YEM,2015,deterioration,5.34,-0.65,sound_money(-1.47); size_of_government(-1.05); freedom_to_trade(-0.76),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,1.467,5.8,5.3,0.058,-0.174
+"Yemen, Rep.",YEM,2016,improvement,5.77,0.43,sound_money(+1.92); size_of_government(+0.63); regulation(-0.36),deregulation; monetary_stabilisation; fiscal_consolidation,1.9224,5.71,5.07,-0.035,-0.179
+"Yemen, Rep.",YEM,2017,deterioration,5.46,-0.31,sound_money(-2.07); size_of_government(+1.11); freedom_to_trade(-0.61),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.0661,5.73,4.91,-0.039,-0.138
+"Yemen, Rep.",YEM,2018,deterioration,5.05,-0.41,freedom_to_trade(-1.21); regulation(-0.61); size_of_government(-0.27),trade_liberalisation; deregulation,1.2101,5.68,4.92,-0.096,-0.062
+"Yemen, Rep.",YEM,2019,improvement,5.22,0.17,sound_money(+1.49); regulation(-0.65); freedom_to_trade(+0.04),deregulation; monetary_stabilisation,1.49,5.52,4.84,-0.176,0.028
+"Yemen, Rep.",YEM,2020,deterioration,5.02,-0.2,sound_money(-1.17); size_of_government(+0.19); legal_system_property_rights(-0.03),monetary_stabilisation,1.1714,5.37,4.78,-0.096,0.25
+"Yemen, Rep.",YEM,2021,deterioration,4.58,-0.44,sound_money(-2.07); size_of_government(-0.11); regulation(-0.04),monetary_stabilisation,2.073,5.3,4.88,-0.174,0.4
+"Yemen, Rep.",YEM,2023,improvement,5.08,0.4,sound_money(+1.99); legal_system_property_rights(+0.05); regulation(-0.02),monetary_stabilisation,1.9898,4.91,,-0.138,
+Zambia,ZMB,1975,deterioration,4.56,-1.09,size_of_government(-2.10); regulation(-1.05); legal_system_property_rights(-0.15),deregulation; fiscal_consolidation,2.1031,5.65,5.02,,
+Zambia,ZMB,1980,improvement,5.02,0.46,size_of_government(+1.47); sound_money(+0.90); legal_system_property_rights(-0.12),monetary_stabilisation; fiscal_consolidation,1.4659,4.56,4.32,,
+Zambia,ZMB,1985,deterioration,4.32,-0.7,sound_money(-2.79); regulation(-0.56); freedom_to_trade(-0.54),trade_liberalisation; deregulation; monetary_stabilisation,2.7879,5.02,3.63,,
+Zambia,ZMB,1990,deterioration,3.63,-0.69,sound_money(-2.89); legal_system_property_rights(-0.55); regulation(-0.34),property_rights_reform; deregulation; monetary_stabilisation,2.8946,4.32,5.18,,
+Zambia,ZMB,1995,improvement,5.18,1.55,freedom_to_trade(+3.20); size_of_government(+2.54); regulation(+0.89),trade_liberalisation; deregulation; fiscal_consolidation,3.1985,3.63,6.22,,
+Zambia,ZMB,2000,improvement,6.22,1.04,sound_money(+5.05); freedom_to_trade(+1.08); regulation(-0.81),trade_liberalisation; deregulation; monetary_stabilisation,5.0496,5.18,6.25,,0.041
+Zambia,ZMB,2017,improvement,6.52,0.21,sound_money(+1.10); size_of_government(-0.09); regulation(+0.09),monetary_stabilisation,1.1009,6.51,6.17,-0.112,-0.102
+Zambia,ZMB,2021,deterioration,5.8,-0.18,sound_money(-1.18); regulation(+0.21); legal_system_property_rights(+0.17),monetary_stabilisation,1.1848,6.33,6.24,-0.084,-0.01
+Zambia,ZMB,2022,improvement,6.25,0.45,freedom_to_trade(+1.05); sound_money(+1.00); regulation(+0.17),trade_liberalisation; monetary_stabilisation,1.0463,6.23,6.24,-0.195,
+Zimbabwe,ZWE,1980,improvement,5.21,0.29,regulation(+1.79); size_of_government(+0.32); sound_money(+0.13),deregulation; fiscal_consolidation,1.7946,4.92,5.15,,
+Zimbabwe,ZWE,1985,deterioration,5.15,-0.06,size_of_government(-1.13); regulation(+0.62); sound_money(+0.46),monetary_stabilisation; deregulation; fiscal_consolidation,1.1321,5.21,5.41,,
+Zimbabwe,ZWE,1990,improvement,5.41,0.26,freedom_to_trade(+1.55); regulation(-0.65); legal_system_property_rights(+0.36),trade_liberalisation; deregulation; property_rights_reform,1.5485,5.15,6.32,,
+Zimbabwe,ZWE,1995,improvement,6.32,0.91,freedom_to_trade(+1.62); size_of_government(+0.99); regulation(+0.90),trade_liberalisation; deregulation; fiscal_consolidation,1.6237,5.41,4.46,,
+Zimbabwe,ZWE,2000,deterioration,4.46,-1.86,freedom_to_trade(-3.50); sound_money(-2.00); legal_system_property_rights(-1.97),trade_liberalisation; property_rights_reform; monetary_stabilisation,3.4997,6.32,3.62,,-0.192
+Zimbabwe,ZWE,2002,deterioration,3.63,-0.49,sound_money(-2.17); legal_system_property_rights(-0.15); size_of_government(-0.08),monetary_stabilisation,2.1651,4.29,3.43,-0.34,-0.055
+Zimbabwe,ZWE,2004,deterioration,3.23,-0.55,size_of_government(-2.10); freedom_to_trade(-0.58); regulation(-0.28),trade_liberalisation; fiscal_consolidation,2.1016,4.0,3.83,-0.253,0.339
+Zimbabwe,ZWE,2007,improvement,3.48,0.2,size_of_government(+1.38); freedom_to_trade(-0.18); legal_system_property_rights(-0.12),fiscal_consolidation,1.378,3.46,4.68,-0.112,0.129
+Zimbabwe,ZWE,2008,improvement,4.63,1.15,freedom_to_trade(+2.46); sound_money(+2.27); size_of_government(+0.92),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,2.4584,3.43,4.82,-0.055,0.239
+Zimbabwe,ZWE,2009,deterioration,4.38,-0.25,sound_money(-1.77); size_of_government(+0.29); freedom_to_trade(+0.20),monetary_stabilisation,1.7723,3.6,5.03,0.292,0.228
+Zimbabwe,ZWE,2010,improvement,4.57,0.19,sound_money(+1.40); size_of_government(-0.85); freedom_to_trade(+0.21),monetary_stabilisation; fiscal_consolidation,1.3976,3.83,5.23,0.339,0.2
+Zimbabwe,ZWE,2012,improvement,5.1,0.37,sound_money(+1.30); size_of_government(+0.48); regulation(+0.26),monetary_stabilisation; fiscal_consolidation,1.303,4.36,5.28,0.244,-0.102
+Zimbabwe,ZWE,2013,improvement,5.31,0.21,sound_money(+1.52); size_of_government(-0.43); legal_system_property_rights(+0.10),monetary_stabilisation; fiscal_consolidation,1.5156,4.68,5.18,0.129,-0.193
+Zimbabwe,ZWE,2016,deterioration,5.22,-0.35,size_of_government(-1.95); sound_money(+0.30); freedom_to_trade(-0.05),monetary_stabilisation; fiscal_consolidation,1.9493,5.23,4.37,0.2,-0.287
+Zimbabwe,ZWE,2017,deterioration,4.9,-0.32,freedom_to_trade(-1.75); size_of_government(-0.32); regulation(+0.18),trade_liberalisation; fiscal_consolidation,1.7453,5.32,4.11,0.05,-0.284
+Zimbabwe,ZWE,2018,deterioration,4.79,-0.11,sound_money(-3.48); freedom_to_trade(+1.84); size_of_government(+0.95),trade_liberalisation; monetary_stabilisation; fiscal_consolidation,3.4788,5.28,3.94,-0.102,-0.122
+Zimbabwe,ZWE,2019,deterioration,4.32,-0.47,sound_money(-3.05); size_of_government(+0.68); regulation(+0.04),monetary_stabilisation; fiscal_consolidation,3.0518,5.18,3.84,-0.193,-0.053
+Zimbabwe,ZWE,2022,deterioration,3.6,-0.26,freedom_to_trade(-1.86); size_of_government(+0.58); legal_system_property_rights(+0.11),trade_liberalisation; fiscal_consolidation,1.8568,4.37,3.91,-0.287,
